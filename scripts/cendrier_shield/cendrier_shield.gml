@@ -7,6 +7,7 @@ function cendrier_shield(enter){
 	}
 	
 	if (yspd < 0){yspd = 0;}
+	yspd += grav;
 	
 	// Damage
 	var _c = collision_rectangle(x - 16, y - 12, x - 6, y + 8, obj_player, false, true);

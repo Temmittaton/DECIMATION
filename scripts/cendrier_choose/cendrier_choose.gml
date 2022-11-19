@@ -28,7 +28,7 @@ function cendrier_choose(){
 		return ennemy_chase;
 	}
 	else if (state = cendrier_Sattack) && (animation_end()){
-		repeat(4){
+		repeat(2){
 			instance_create_layer(x, y, "Projectiles", obj_ball);
 		}
 		return ennemy_chase;

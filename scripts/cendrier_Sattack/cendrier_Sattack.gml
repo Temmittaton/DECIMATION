@@ -7,6 +7,7 @@ function cendrier_Sattack(enter){
 		image_index = 0;
 		image_speed = 0.2;
 	}
+	yspd += grav;
 	
 	return cendrier_Sattack;
 }
