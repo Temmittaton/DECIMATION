@@ -1,5 +1,3 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_idle(enter){
 	if (enter)	{
 		image_speed = 0.03;
@@ -16,10 +14,10 @@ function player_idle(enter){
 	if (!place_meeting(x, y+2, par_solid))	{
 		sprite_index = spr_player_jump;
 		image_speed = 0.5;
-	}
+	} 
 	else if (xspd == 0)	{
 		sprite_index = spr_player_idle;
-		image_speed = 0.1;
+		image_speed = 1;
 	}
 	else	{
 		sprite_index = spr_player_walk;
@@ -29,6 +27,14 @@ function player_idle(enter){
 	// Returned state selection
 	if (attackKeyPressed) && (attackTmr == 0){
 		returnedState = player_attack;
+	}
+	else if (spellKeyPressed){
+		if (selectedSpell == 0){
+			returnedState = player_spell;
+		}
+		else {
+			returnedState = player_fireSpell;
+		}
 	}
 	else if (dashKeyPressed) && (dashtmr == 0)	{
 		returnedState = player_dash;

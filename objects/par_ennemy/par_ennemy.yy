@@ -1,7 +1,14 @@
 {
-  "spriteId": null,
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "par_ennemy",
+  "spriteId": {
+    "name": "spr_soldier_stun",
+    "path": "sprites/spr_soldier_stun/spr_soldier_stun.yy",
+  },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -21,14 +28,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [],
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"knockbackSprite","varType":0,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
+  ],
   "overriddenProperties": [],
   "parent": {
     "name": "Parents",
     "path": "folders/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "par_ennemy",
-  "tags": [],
-  "resourceType": "GMObject",
 }

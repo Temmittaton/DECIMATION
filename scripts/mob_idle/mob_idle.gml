@@ -8,8 +8,8 @@ function mob_idle(enter){
 	yspd+=grav;
 	
 	//Animation
-	sprite_index = spr_soldier_idle;
-	image_speed = 0.5;
+	sprite_index = idleSprite;
+	image_speed = 0.05;
 	
 	return returnedState;
 }

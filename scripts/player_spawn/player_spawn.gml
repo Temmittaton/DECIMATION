@@ -1,17 +1,15 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-
 function player_spawn(enter){
-	if (enter)
-	{
-		image_index = spr_player_spawn;
-		mana = maxmana;
-		x = respawnx;
-		y = respawny;
+	if (enter){
+		coldness = 0;
+		sprite_index = spr_player_spawn;
+		image_index = 0;
+		image_speed = 1;
 	}
 	
-	if (animation_end())	
-	{
+	// Event
+	yspd = 0.5;
+	
+	if (animation_end()){
 		return player_idle;
 	}
 	

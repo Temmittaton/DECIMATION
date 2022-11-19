@@ -1,12 +1,19 @@
 {
-  "spriteId": null,
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_soldier",
+  "spriteId": {
+    "name": "spr_soldier_idle",
+    "path": "sprites/spr_soldier_idle/spr_soldier_idle.yy",
+  },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "par_mob",
-    "path": "objects/par_mob/par_mob.yy",
+    "name": "par_ennemy",
+    "path": "objects/par_ennemy/par_ennemy.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -20,15 +27,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+  ],
   "properties": [],
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"chaseSpeed","path":"objects/par_mob/par_mob.yy",},"objectId":{"name":"par_mob","path":"objects/par_mob/par_mob.yy",},"value":"1.5",},
+  ],
   "parent": {
     "name": "Ennemies",
     "path": "folders/Objets/Mobs/Ennemies.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_soldier",
-  "tags": [],
-  "resourceType": "GMObject",
 }

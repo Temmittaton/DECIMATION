@@ -1,8 +1,9 @@
 function player_attack(enter){
 	if (enter){
-		sprite_index = 0;
+		image_index = 0;
 		sprite_index = spr_player_attack;
 		image_speed = 0.2;
+		audio_play_sound(sfx_attack, 1, false);
 	}
 	
 	returnedState = player_attack;
@@ -11,20 +12,28 @@ function player_attack(enter){
 	player_move();
 	
 	var _list = ds_list_create();
-	var _num = collision_rectangle_list(x+4, y-4, x+12, y-4, par_mob, false, true, _list, false);
+	
+	var _num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-4, par_mob, false, true, _list, false);
 	if (_num != 0){
 		for (i=0; i<_num; i++){
-			variable_instance_set(_list[| i], "dmg", true)
+			variable_instance_set(_list[| i], weaponDamage[selectedWeapon], true);
 		}
 	}
 	
-	
 	// Sprite selection
-	sprite_index = spr_player_attack;
+	sprite_index = weaponSprite[selectedWeapon];
 	
 	// Returned State Selection
 	if (animation_end()){
 		returnedState = player_idle;
+	}
+	else if (spellKeyPressed){
+		if (selectedSpell == 0){
+			returnedState = player_spell;
+		}
+		else {
+			returnedState = player_fireSpell;
+		}
 	}
 	else if (dashKeyPressed) && (dashtmr == 0){
 		returnedState = player_dash;

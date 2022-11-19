@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "par_solid",
   "spriteId": {
     "name": "spr_solid",
     "path": "sprites/spr_solid/spr_solid.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Parents",
     "path": "folders/Parents.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "par_solid",
-  "tags": [],
-  "resourceType": "GMObject",
 }

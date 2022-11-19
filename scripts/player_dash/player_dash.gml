@@ -1,10 +1,8 @@
-// Script assets have changed for v2.3.0 see
-// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function player_dash(enter){
 	if (enter)	{
 		sprite_index = 0;
-		image_speed = 1.5;
-		dash = image_xscale*2;
+		image_speed = 1.85;
+		dash = image_xscale*1.5;
 		yspd = 0;
 		xspd = 0;
 	}
@@ -22,12 +20,20 @@ function player_dash(enter){
 	if (attackKeyPressed) && (attackTmr == 0){
 		returnedState = player_attack;
 	}
+	else if (spellKeyPressed){
+		if (selectedSpell == 0){
+			returnedState = player_spell;
+		}
+		else {
+			returnedState = player_fireSpell;
+		}
+	}
 	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
 		returnedState = player_groundPound;
 	}
-	else if (place_meeting(x+sign(dash), y, par_solid)) or (animation_end())	{
+	else if (place_meeting(x+sign(dash), y, par_solid)) or (animation_end()){
 		returnedState = player_idle;
-		dashtmr = 30;
+		dashtmr = 20;
 		dash = 0
 	}
 	

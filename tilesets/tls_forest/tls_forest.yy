@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tls_forest",
   "spriteId": {
     "name": "spr_tls_forest",
     "path": "sprites/spr_tls_forest/spr_tls_forest.yy",
@@ -14,8 +17,8 @@
     "name": "Default",
     "path": "texturegroups/Default",
   },
-  "out_tilehborder": 0,
-  "out_tilevborder": 0,
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
   "out_columns": 39,
   "tile_count": 1504,
   "autoTileSets": [],
@@ -1539,8 +1542,4 @@
     "name": "Tile sets",
     "path": "folders/Tile sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tls_forest",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }
