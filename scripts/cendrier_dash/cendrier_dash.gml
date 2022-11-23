@@ -5,17 +5,24 @@ function cendrier_dash(enter){
 		image_index = 0;
 		image_speed = 0.3;
 		if (x < obj_player.x){
-			xspd = 4;
+			xspd = 16;
 		}
 		else {
-			xspd = -4;
+			xspd = -16;
 		}
 	}
+	
+	if (image_index < 4){
+		xspd -= sign(xspd);
+	}
+	
 	// Damage
 	if (collision_rectangle(x-8, y-8, x+8, y+8, obj_player, false, true)){
 		obj_player.dmg = id;
 	}
 	yspd += grav;
+	
+	cendrier_mana_use(2);
 	
 	return cendrier_dash;
 }

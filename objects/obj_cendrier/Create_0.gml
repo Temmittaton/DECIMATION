@@ -2,8 +2,11 @@ enter = false;
 state = noone;
 stateNext = cendrier_cinematic;
 
-hp = 3;
-mana = 50;
+usedMana = 0;
+
+hp = 32;
+maxMana = 512;
+mana = maxMana;
 walkspd = 1;
 xspd = -1;
 yspd = 0;

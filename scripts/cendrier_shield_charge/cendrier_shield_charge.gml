@@ -3,7 +3,7 @@ function cendrier_shield_charge(enter){
 		xspd = 0;
 		sprite_index = spr_cendrier_shield_charge;
 		image_index = 0;
-		image_speed = 0.5;
+		image_speed = 0.75;
 	}
 	
 	if (yspd < 0){yspd = 0;}
@@ -19,6 +19,8 @@ function cendrier_shield_charge(enter){
 	if (_c){
 		obj_player.dmg = id;
 	}
+	
+	cendrier_mana_use(16);
 	
 	return cendrier_shield_charge;
 }

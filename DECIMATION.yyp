@@ -175,6 +175,7 @@
     {"id":{"name":"obj_button_return","path":"objects/obj_button_return/obj_button_return.yy",},"order":3,},
     {"id":{"name":"obj_sparkle","path":"objects/obj_sparkle/obj_sparkle.yy",},"order":0,},
     {"id":{"name":"con_playerStopper","path":"objects/con_playerStopper/con_playerStopper.yy",},"order":12,},
+    {"id":{"name":"cendrier_mana_use","path":"scripts/cendrier_mana_use/cendrier_mana_use.yy",},"order":7,},
     {"id":{"name":"spr_moon","path":"sprites/spr_moon/spr_moon.yy",},"order":0,},
     {"id":{"name":"cendrier_attack","path":"scripts/cendrier_attack/cendrier_attack.yy",},"order":0,},
     {"id":{"name":"cendrier_dash","path":"scripts/cendrier_dash/cendrier_dash.yy",},"order":6,},
