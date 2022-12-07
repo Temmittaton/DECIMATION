@@ -1,7 +1,7 @@
 image_angle += 0.2;
 if (image_angle > 360){image_angle = 0}
-image_xscale = hp/3;
-image_yscale = hp/3;
+image_xscale = hp/2;
+image_yscale = hp/2;
 
 repeat(abs(xspd)){
 	if (place_meeting(x + sign(xspd), y, par_solid)){

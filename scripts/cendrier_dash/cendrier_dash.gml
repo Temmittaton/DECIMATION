@@ -22,7 +22,7 @@ function cendrier_dash(enter){
 	}
 	yspd += grav;
 	
-	cendrier_mana_use(2);
+	cendrier_mana_use(1);
 	
 	return cendrier_dash;
 }

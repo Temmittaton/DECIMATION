@@ -24,15 +24,4 @@ if instance_exists(obj_player){
 	else if (obj_player.selectedSpell == 1){
 		draw_sprite_stretched(spr_hud_spell, 2, 108, 230, 48, 90);
 	}
-	
-	if (keyboard_check_pressed(vk_up)){
-		offsetX++;
-	}
-	else if (keyboard_check_pressed(vk_down)){
-		offsetY++;
-	}
-	else if (keyboard_check_pressed(vk_right)){
-		scale++;
-	}
-	
 }

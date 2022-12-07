@@ -1,4 +1,4 @@
-hp = 6;
+hp = 4;
 xspd = 0;
 while (xspd == 0){xspd = irandom_range(-2, 2)};
 xspd *= obj_cendrier.image_xscale * 2;

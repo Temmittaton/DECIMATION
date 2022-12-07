@@ -4,8 +4,8 @@ stateNext = cendrier_cinematic;
 
 usedMana = 0;
 
-hp = 32;
-maxMana = 512;
+hp = 3;
+maxMana = 2048;
 mana = maxMana;
 walkspd = 1;
 xspd = -1;

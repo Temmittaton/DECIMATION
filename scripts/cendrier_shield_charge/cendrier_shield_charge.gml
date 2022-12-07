@@ -20,7 +20,7 @@ function cendrier_shield_charge(enter){
 		obj_player.dmg = id;
 	}
 	
-	cendrier_mana_use(16);
+	cendrier_mana_use(8);
 	
 	return cendrier_shield_charge;
 }
