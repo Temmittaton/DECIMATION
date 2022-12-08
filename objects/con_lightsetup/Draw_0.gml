@@ -54,11 +54,9 @@ shader_reset();
 surface_reset_target();
 matrix_set(matrix_world,matrix_build(0,0,0,0,0,0,1,1,1));
 
-
 //Draw and blend the shadow surface to the application surface
 gpu_set_blendmode_ext(bm_dest_alpha,bm_inv_dest_alpha);
 draw_surface(shad_surf,vx,vy);
-
 
 //reset shader and blendmode 
 gpu_set_blendmode(bm_normal);

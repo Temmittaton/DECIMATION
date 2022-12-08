@@ -10,3 +10,5 @@ if (fade > 0){
 	draw_set_color(c_white);
 	draw_set_alpha(1);
 }
+
+draw_sprite_stretched(spr_hud_cadre, 0, 0, 0, display_get_width(), display_get_height());

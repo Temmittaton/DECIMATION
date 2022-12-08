@@ -8,6 +8,7 @@
     {"id":{"name":"spr_soldier_idle","path":"sprites/spr_soldier_idle/spr_soldier_idle.yy",},"order":0,},
     {"id":{"name":"obj_cendrier","path":"objects/obj_cendrier/obj_cendrier.yy",},"order":0,},
     {"id":{"name":"bossBar","path":"scripts/bossBar/bossBar.yy",},"order":10,},
+    {"id":{"name":"spr_hud_cadre","path":"sprites/spr_hud_cadre/spr_hud_cadre.yy",},"order":6,},
     {"id":{"name":"mus_forestBreath","path":"sounds/mus_forestBreath/mus_forestBreath.yy",},"order":2,},
     {"id":{"name":"spr_tls_forest_normal","path":"sprites/spr_tls_forest_normal/spr_tls_forest_normal.yy",},"order":1,},
     {"id":{"name":"spr_tls_forest_ground","path":"sprites/spr_tls_forest_ground/spr_tls_forest_ground.yy",},"order":6,},
