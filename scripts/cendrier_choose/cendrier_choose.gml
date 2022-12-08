@@ -6,7 +6,7 @@ function cendrier_choose(){
 	else if (mana < 0){
 		return cendrier_powerless;
 	}
-	else if ((state == cendrier_shield) && (usedMana > 256)){
+	else if ((state == cendrier_shield) && (usedMana > 128)){
 		return cendrier_dash;
 	}
 	else if (state != cendrier_shield_charge) && (state != cendrier_shield) && (state != cendrier_dash) && (point_distance(x, y, obj_player.x, obj_player.y) <= 32){

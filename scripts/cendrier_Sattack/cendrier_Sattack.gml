@@ -9,7 +9,7 @@ function cendrier_Sattack(enter){
 	}
 	yspd += grav;
 	
-	cendrier_mana_use(8);
+	cendrier_mana_use(4);
 	
 	return cendrier_Sattack;
 }
