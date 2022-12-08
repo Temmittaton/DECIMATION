@@ -5,10 +5,10 @@ function cendrier_dash(enter){
 		image_index = 0;
 		image_speed = 0.3;
 		if (x < obj_player.x){
-			xspd = 16;
+			xspd = 12;
 		}
 		else {
-			xspd = -16;
+			xspd = -12;
 		}
 	}
 	

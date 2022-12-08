@@ -7,6 +7,7 @@ if (cendrier_choose()){
 if (state != stateNext)	{
 	state = stateNext;
 	enter = true;
+	usedMana = 0;
 }
 
 // Update state

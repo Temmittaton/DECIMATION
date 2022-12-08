@@ -3,6 +3,12 @@ function cendrier_choose(){
 		obj_player.dmg = id;
 		return cendrier_dash;
 	}
+	else if (mana < 0){
+		return cendrier_powerless;
+	}
+	else if ((state == cendrier_shield) && (usedMana > 256)){
+		return cendrier_dash;
+	}
 	else if (state != cendrier_shield_charge) && (state != cendrier_shield) && (state != cendrier_dash) && (point_distance(x, y, obj_player.x, obj_player.y) <= 32){
 		return cendrier_shield_charge;
 	}

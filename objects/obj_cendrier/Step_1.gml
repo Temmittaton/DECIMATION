@@ -3,18 +3,8 @@ if (dmg) && (state != cendrier_shield) && (state != cendrier_shield_charge){
 	instance_destroy();
 }
 else if (pdmg){
+	stateNext = cendrier_shield_charge;
 	pdmg = false;
-	stateNext = cendrier_dash;
-	repeat(9){
-		instance_create_layer(x, y, "Items", obj_sparkle);
-	}
-	if (invincibility == 0){
-		invincibility = 20;
-		hp--;
-		repeat(64){
-			instance_create_layer(x, y, "Items", obj_blood);
-		}
-	}
 }
 else if (udmg) && (state != cendrier_shield) && (state != cendrier_shield_charge){
 	obj_player.yspd = -4;

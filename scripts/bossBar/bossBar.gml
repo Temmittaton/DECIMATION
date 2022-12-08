@@ -3,7 +3,7 @@ function bossBar(n, pv, mpv, barColor){
 	
 	draw_set_color(barColor);
 	
-	var t = (pv/mpv)*(1170);
+	var t = max((pv/mpv)*(1170), 0);
 	draw_rectangle(386, 64*n - 36, 386 + t, 64*n - 12, false);
 	
 	draw_set_color(c_white);

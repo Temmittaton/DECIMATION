@@ -17,6 +17,7 @@
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":5,},
     {"id":{"name":"spr_menu_button_options","path":"sprites/spr_menu_button_options/spr_menu_button_options.yy",},"order":1,},
     {"id":{"name":"spr_iceMage_idle","path":"sprites/spr_iceMage_idle/spr_iceMage_idle.yy",},"order":1,},
+    {"id":{"name":"cendrier_powerless","path":"scripts/cendrier_powerless/cendrier_powerless.yy",},"order":8,},
     {"id":{"name":"sfx_crushed","path":"sounds/sfx_crushed/sfx_crushed.yy",},"order":2,},
     {"id":{"name":"spr_magsoldier_attack","path":"sprites/spr_magsoldier_attack/spr_magsoldier_attack.yy",},"order":2,},
     {"id":{"name":"iceMage_choose","path":"scripts/iceMage_choose/iceMage_choose.yy",},"order":1,},
