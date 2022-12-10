@@ -5,19 +5,7 @@ if (dmg){
 }
 else if (pdmg){
 	pdmg = false;
-	stateNext = mob_knockback;
-	repeat(9){
-		instance_create_layer(x, y, "Items", obj_sparkle);
-	}
-	if (invincibility == 0){
-		invincibility = 20;
-		hp--;
-		repeat(64){
-			instance_create_layer(x, y, "Items", obj_blood);	
-		}
-		audio_play_sound(sfx_hitPickaxe, 1, false);
-		ennemy_damage_sfx();
-	}
+	stateNext = scarab_hurt;
 }
 else if (udmg){
 	stateNext = mob_stun;

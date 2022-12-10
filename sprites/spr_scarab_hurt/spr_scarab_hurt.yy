@@ -33,7 +33,6 @@
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"e9f0f6dc-fbdb-487b-b4d0-cf133a81a9ca",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a326209e-2535-470a-8af0-5a33bb3c2e32",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"8b90aab5-a398-4ff8-987e-ef29ac57b7c3",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"088d6b62-dabc-44f6-bcf6-9b5b4d487778",},
   ],
   "sequence": {
     "resourceType": "GMSequence",
@@ -45,7 +44,7 @@
     "playbackSpeedType": 1,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 6.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
@@ -55,7 +54,6 @@
             {"id":"5bc222c5-c16b-49d0-95e2-e6fdfdf4160e","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e9f0f6dc-fbdb-487b-b4d0-cf133a81a9ca","path":"sprites/spr_scarab_hurt/spr_scarab_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"c2795fd0-495c-4d1d-9d06-423582d3dc34","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a326209e-2535-470a-8af0-5a33bb3c2e32","path":"sprites/spr_scarab_hurt/spr_scarab_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
             {"id":"dbd216f6-ec8f-4b8f-8d06-fe2dc82597f4","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"8b90aab5-a398-4ff8-987e-ef29ac57b7c3","path":"sprites/spr_scarab_hurt/spr_scarab_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
-            {"id":"6c0126b3-554d-4201-a267-17fbec37cfa7","Key":5.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"088d6b62-dabc-44f6-bcf6-9b5b4d487778","path":"sprites/spr_scarab_hurt/spr_scarab_hurt.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,

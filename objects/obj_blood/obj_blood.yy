@@ -31,7 +31,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objets/Items.yy",
+    "name": "Particles",
+    "path": "folders/Objets/Particles.yy",
   },
 }

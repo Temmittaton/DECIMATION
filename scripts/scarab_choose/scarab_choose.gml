@@ -9,4 +9,13 @@ function scarab_choose(){
 	else if ((state == mob_stun) && (animation_end())){
 		return ennemy_chase;
 	}
+	else if ((state == ennemy_chase) && (point_distance(x, y, obj_player.x, obj_player.y) < 24)){
+		return scarab_attack;
+	}
+	else if ((state == scarab_attack) && (animation_end())){
+		return ennemy_chase;
+	}
+	if ((state == scarab_hurt) && (animation_end())){
+		return scarab_upsideDown;
+	}
 }
