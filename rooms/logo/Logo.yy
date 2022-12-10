@@ -48,7 +48,7 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "Pièces",
-    "path": "folders/Pièces.yy",
+    "name": "Menu",
+    "path": "folders/Pièces/Menu.yy",
   },
 }

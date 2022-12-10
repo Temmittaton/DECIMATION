@@ -1,9 +1,5 @@
 function cendrier_choose(){
-	if (place_meeting(x, y, obj_player)){
-		obj_player.dmg = id;
-		return cendrier_dash;
-	}
-	else if (mana < 0){
+	if (mana <= 0){
 		return cendrier_powerless;
 	}
 	else if ((state == cendrier_shield) && (usedMana > 128)){
@@ -45,7 +41,6 @@ function cendrier_choose(){
 	else if (state = cendrier_Sattack) && (animation_end()){
 		repeat(3){
 			instance_create_layer(x, y, "Projectiles", obj_ball);
-			
 		}
 		return ennemy_chase;
 	}
@@ -53,7 +48,12 @@ function cendrier_choose(){
 		return cendrier_dash;
 	}
 	else if (state == cendrier_dash) && ((x < 65) or (x > room_width - 65) or (xspd = 0)){
-		return cendrier_Sattack;
+		if (irandom_range(0, 1)){
+			return cendrier_Sattack;
+		}
+		else {
+			return cendrier_attack;
+		}
 	}
 	else if ((state == ennemy_chase) && (point_distance(x, y, obj_player.x, obj_player.y) < 64)){
 		return cendrier_attack;

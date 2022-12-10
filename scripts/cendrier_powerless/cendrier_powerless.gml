@@ -4,6 +4,5 @@ function cendrier_powerless(enter){
 		xspd = 0;
 	}
 	
-	
 	return cendrier_powerless;
 }

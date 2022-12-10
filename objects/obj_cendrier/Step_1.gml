@@ -6,7 +6,7 @@ else if (pdmg){
 	stateNext = cendrier_shield_charge;
 	pdmg = false;
 }
-else if (udmg) && (state != cendrier_shield) && (state != cendrier_shield_charge){
+else if (udmg) && (state != cendrier_shield) && (state != cendrier_shield_charge) && (state != cendrier_dash){
 	obj_player.yspd = -4;
 	obj_player.xspd -= image_xscale;
 	repeat(9){
