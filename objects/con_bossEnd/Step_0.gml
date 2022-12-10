@@ -1,4 +1,4 @@
-if (obj_player.x > x){
+if (obj_player.x > x) && (bossBeaten){
 	with (obj_player){
 		stateNext = player_cinematic;
 		xspd = 1.5;
@@ -11,4 +11,3 @@ if (obj_player.x > x){
 		room = target;
 	}
 }
-

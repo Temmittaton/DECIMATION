@@ -20,6 +20,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7296E01D_3","properties":[],"isDnd":false,"objectId":{"name":"con_hud","path":"objects/con_hud/con_hud.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64359C98_4","properties":[],"isDnd":false,"objectId":{"name":"con_parallax","path":"objects/con_parallax/con_parallax.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B40C3F_1","properties":[],"isDnd":false,"objectId":{"name":"con_music","path":"objects/con_music/con_music.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-48.0,"y":-48.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3784D038","properties":[],"isDnd":false,"objectId":{"name":"con_bossEnd","path":"objects/con_bossEnd/con_bossEnd.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":304.0,"y":80.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"FrontWalls","tilesetId":{"name":"tls_stalactites1","path":"tilesets/tls_stalactites1/tls_stalactites1.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":24,"SerialiseHeight":16,"TileCompressedData":[
 -384,0,],},"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
@@ -255,6 +256,7 @@
     {"name":"inst_7A087B3C","path":"rooms/RoomCendrier/RoomCendrier.yy",},
     {"name":"inst_1ADE7884","path":"rooms/RoomCendrier/RoomCendrier.yy",},
     {"name":"inst_61BE44AA","path":"rooms/RoomCendrier/RoomCendrier.yy",},
+    {"name":"inst_3784D038","path":"rooms/RoomCendrier/RoomCendrier.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

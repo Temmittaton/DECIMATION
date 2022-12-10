@@ -12,8 +12,9 @@ else if (pdmg){
 	if (invincibility == 0){
 		invincibility = 20;
 		hp--;
-		repeat(64){
-			instance_create_layer(x, y, "Items", obj_blood);	
+		for (i=0;i<64;i++){
+			var _o = instance_create_layer(x, y, "Items", obj_blood)
+			_o.image_blend = #ff1600;
 		}
 		audio_play_sound(sfx_hitPickaxe, 1, false);
 		ennemy_damage_sfx();

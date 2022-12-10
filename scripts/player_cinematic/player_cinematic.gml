@@ -4,8 +4,6 @@ function player_cinematic(enter){
 		sprite_index = spr_player_idle;
 	}
 	
-	returnedState = player_cinematic;
-	
 	// Gravité
 	yspd += grav;
 	
@@ -18,5 +16,5 @@ function player_cinematic(enter){
 		sprite_index = spr_player_idle;
 	}
 	
-	return returnedState;
+	return player_cinematic;
 }
