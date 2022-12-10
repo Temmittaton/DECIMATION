@@ -7,7 +7,7 @@ function mob_stun(enter){
 		}
 		else {
 			sprite_index = stunSprite;
-			image_speed = 0.2;
+			image_speed = 0.1;
 		}
 	}
 	

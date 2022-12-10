@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_attack",
   "conversionMode": 0,
   "compression": 0,
   "volume": 1.0,
@@ -17,8 +20,4 @@
     "name": "Redwind",
     "path": "folders/Sons/Sound Effects/Redwind.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_attack",
-  "tags": [],
-  "resourceType": "GMSound",
 }

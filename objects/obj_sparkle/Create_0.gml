@@ -1,2 +1,2 @@
 direction = irandom(360);
-speed = 5;
+speed = 6.5;

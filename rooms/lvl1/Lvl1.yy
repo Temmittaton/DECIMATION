@@ -32,11 +32,12 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Mobs","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5E88CDE0","properties":[],"isDnd":false,"objectId":{"name":"obj_rabbit","path":"objects/obj_rabbit/obj_rabbit.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":480.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_40E2A616","properties":[],"isDnd":false,"objectId":{"name":"obj_fox","path":"objects/obj_fox/obj_fox.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":112.0,"y":144.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A551C99","properties":[],"isDnd":false,"objectId":{"name":"obj_scarab","path":"objects/obj_scarab/obj_scarab.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":384.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3A551C99","properties":[],"isDnd":false,"objectId":{"name":"obj_scarab","path":"objects/obj_scarab/obj_scarab.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7CCE710F","properties":[],"isDnd":false,"objectId":{"name":"obj_magsoldier","path":"objects/obj_magsoldier/obj_magsoldier.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":464.0,"y":144.0,},
       ],"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Projectiles","instances":[],"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Items","instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6AF61AD6","properties":[],"isDnd":false,"objectId":{"name":"obj_fireSoul","path":"objects/obj_fireSoul/obj_fireSoul.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":32.0,"y":128.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54F68199","properties":[],"isDnd":false,"objectId":{"name":"obj_pickaxe","path":"objects/obj_pickaxe/obj_pickaxe.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":96.0,"y":128.0,},
       ],"visible":true,"depth":500,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"GroundTiles","tilesetId":{"name":"tls_forest_ground","path":"tilesets/tls_forest_ground/tls_forest_ground.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":90,"SerialiseHeight":32,"TileCompressedData":[
 -45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-33,-2147483648,1,0,-11,-2147483648,-45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-45,-2147483648,-45,0,-31,-2147483648,2,268435862,406,-12,-2147483648,-42,0,4,300,301,300,301,-27,-2147483648,-2,0,3,-2147483648,268435883,427,-12,-2147483648,-40,0,10,268435862,268435861,321,322,321,322,321,322,405,406,-18,-2147483648,2,268435862,406,-3,-2147483648,
@@ -207,10 +208,11 @@
     {"name":"inst_26CDD326","path":"rooms/Lvl1/Lvl1.yy",},
     {"name":"inst_2AD9B420","path":"rooms/Lvl1/Lvl1.yy",},
     {"name":"inst_3B40C3F","path":"rooms/Lvl1/Lvl1.yy",},
-    {"name":"inst_6AF61AD6","path":"rooms/Lvl1/Lvl1.yy",},
     {"name":"inst_5E88CDE0","path":"rooms/Lvl1/Lvl1.yy",},
     {"name":"inst_40E2A616","path":"rooms/Lvl1/Lvl1.yy",},
     {"name":"inst_3A551C99","path":"rooms/Lvl1/Lvl1.yy",},
+    {"name":"inst_54F68199","path":"rooms/Lvl1/Lvl1.yy",},
+    {"name":"inst_7CCE710F","path":"rooms/Lvl1/Lvl1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

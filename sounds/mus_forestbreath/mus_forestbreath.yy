@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mus_forestBreath",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.8,
@@ -17,8 +20,4 @@
     "name": "Music",
     "path": "folders/Sons/Music.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "mus_forestBreath",
-  "tags": [],
-  "resourceType": "GMSound",
 }

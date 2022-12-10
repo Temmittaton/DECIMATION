@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tls_forest_normal",
   "spriteId": {
     "name": "spr_tls_forest_normal",
     "path": "sprites/spr_tls_forest_normal/spr_tls_forest_normal.yy",
@@ -1539,8 +1542,4 @@
     "name": "Tile sets",
     "path": "folders/Tile sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tls_forest_normal",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

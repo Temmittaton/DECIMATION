@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tls_lvl_background",
   "spriteId": {
     "name": "spr_tls_lvl_background",
     "path": "sprites/spr_tls_lvl_background/spr_tls_lvl_background.yy",
@@ -51,8 +54,4 @@
     "name": "Tile sets",
     "path": "folders/Tile sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tls_lvl_background",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

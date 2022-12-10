@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_crushed",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.7,
@@ -17,8 +20,4 @@
     "name": "Redwind",
     "path": "folders/Sons/Sound Effects/Redwind.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_crushed",
-  "tags": [],
-  "resourceType": "GMSound",
 }

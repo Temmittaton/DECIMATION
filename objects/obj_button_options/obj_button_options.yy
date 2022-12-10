@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_button_options",
   "spriteId": {
     "name": "spr_menu_button_options",
     "path": "sprites/spr_menu_button_options/spr_menu_button_options.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
@@ -26,15 +30,11 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"target","path":"objects/par_button/par_button.yy",},"objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"value":"Options","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"key","path":"objects/par_button/par_button.yy",},"objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"value":"vk_control","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"target","path":"objects/par_button/par_button.yy",},"objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"value":"Options",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"key","path":"objects/par_button/par_button.yy",},"objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"value":"vk_control",},
   ],
   "parent": {
     "name": "Button",
     "path": "folders/Objets/Button.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_button_options",
-  "tags": [],
-  "resourceType": "GMObject",
 }

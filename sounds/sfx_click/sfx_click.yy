@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_click",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -17,8 +20,4 @@
     "name": "Sound Effects",
     "path": "folders/Sons/Sound Effects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_click",
-  "tags": [],
-  "resourceType": "GMSound",
 }

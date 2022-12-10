@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tls_forest_ground",
   "spriteId": {
     "name": "spr_tls_forest_ground",
     "path": "sprites/spr_tls_forest_ground/spr_tls_forest_ground.yy",
@@ -1085,8 +1088,4 @@
     "name": "Tile sets",
     "path": "folders/Tile sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tls_forest_ground",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

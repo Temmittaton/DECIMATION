@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "sfx_soldierDamage2",
   "conversionMode": 0,
   "compression": 0,
   "volume": 0.5,
@@ -17,8 +20,4 @@
     "name": "Soldier",
     "path": "folders/Sons/Sound Effects/Soldier.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sfx_soldierDamage2",
-  "tags": [],
-  "resourceType": "GMSound",
 }
