@@ -25,8 +25,8 @@ function player_spell(enter){
 	}
 	else if (animation_end()){
 		returnedState = player_idle;
-		if (mana>10){
-			mana-=10;
+		if (mana>32){
+			mana-=32;
 			instance_create_layer(x, y, "Projectiles", obj_spell);
 		}
 		color = #FFFFFF;

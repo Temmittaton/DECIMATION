@@ -1,7 +1,7 @@
 function fireMage_choose(){
 	if (place_meeting(x, y, obj_player)){
 		obj_player.stateNext = player_gloryKill;
-		obj_player.x = x;
+		obj_player.y = y;
 		instance_create_layer(x, y, "Mobs", obj_fireMage_glory);
 		instance_destroy();
 	}

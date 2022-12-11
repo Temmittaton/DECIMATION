@@ -1,5 +1,1 @@
-var _curx = x;
-
-var _tx = global.vx+ox;
-
-x = lerp(_curx, _tx, spd);
+x = camera_get_view_x(view_camera[0]) + ox;

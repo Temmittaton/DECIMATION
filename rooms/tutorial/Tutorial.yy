@@ -68,7 +68,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62D7339B_3","properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"cameraSize","path":"objects/con_lightSetup/con_lightSetup.yy",},"objectId":{"name":"con_lightSetup","path":"objects/con_lightSetup/con_lightSetup.yy",},"value":"6",},
           ],"isDnd":false,"objectId":{"name":"con_lightSetup","path":"objects/con_lightSetup/con_lightSetup.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-32.0,"y":-32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2AD9B420_2","properties":[],"isDnd":false,"objectId":{"name":"obj_moonBright","path":"objects/obj_moonBright/obj_moonBright.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":32.0,},
       ],"visible":true,"depth":800,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Normal","tilesetId":{"name":"tls_forest_normal","path":"tilesets/tls_forest_normal/tls_forest_normal.yy",},"x":0,"y":0,"tiles":{"TileDataFormat":1,"SerialiseWidth":180,"SerialiseHeight":64,"TileCompressedData":[
 -542,-2147483648,1,0,-3,-2147483648,5,0,-2147483648,-2147483648,0,0,-3,-2147483648,1,0,-171,-2147483648,-2,0,-2,-2147483648,-2,0,-2,-2147483648,1,0,-7,-2147483648,1,0,-165,-2147483648,-2,0,-10,-2147483648,-2,0,2,-2147483648,0,-163,-2147483648,3,0,-2147483648,0,-10,-2147483648,4,0,-2147483648,0,0,-157,-2147483648,-5,0,-14,-2147483648,4,0,-2147483648,0,0,-157,-2147483648,-8,0,-11,-2147483648,4,0,-2147483648,0,0,-157,-2147483648,-16,0,-163,-2147483648,-39,0,-141,-2147483648,-103,0,-7,-2147483648,-40,0,-30,-2147483648,-173,0,-7,-2147483648,-1620,0,3240,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,688,689,690,691,692,693,694,695,696,697,698,699,700,701,702,703,704,658,659,660,661,662,663,664,665,666,667,668,669,670,671,672,673,674,675,676,677,678,679,680,681,682,683,684,685,686,687,
@@ -203,7 +202,6 @@
     {"name":"inst_D878D94_2","path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"inst_64359C98_3","path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"inst_26CDD326_2","path":"rooms/Tutorial/Tutorial.yy",},
-    {"name":"inst_2AD9B420_2","path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"inst_62476176","path":"rooms/Tutorial/Tutorial.yy",},
     {"name":"inst_5F1A60E3","path":"rooms/Tutorial/Tutorial.yy",},
   ],
