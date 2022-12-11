@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "tls_forest_normal",
   "spriteId": {
-    "name": "spr_tls_forest_normal",
-    "path": "sprites/spr_tls_forest_normal/spr_tls_forest_normal.yy",
+    "name": "spr_tls_forestbackground_normal",
+    "path": "sprites/spr_tls_forestbackground_normal/spr_tls_forestbackground_normal.yy",
   },
   "tileWidth": 4,
   "tileHeight": 4,
