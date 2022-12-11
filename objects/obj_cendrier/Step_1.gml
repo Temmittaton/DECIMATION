@@ -1,12 +1,18 @@
 // Damage
-if (dmg) && (state != cendrier_shield) && (state != cendrier_shield_charge){
+if (dmg) && (state == cendrier_shield) or (state == cendrier_shield_charge){
+	dmg = 0;
+}
+else if (dmg){
 	instance_destroy();
 }
 else if (pdmg){
 	stateNext = cendrier_shield_charge;
 	pdmg = false;
 }
-else if (udmg) && (state != cendrier_shield) && (state != cendrier_shield_charge) && (state != cendrier_dash){
+else if (state == cendrier_shield) or (state == cendrier_shield_charge) or (state == cendrier_dash){
+	udmg = 0;
+}
+else if (udmg){
 	obj_player.yspd = -4;
 	obj_player.xspd -= image_xscale;
 	repeat(9){

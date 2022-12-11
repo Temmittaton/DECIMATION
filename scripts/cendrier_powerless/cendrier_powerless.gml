@@ -11,5 +11,7 @@ function cendrier_powerless(enter){
 	}
 	yspd += grav;
 	
+	mana++;
+	
 	return cendrier_powerless;
 }

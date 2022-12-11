@@ -5,7 +5,7 @@ function cendrier_choose(){
 	else if ((state == cendrier_shield) && (usedMana > 128)){
 		return cendrier_dash;
 	}
-	else if (state != cendrier_shield_charge) && (state != cendrier_shield) && (state != cendrier_dash) && (point_distance(x, y, obj_player.x, obj_player.y) <= 32){
+	else if (mana > 128) && (state != cendrier_shield_charge) && (state != cendrier_shield) && (state != cendrier_dash) && (point_distance(x, y, obj_player.x, obj_player.y) <= 32){
 		return cendrier_shield_charge;
 	}
 	else if (obj_player.state == player_groundPound) && (point_distance(x, y, obj_player.x, obj_player.y) < 64){

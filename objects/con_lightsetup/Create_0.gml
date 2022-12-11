@@ -17,6 +17,7 @@ vy = 0;
 
 // Fade timer
 fade = 30;
+zoom = 0;
 
 //Shader uniform variable setup
 u_pos = shader_get_uniform(shd_light,"u_pos");

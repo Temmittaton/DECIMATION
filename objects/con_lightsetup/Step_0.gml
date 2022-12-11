@@ -50,3 +50,10 @@ if instance_exists(obj_player){
 	
 	camera_set_view_pos(view, vx, vy);
 }
+
+if (keyboard_check(vk_f1)){
+	zoom += 0.0025;
+}
+else if (keyboard_check(vk_f2)){
+	zoom -= 0.0025;
+}
