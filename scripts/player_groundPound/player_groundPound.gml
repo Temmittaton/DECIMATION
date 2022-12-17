@@ -25,7 +25,7 @@ function player_groundPound(enter){
 	else if (attackKeyPressed) && (attackTmr == 0){
 		returnedState = player_attack;
 	}
-	else if (spellKeyPressed){
+	else if (spellKey){
 		if (selectedSpell == 0){
 			returnedState = player_spell;
 		}

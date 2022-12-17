@@ -14,6 +14,7 @@ function player_gloryKill2(enter){
 	
 	if (animation_end()){
 		x += 8 * image_xscale;
+		screen_shake(4, 12);
 		return player_idle;
 	}
 	

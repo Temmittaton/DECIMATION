@@ -1,5 +1,5 @@
 // Damage
-if (dmg) && (state == cendrier_shield) or (state == cendrier_shield_charge){
+if (dmg) && (state == cendrier_shield) or (state == cendrier_shield_charge) or (state == cendrier_dash){
 	dmg = 0;
 }
 else if (dmg){

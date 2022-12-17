@@ -18,7 +18,7 @@ function player_fireSpell(enter){
 	mana--;
 	
 	// Returned State Selection
-	if (mana == 0) or (player_pressedInput() > 0){
+	if (mana == 0) or (!spellKey){
 		returnedState = player_idle;
 		color = #FFFFFF;
 		size = 32;

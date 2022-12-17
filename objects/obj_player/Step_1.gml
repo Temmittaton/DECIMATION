@@ -2,7 +2,7 @@
 leftKeyPressed = keyboard_check(ord(leftKey));
 rightKeyPressed = keyboard_check(ord("D"));
 downKeyPressed = keyboard_check(ord("S"));
-spellKeyPressed = sign(keyboard_check_pressed(vk_shift) + keyboard_check_pressed(vk_lshift));
+spellKey = sign(keyboard_check(vk_shift) + keyboard_check_pressed(vk_lshift));
 interactKeyPressed = keyboard_check(ord(interactKey));
 dashKeyPressed = keyboard_check_pressed(ord(dashKey));
 attackKeyPressed = keyboard_check_pressed(vk_enter);
