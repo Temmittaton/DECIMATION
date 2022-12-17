@@ -27,7 +27,7 @@ function player_attack(enter){
 	if (animation_end()){
 		returnedState = player_idle;
 	}
-	else if (spellKeyPressed){
+	else if (spellKey){
 		if (selectedSpell == 0){
 			returnedState = player_spell;
 		}

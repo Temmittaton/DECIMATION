@@ -7,12 +7,16 @@ function player_gloryKill(enter){
 		yspd = 0;
 	}
 	
-	if (image_index == 4){
-		screen_shake(16, 4);
+	if (image_index >= 4) && (image_index <= 5){
+		xspd = 2 * image_xscale;
+	}
+	else if (image_index >= 5) && (image_index <= 6){
+		xspd = 8 * image_xscale;
+		screen_shake(4, 8);
 	}
 	
 	if (animation_end()){
-		x += 17 * image_xscale;
+		xspd = 0;
 		return player_idle;
 	}
 	
