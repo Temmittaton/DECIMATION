@@ -214,6 +214,7 @@
     {"id":{"name":"player_gloryKill2","path":"scripts/player_gloryKill2/player_gloryKill2.yy",},"order":11,},
     {"id":{"name":"spr_scarab_walk","path":"sprites/spr_scarab_walk/spr_scarab_walk.yy",},"order":0,},
     {"id":{"name":"con_screenShake","path":"objects/con_screenShake/con_screenShake.yy",},"order":4,},
+    {"id":{"name":"Lvl1_2","path":"rooms/Lvl1_2/Lvl1_2.yy",},"order":1,},
     {"id":{"name":"con_saveController","path":"objects/con_saveController/con_saveController.yy",},"order":0,},
     {"id":{"name":"obj_shuriken","path":"objects/obj_shuriken/obj_shuriken.yy",},"order":4,},
     {"id":{"name":"spr_hud_mana","path":"sprites/spr_hud_mana/spr_hud_mana.yy",},"order":4,},
@@ -291,6 +292,7 @@
     {"roomId":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},},
     {"roomId":{"name":"RoomCendrier","path":"rooms/RoomCendrier/RoomCendrier.yy",},},
     {"roomId":{"name":"RoomPreCendrier","path":"rooms/RoomPreCendrier/RoomPreCendrier.yy",},},
+    {"roomId":{"name":"Lvl1_2","path":"rooms/Lvl1_2/Lvl1_2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objets","folderPath":"folders/Objets.yy","order":5,},

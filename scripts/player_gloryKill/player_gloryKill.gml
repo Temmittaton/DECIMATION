@@ -5,7 +5,9 @@ function player_gloryKill(enter){
 		image_speed = 0.6;
 		xspd = 0;
 		yspd = 0;
+		con_lightSetup.zoom = 0.75;
 	}
+	yspd = 0;
 	
 	if (image_index >= 4) && (image_index <= 5){
 		xspd = 2 * image_xscale;

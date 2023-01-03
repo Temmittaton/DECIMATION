@@ -6,7 +6,9 @@ function player_gloryKill2(enter){
 		xspd = 0;
 		yspd = 0;
 		x -= 8*image_xscale;
+		con_lightSetup.zoom = 0.75;
 	}
+	yspd = 0;
 	
 	if (image_index == 5){
 		screen_shake(16, 8);
