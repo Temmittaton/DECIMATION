@@ -52,6 +52,7 @@
     {"id":{"name":"spr_scarab_attack","path":"sprites/spr_scarab_attack/spr_scarab_attack.yy",},"order":4,},
     {"id":{"name":"spr_hud_manaBar","path":"sprites/spr_hud_manaBar/spr_hud_manaBar.yy",},"order":2,},
     {"id":{"name":"spr_fireMage_jump","path":"sprites/spr_fireMage_jump/spr_fireMage_jump.yy",},"order":3,},
+    {"id":{"name":"Lvl1_3","path":"rooms/Lvl1_3/Lvl1_3.yy",},"order":2,},
     {"id":{"name":"fireMage_choose","path":"scripts/fireMage_choose/fireMage_choose.yy",},"order":0,},
     {"id":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"order":10,},
     {"id":{"name":"player_dead","path":"scripts/player_dead/player_dead.yy",},"order":2,},
@@ -295,6 +296,7 @@
     {"roomId":{"name":"RoomPreCendrier","path":"rooms/RoomPreCendrier/RoomPreCendrier.yy",},},
     {"roomId":{"name":"Lvl1_2","path":"rooms/Lvl1_2/Lvl1_2.yy",},},
     {"roomId":{"name":"BlankRoom","path":"rooms/BlankRoom/BlankRoom.yy",},},
+    {"roomId":{"name":"Lvl1_3","path":"rooms/Lvl1_3/Lvl1_3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objets","folderPath":"folders/Objets.yy","order":5,},
