@@ -251,6 +251,7 @@
     {"id":{"name":"obj_iceMage","path":"objects/obj_iceMage/obj_iceMage.yy",},"order":4,},
     {"id":{"name":"spr_ant_walk","path":"sprites/spr_ant_walk/spr_ant_walk.yy",},"order":0,},
     {"id":{"name":"spr_moonBright","path":"sprites/spr_moonBright/spr_moonBright.yy",},"order":2,},
+    {"id":{"name":"Sprite118","path":"sprites/Sprite118/Sprite118.yy",},"order":9,},
     {"id":{"name":"scarab_choose","path":"scripts/scarab_choose/scarab_choose.yy",},"order":0,},
     {"id":{"name":"spr_player_walk","path":"sprites/spr_player_walk/spr_player_walk.yy",},"order":1,},
     {"id":{"name":"spr_soldier_knockback","path":"sprites/spr_soldier_knockback/spr_soldier_knockback.yy",},"order":3,},

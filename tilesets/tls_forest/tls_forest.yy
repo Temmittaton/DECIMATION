@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "tls_forest",
   "spriteId": {
-    "name": "spr_tls_forestbackground",
-    "path": "sprites/spr_tls_forestbackground/spr_tls_forestbackground.yy",
+    "name": "Sprite118",
+    "path": "sprites/Sprite118/Sprite118.yy",
   },
   "tileWidth": 16,
   "tileHeight": 16,
