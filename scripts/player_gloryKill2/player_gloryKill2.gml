@@ -6,7 +6,7 @@ function player_gloryKill2(enter){
 		xspd = 0;
 		yspd = 0;
 		x -= 8*image_xscale;
-		con_lightSetup.zoom = 0.75;
+		con_lightSetup.zoom = 0.25;
 	}
 	yspd = 0;
 	

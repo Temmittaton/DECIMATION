@@ -12,3 +12,5 @@ if (state != stateNext)	{
 // Update state
 stateNext = state(enter);
 enter = false;
+
+show_debug_message(chaseSpeed);

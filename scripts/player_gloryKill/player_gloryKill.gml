@@ -5,15 +5,15 @@ function player_gloryKill(enter){
 		image_speed = 0.6;
 		xspd = 0;
 		yspd = 0;
-		con_lightSetup.zoom = 0.75;
+		con_lightSetup.zoom = 0.25;
 	}
 	yspd = 0;
 	
 	if (image_index >= 4) && (image_index <= 5){
-		xspd = 2 * image_xscale;
+		xspd = image_xscale;
 	}
 	else if (image_index >= 5) && (image_index <= 6){
-		xspd = 8 * image_xscale;
+		xspd = 4 * image_xscale;
 		screen_shake(4, 8);
 	}
 	

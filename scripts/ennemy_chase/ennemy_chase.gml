@@ -1,33 +1,18 @@
 function ennemy_chase(enter){
 	if (enter){
-		if (obj_player.x < x){
-			xspd = -chaseSpeed;
-		}
-		else{
-			xspd = chaseSpeed;
-		}
+		chase(obj_player);
 		image_index = 0;
 	}
 	returnedState = ennemy_chase;
 	
 	// Action
 	if (animation_end()){
-		if (obj_player.x < x){
-			xspd = -chaseSpeed;
-		}
-		else{
-			xspd = chaseSpeed;
-		}
+		chase(obj_player);
 		image_index = 0;
 	}
 	
 	if (animation_end()){
-		if (obj_player.x < x){
-			xspd = -chaseSpeed;
-		}
-		else{
-			xspd = chaseSpeed;
-		}
+		chase(obj_player);
 		image_index = 0;
 	}
 	
@@ -43,7 +28,7 @@ function ennemy_chase(enter){
 	yspd += grav;
 	
 	//Animation
-	if (!place_meeting(x, y+1, par_solid)){
+	if (!place_meeting(x, y+3, par_solid)){
 		sprite_index = jumpSprite;
 		image_speed = 0;
 	}

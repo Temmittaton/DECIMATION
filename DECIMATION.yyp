@@ -154,6 +154,7 @@
     {"id":{"name":"Tutorial","path":"rooms/Tutorial/Tutorial.yy",},"order":0,},
     {"id":{"name":"spr_ant_cadaver","path":"sprites/spr_ant_cadaver/spr_ant_cadaver.yy",},"order":1,},
     {"id":{"name":"spr_lvl_lock","path":"sprites/spr_lvl_lock/spr_lvl_lock.yy",},"order":5,},
+    {"id":{"name":"chase","path":"scripts/chase/chase.yy",},"order":11,},
     {"id":{"name":"spr_magsoldier_walk","path":"sprites/spr_magsoldier_walk/spr_magsoldier_walk.yy",},"order":1,},
     {"id":{"name":"spr_fireMage_attack","path":"sprites/spr_fireMage_attack/spr_fireMage_attack.yy",},"order":0,},
     {"id":{"name":"obj_button_play","path":"objects/obj_button_play/obj_button_play.yy",},"order":0,},

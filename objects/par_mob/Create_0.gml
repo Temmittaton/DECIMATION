@@ -3,7 +3,6 @@ state = noone;
 stateNext = mob_idle;
 
 hp = 3;
-walkspd = 1;
 xspd = 0;
 yspd = 0;
 

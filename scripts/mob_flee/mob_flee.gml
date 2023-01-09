@@ -1,11 +1,7 @@
 function mob_flee(enter){
 	if (enter){
-		if (obj_player.x < x){
-			xspd = chaseSpeed;
-		}
-		else{
-			xspd = -chaseSpeed;
-		}
+		chase(obj_player);
+		xspd = -xspd;
 		image_index = 0;
 	}
 	returnedState = mob_flee;
@@ -21,8 +17,8 @@ function mob_flee(enter){
 		yspd  = -4;
 	}
 	
-	
-	yspd+=grav;
+	yspd += grav;
+	show_debug_message(yspd);
 	
 	//Animation
 	if (!place_meeting(x, y+1, par_solid)){
