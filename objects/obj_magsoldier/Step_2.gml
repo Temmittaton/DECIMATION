@@ -3,7 +3,7 @@ if (xspd != 0)	{
 }
 
 // Collisions horizontales
-repeat(abs(xspd))	{
+repeat(floor(abs(xspd) + 1))	{
 	if ((place_meeting(x + sign(xspd), y, par_solid)) && (!place_meeting(x + sign(xspd), y - 1, par_solid))){
 		y -= 2;
 	}
