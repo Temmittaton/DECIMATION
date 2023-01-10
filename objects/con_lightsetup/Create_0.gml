@@ -51,15 +51,12 @@ function BGend(){
 var _bg_layer = layer_get_id("Background");
 var _bg_layer2 = layer_get_id("Background2");
 var _bg_layer3 = layer_get_id("Background3");
-var _frnt_layer = layer_get_id("FrontWalls");
 layer_script_begin(_bg_layer,BGbegin);
 layer_script_end(_bg_layer,BGend);
 layer_script_begin(_bg_layer2,BGbegin);
 layer_script_end(_bg_layer2,BGend);
 layer_script_begin(_bg_layer3,BGbegin);
 layer_script_end(_bg_layer3,BGend);
-layer_script_begin(_frnt_layer,BGbegin);
-layer_script_end(_frnt_layer,BGend);
 
 // Normal layer functions
 global.n_surf = noone;
