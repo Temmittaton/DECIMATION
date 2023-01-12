@@ -26,3 +26,8 @@ if instance_exists(obj_player){
 }
 
 ini_close();
+
+// Player Respawn
+respawnX = 0;
+respawnY = 0;
+respawnRoom = 0;

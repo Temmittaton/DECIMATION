@@ -18,7 +18,6 @@ function mob_flee(enter){
 	}
 	
 	yspd += grav;
-	show_debug_message(yspd);
 	
 	//Animation
 	if (!place_meeting(x, y+1, par_solid)){

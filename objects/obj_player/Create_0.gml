@@ -5,16 +5,17 @@ coldness = 0;
 
 enter = false;
 state = noone;
-stateNext = player_cinematic;
+if (con_saveController.respawnRoom == 0){
+	stateNext = player_cinematic;
+}
+else {
+	stateNext = player_spawn;
+}
 
 xspd = 1.5;
 yspd = 0;
 walkspd = 2;
 grav = 0.5;
-
-respawnx = 0;
-respawny = 0;
-respawnRoom = room;
 knockback = 0;
 invincibility = 0;
 dmg = 0;
@@ -28,7 +29,7 @@ gotPickaxe = bool(ini_read_real("Save", "gotPickaxe", 0));
 gotFire = bool(ini_read_real("Save", "gotFire", 0));
 
 leftKey = ini_read_string("Controls", "left", "Error");
-interactKey = ini_read_string("Controls", "injteract", "Error");
+interactKey = ini_read_string("Controls", "interact", "Error");
 dashKey = ini_read_string("Controls", "dash", "Error");
 ini_close();
 

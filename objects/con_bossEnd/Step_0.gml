@@ -8,6 +8,11 @@ if (obj_player.x > x) && (bossBeaten){
 		if (target == LevelSelection) && (global.currentLevel == global.clearedLevel+1){
 			global.clearedLevel++;
 		}
-		room = target;
+		
+		con_saveController.respawnRoom = 0;
+		con_saveController.respawnX = 0;
+		con_saveController.respawnY = 0;
+		
+		room_goto(target);
 	}
 }

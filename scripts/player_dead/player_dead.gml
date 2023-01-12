@@ -6,21 +6,13 @@ function player_dead(enter){
 		xspd = 0;
 		yspd = 0;
 	}
-	returnedState = player_dead;
 	
 	// Returned State selection
 	if (animation_end()){
-		room = respawnRoom;
-		var newPlayer = instance_create_layer(respawnx, respawny, "Player", obj_player);
-		show_debug_message(string(respawnx) + " " + string(respawny));
-		
-		newPlayer.stateNext = player_spawn;
-		newPlayer.respawnx = respawnx;
-		newPlayer.respawny = respawny;
-		newPlayer.respawnRoom = respawnRoom;
+		room_goto(con_saveController.respawnRoom);
 		
 		instance_destroy();
 	}
 	
-	return returnedState;
+	return player_dead;
 }
