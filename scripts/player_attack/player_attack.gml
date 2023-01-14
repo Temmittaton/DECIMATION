@@ -13,7 +13,7 @@ function player_attack(enter){
 	
 	var _list = ds_list_create();
 	
-	var _num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-4, par_mob, false, true, _list, false);
+	var _num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-4, par_ennemy, false, true, _list, false);
 	if (_num != 0){
 		for (i=0; i<_num; i++){
 			variable_instance_set(_list[| i], weaponDamage[selectedWeapon], true);

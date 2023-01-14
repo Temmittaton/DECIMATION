@@ -1,10 +1,10 @@
 if (place_meeting(x, y, par_solid)){
 	instance_destroy();
 }
-else if (place_meeting(x, y, par_mob)){
+else if (place_meeting(x, y, par_ennemy)){
 	var _list = ds_list_create();
 	
-	collision_point_list(x, y, par_mob, false, true, _list, true);
+	collision_point_list(x, y, par_ennemy, false, true, _list, true);
 	
 	if (instance_exists(_list[| 0])){
 		_list[| 0].pdmg = true;
