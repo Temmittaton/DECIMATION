@@ -41,6 +41,6 @@
   ],
   "parent": {
     "name": "Mobs",
-    "path": "folders/Objets/Mobs.yy",
+    "path": "folders/Mobs.yy",
   },
 }
