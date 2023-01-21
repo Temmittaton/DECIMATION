@@ -23,7 +23,7 @@ if (check){
 else if (point_distance(x, y, px, py)<64){
 	move_towards_point(px, py, 3);
 	if (point_distance(x, y, px, py)<6){
-		obj_player.mana+=0.01;
+		obj_player.mana+=0.025;
 		instance_destroy();
 	}
 }

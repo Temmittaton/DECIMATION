@@ -30,7 +30,6 @@
     {"id":{"name":"soldier_choose","path":"scripts/soldier_choose/soldier_choose.yy",},"order":1,},
     {"id":{"name":"con_hud","path":"objects/con_hud/con_hud.yy",},"order":3,},
     {"id":{"name":"par_ennemy","path":"objects/par_ennemy/par_ennemy.yy",},"order":1,},
-    {"id":{"name":"sfx_soldierDamage4","path":"sounds/sfx_soldierDamage4/sfx_soldierDamage4.yy",},"order":3,},
     {"id":{"name":"magsoldier_choose","path":"scripts/magsoldier_choose/magsoldier_choose.yy",},"order":0,},
     {"id":{"name":"mob_stun","path":"scripts/mob_stun/mob_stun.yy",},"order":2,},
     {"id":{"name":"spr_cendrier_cinematic","path":"sprites/spr_cendrier_cinematic/spr_cendrier_cinematic.yy",},"order":8,},

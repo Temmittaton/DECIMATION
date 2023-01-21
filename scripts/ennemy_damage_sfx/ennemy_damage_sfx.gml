@@ -1,15 +1,12 @@
 function ennemy_damage_sfx(){
 	var _rand = irandom(90);
-	if (_rand == 0){
-		audio_play_sound(sfx_soldierDamage4, 1, false);
-	}
-	else if (_rand < 30){
+	if (_rand < 30){
 		audio_play_sound(sfx_soldierDamage3, 1, false);
 	}
 	else if (_rand < 60){
 		audio_play_sound(sfx_soldierDamage2, 1, false);
 	}
-	else if (_rand < 90){
+	else {
 		audio_play_sound(sfx_soldierDamage1, 1, false);
 	}
 }
