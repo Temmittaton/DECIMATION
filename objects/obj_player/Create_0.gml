@@ -5,7 +5,7 @@ coldness = 0;
 
 enter = false;
 state = noone;
-if (con_saveController.respawnRoom == 0){
+if (global.respawnRoom != room){
 	stateNext = player_cinematic;
 }
 else {

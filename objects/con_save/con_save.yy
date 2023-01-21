@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "con_saveController",
+  "name": "con_save",
   "spriteId": null,
   "solid": false,
   "visible": false,

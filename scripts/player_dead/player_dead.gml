@@ -9,7 +9,7 @@ function player_dead(enter){
 	
 	// Returned State selection
 	if (animation_end()){
-		room_goto(con_saveController.respawnRoom);
+		room_goto(global.respawnRoom);
 		
 		instance_destroy();
 	}

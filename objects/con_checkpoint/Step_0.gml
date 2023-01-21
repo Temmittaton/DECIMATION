@@ -6,9 +6,9 @@ if (obj_player.x > x){
 	}
 	
 	if ((room != LevelSelection) && (room != Options)){
-		con_saveController.respawnX = x;
-		con_saveController.respawnY = y;
-		con_saveController.respawnRoom = room;
+		global.respawnX = x;
+		global.respawnY = y;
+		global.respawnRoom = room;
 	}
 	
 	instance_destroy();
