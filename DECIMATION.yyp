@@ -269,6 +269,7 @@
     {"id":{"name":"spr_lancer_jump","path":"sprites/spr_lancer_jump/spr_lancer_jump.yy",},"order":3,},
     {"id":{"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},"order":0,},
     {"id":{"name":"magsoldier_attack","path":"scripts/magsoldier_attack/magsoldier_attack.yy",},"order":4,},
+    {"id":{"name":"Lvl2_3","path":"rooms/Lvl2_3/Lvl2_3.yy",},"order":2,},
     {"id":{"name":"player_move","path":"scripts/player_move/player_move.yy",},"order":0,},
     {"id":{"name":"tls_cave_normal","path":"tilesets/tls_cave_normal/tls_cave_normal.yy",},"order":11,},
     {"id":{"name":"spr_menu_button_play","path":"sprites/spr_menu_button_play/spr_menu_button_play.yy",},"order":0,},
@@ -299,6 +300,7 @@
     {"roomId":{"name":"Lvl1_3","path":"rooms/Lvl1_3/Lvl1_3.yy",},},
     {"roomId":{"name":"Lvl2_2","path":"rooms/Lvl2_2/Lvl2_2.yy",},},
     {"roomId":{"name":"Lvl2","path":"rooms/Lvl2/Lvl2.yy",},},
+    {"roomId":{"name":"Lvl2_3","path":"rooms/Lvl2_3/Lvl2_3.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objets","folderPath":"folders/Objets.yy","order":5,},
