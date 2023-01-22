@@ -42,6 +42,6 @@
   ],
   "parent": {
     "name": "Ennemies",
-    "path": "folders/Mobs/Ennemies.yy",
+    "path": "folders/Objets/Mobs/Ennemies.yy",
   },
 }

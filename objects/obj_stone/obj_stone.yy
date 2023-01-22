@@ -1,20 +1,17 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_soldier",
+  "name": "obj_stone",
   "spriteId": {
-    "name": "spr_soldier_idle",
-    "path": "sprites/spr_soldier_idle/spr_soldier_idle.yy",
+    "name": "spr_stone",
+    "path": "sprites/spr_stone/spr_stone.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "par_ennemy",
-    "path": "objects/par_ennemy/par_ennemy.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -28,14 +25,15 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
-  "properties": [],
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"chaseSpeed","path":"objects/par_mob/par_mob.yy",},"objectId":{"name":"par_mob","path":"objects/par_mob/par_mob.yy",},"value":"0.3",},
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"pdmg","varType":3,"value":"0","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
   ],
+  "overriddenProperties": [],
   "parent": {
-    "name": "Ennemies",
-    "path": "folders/Objets/Mobs/Ennemies.yy",
+    "name": "Assets",
+    "path": "folders/Objets/Assets.yy",
   },
 }
