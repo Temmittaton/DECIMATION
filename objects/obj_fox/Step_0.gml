@@ -14,5 +14,5 @@ stateNext = state(enter);
 enter = false;
 
 if (x + xspd > room_width) or (x + xspd < 0){
-	image_alpha = 0;
+	instance_destroy();
 }
