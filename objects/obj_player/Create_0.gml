@@ -34,7 +34,6 @@ dashKey = ini_read_string("Controls", "dash", "Error");
 ini_close();
 
 selectedWeapon = 0;
-weaponDamage = ["dmg", "pdmg"];
 weaponSprite = [spr_player_attack, spr_player_pickaxe];
 
 selectedSpell = 0;
