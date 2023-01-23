@@ -12,8 +12,4 @@ function soldier_choose(){
 	else if (state == mob_knockback) && (animation_end()){
 		return ennemy_chase;
 	}
-	else if (state == mob_stun) && (animation_end()){
-		return mob_idle;
-	}
-
 }

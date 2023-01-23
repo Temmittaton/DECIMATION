@@ -1,0 +1,2 @@
+armored = true;
+udmg = false;

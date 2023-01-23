@@ -9,10 +9,6 @@ if (obj_player.x > x) && (bossBeaten){
 			global.clearedLevel++;
 		}
 		
-		con_saveController.respawnRoom = 0;
-		con_saveController.respawnX = 0;
-		con_saveController.respawnY = 0;
-		
 		room_goto(target);
 	}
 }

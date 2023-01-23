@@ -40,7 +40,7 @@
     "name": "spr_chenille_body",
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 1.0,
+    "playbackSpeed": 0.15,
     "playbackSpeedType": 1,
     "autoRecord": true,
     "volume": 1.0,
