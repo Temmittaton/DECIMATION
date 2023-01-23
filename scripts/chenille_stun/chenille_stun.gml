@@ -7,5 +7,5 @@ function chenille_stun(enter) {
 		if (yspd < 0){yspd = 0;}
 	}
 	
-	return mob_idle;
+	return chenille_stun;
 }

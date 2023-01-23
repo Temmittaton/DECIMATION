@@ -15,7 +15,7 @@ enter = false;
 
 var _c = [x, y];
 
-for (i = 1; i < num; i++) {
+for (i = 0; i < num; i++) {
 	var __c = [inst[i].x, inst[i].y];
 	
 	if (point_distance(_c[0], _c[1], __c[0], __c[1]) > 8) {

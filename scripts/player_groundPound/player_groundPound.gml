@@ -1,6 +1,7 @@
 function player_groundPound(enter){
 	if (enter){
 		xspd = 0;
+		yspd = 1;
 		sprite_index = spr_player_groundPound;
 		image_speed = 0.8;
 	}
@@ -8,14 +9,15 @@ function player_groundPound(enter){
 	returnedState = player_groundPound;
 	
 	// Events
-	yspd++;
+	var _yspd = yspd + 1;
+	player_move();
+	yspd = _yspd;
+	xspd = sign(xspd);
 	
 	var _list = ds_list_create();
-	var _num = collision_rectangle_list(x-6*image_xscale, y, x+6*image_xscale, y+16, par_mob, false, true, _list, false);
+	var _num = collision_rectangle_list(x-6*image_xscale, y, x+6*image_xscale, y+16, par_mob, false, true, _list, true);
 	if (_num != 0){
-		for (i=0; i<_num; i++){
-			variable_instance_set(_list[| i], "udmg", true);
-		}
+		variable_instance_set(_list[| 0], "udmg", true);
 	}
 	
 	// Returned state selection
