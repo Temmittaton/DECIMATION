@@ -5,14 +5,3 @@ if (animation_end()){
 	}
 	instance_destroy();
 }
-else {
-	if (image_index > 6){
-		xspd = 0;
-	}
-	else if (!place_meeting(x + xspd, y-0.1, par_solid)){
-		x += xspd;
-	}
-	if (!place_meeting(x, y + 0.1, par_solid)){
-		y += 0.1;
-	}
-}

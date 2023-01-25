@@ -11,17 +11,19 @@ if (!instance_exists(dmg)){dmg = 0;}
 if (hp <= 0) or (y>=room_height){
 	stateNext = player_dead;
 }
-else if (dmg != 0){
-	if ((dmg.x) > x){
+else if (dmg != 0) {
+	if ((dmg.x) > x) {
 		knockback = -4;
 	}
 	else {
 		knockback = 4;
 	}
 	dmg = 0;
-	if (invincibility == 0){
+	stateNext = player_knockback;
+	if (invincibility == 0) {
 		screen_shake(15, 16);
-		stateNext = player_knockback;
+		invincibility = 45;
+		hp--;
 	}
 }
 

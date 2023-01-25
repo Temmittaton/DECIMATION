@@ -5,8 +5,6 @@ function player_knockback(enter){
 		xspd = 0;
 		yspd = -2;
 		dash = 0;
-		invincibility = 45;
-		hp--;
 	}
 	returnedState = player_knockback;
 	
