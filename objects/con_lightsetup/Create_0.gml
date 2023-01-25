@@ -1,6 +1,7 @@
 // Camera
-global.view_width = display_get_width()/cameraSize;
-global.view_height = display_get_height()/cameraSize;
+global.view_width = 1920/cameraSize;
+global.view_height = 1080/cameraSize;
+k = display_get_height() / 1080 * cameraSize;
 
 alarm[0] = 1;
 

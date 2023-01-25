@@ -7,7 +7,8 @@ interactKeyPressed = keyboard_check(ord(interactKey));
 dashKeyPressed = keyboard_check_pressed(ord(dashKey));
 attackKeyPressed = keyboard_check_pressed(vk_enter);
 
-if (!instance_exists(dmg)){dmg = 0;}
+if (!instance_exists(dmg)) {dmg = 0;}
+
 if (hp <= 0) or (y>=room_height){
 	stateNext = player_dead;
 }

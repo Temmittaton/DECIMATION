@@ -3,7 +3,7 @@ gpu_set_blendmode_ext(bm_one, bm_zero);
 var xZoom = (display_get_width()/2) * (1-zoom) - (display_get_width()/2);
 var yZoom = (display_get_height()/2) * (1-zoom) - (display_get_height()/2);
 
-draw_surface_ext(application_surface, con_screenShake.xOffset + xZoom, con_screenShake.yOffset + yZoom, cameraSize * (zoom+1), cameraSize * (zoom+1), 0, c_white, 1);
+draw_surface_ext(application_surface, con_screenShake.xOffset + xZoom, con_screenShake.yOffset + yZoom, k * (zoom+1), k * (zoom+1), 0, c_white, 1);
 gpu_set_blendmode(bm_normal);
 
 if (fade > 0){

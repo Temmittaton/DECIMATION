@@ -33,6 +33,7 @@
   "properties": [],
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"chaseSpeed","path":"objects/par_mob/par_mob.yy",},"objectId":{"name":"par_mob","path":"objects/par_mob/par_mob.yy",},"value":"0.3",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","propertyId":{"name":"knockbackSprite","path":"objects/par_ennemy/par_ennemy.yy",},"objectId":{"name":"par_ennemy","path":"objects/par_ennemy/par_ennemy.yy",},"value":"spr_soldier_knockback",},
   ],
   "parent": {
     "name": "Ennemies",
