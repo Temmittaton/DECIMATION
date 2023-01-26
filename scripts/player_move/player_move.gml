@@ -1,8 +1,8 @@
-function player_move(){
+function player_move() {
 	xspd = (rightKeyPressed-leftKeyPressed)*walkspd;
 	
 	// Jump
-	if (place_meeting(x, y+1, par_solid)) && (keyboard_check_pressed(vk_space))	{
+	if (place_meeting(x, y+2, par_solid)) && (keyboard_check_pressed(vk_space))	{
 		yspd = -8;
 	}
 
