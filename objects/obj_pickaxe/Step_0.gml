@@ -5,3 +5,6 @@ if (place_meeting(x, y, obj_player)){
 	ini_close();
 	instance_destroy();
 }
+if (!place_meeting(x, y+1, par_solid)) {
+	y++;
+}
