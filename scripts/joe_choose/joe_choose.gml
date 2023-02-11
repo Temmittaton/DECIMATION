@@ -5,7 +5,7 @@ function joe_choose() {
 	if (state == joe_surprised && animation_end()) {
 		return joe_flee;
 	}
-	if (state == joe_flee && (place_meeting(x + 8, y, obj_stone))) {
+	if (state == joe_flee && (place_meeting(x + 12, y, obj_stone))) {
 		return joe_mine;
 	}
 }

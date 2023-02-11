@@ -5,5 +5,9 @@ function joe_mine(enter) {
 		image_speed = 0.15;
 	}
 	
+	if (animation_end()) {
+		instance_create_layer(x + image_xscale*4, y, "Items", obj_stone_particle);
+	}
+	
 	return joe_mine;
 }

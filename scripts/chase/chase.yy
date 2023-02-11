@@ -2,10 +2,10 @@
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
   "name": "chase",
-  "isDnD": false,
   "isCompatibility": false,
+  "isDnD": false,
   "parent": {
-    "name": "Scripts",
-    "path": "folders/Scripts.yy",
+    "name": "Ennemies",
+    "path": "folders/Scripts/Mobs/Ennemies.yy",
   },
 }

@@ -1,4 +1,4 @@
-function cendrier_choose(){
+function cendrier_choose() {
 	if (mana <= 0){
 		return cendrier_powerless;
 	}

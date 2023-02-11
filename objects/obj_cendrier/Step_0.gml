@@ -1,5 +1,5 @@
 // Next state choose
-if (cendrier_choose()){
+if (cendrier_choose()) {
 	stateNext = cendrier_choose();
 }
 
@@ -13,3 +13,5 @@ if (state != stateNext)	{
 // Update state
 stateNext = state(enter);
 enter = false;
+
+superAttack++;

@@ -1,10 +1,12 @@
-function bossBar(n, pv, mpv, barColor){
-	draw_sprite_stretched(spr_hud_bossBar_fond, 0, 374, 64*n - 48, 1194, 48);
+function bossBar(n, pv, mpv, barColor, size, length = 1) {
+	var sW = display_get_width();
 	
-	draw_set_color(barColor);
+	var t = max((pv/mpv)*(sW - 432)*length, 0);
+	var s = 8*size;
+	var _y = (11*size)*n-s;
+	draw_sprite_stretched_ext(spr_hud_bossBar, 0, 374, _y, t, s, barColor, 0.8);
 	
-	var t = max((pv/mpv)*(1170), 0);
-	draw_rectangle(386, 64*n - 36, 386 + t, 64*n - 12, false);
-	
-	draw_set_color(c_white);
+	draw_sprite_stretched(spr_hud_bossBar_left, 0, 374, _y, s, s);
+	draw_sprite_stretched(spr_hud_bossBar_mid, 0, 374 + s, _y, (sW - 416)*length - 2*s, s);
+	draw_sprite_stretched(spr_hud_bossBar_right, 0, 326+(sW - 416)*length, _y, s, s);
 }

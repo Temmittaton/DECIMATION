@@ -13,6 +13,7 @@ if (udmg) {
 	}
 	else {
 		with (head){
+			obj_player.yspd = -4;
 			instance_destroy();
 		}
 	}
