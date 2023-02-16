@@ -13,5 +13,3 @@ if (state != stateNext)	{
 // Update state
 stateNext = state(enter);
 enter = false;
-
-superAttack++;

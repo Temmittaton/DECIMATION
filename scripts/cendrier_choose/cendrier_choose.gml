@@ -38,8 +38,11 @@ function cendrier_choose() {
 		
 		return ennemy_chase;
 	}
+	else if (superAttack >= 480) {
+		return cendrier_Sattack;
+	}
 	else if (state = cendrier_Sattack) && (animation_end()){
-		repeat(3){
+		repeat(3) {
 			instance_create_layer(x, y, "Projectiles", obj_ball);
 		}
 		return ennemy_chase;
@@ -47,13 +50,8 @@ function cendrier_choose() {
 	else if (((state == cendrier_shield) or (state == cendrier_shield_charge)) && ((y - obj_player.y < 24) && (obj_player.state = player_groundPound))){
 		return cendrier_dash;
 	}
-	else if (state == cendrier_dash) && ((x < 65) or (x > room_width - 65) or (xspd = 0)){
-		if (irandom_range(0, 1)){
-			return cendrier_Sattack;
-		}
-		else {
-			return cendrier_attack;
-		}
+	else if (state == cendrier_dash) && ((x < 65) or (x > room_width - 65) or (xspd = 0)) {
+		return cendrier_attack;
 	}
 	else if ((state == ennemy_chase) && (point_distance(x, y, obj_player.x, obj_player.y) < 64)){
 		return cendrier_attack;

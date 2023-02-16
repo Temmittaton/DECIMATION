@@ -8,6 +8,7 @@ function cendrier_shield_charge(enter){
 	
 	if (yspd < 0){yspd = 0;}
 	yspd += grav;
+	superAttack++;
 	
 	// Damage
 	var _c = collision_rectangle(x - 16, y - 12 + (10 - image_index*2), x - 6, y + 8, obj_player, false, true);

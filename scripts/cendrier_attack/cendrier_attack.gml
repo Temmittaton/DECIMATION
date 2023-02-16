@@ -7,6 +7,7 @@ function cendrier_attack(enter){
 		image_speed = 0.2;
 	}
 	yspd += grav;
+	superAttack++;
 	
 	cendrier_mana_use(2);
 	
