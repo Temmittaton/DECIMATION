@@ -17,6 +17,12 @@ function player_gloryKill(enter){
 		screen_shake(4, 8);
 	}
 	
+	var _l = ds_list_create();
+	var _c = collision_rectangle_list(x + 6*image_xscale, y - 4, x + 17*image_xscale, y + 2, par_ennemy, false, true, _l, true);
+	if (_c != 0) {
+		variable_instance_set(_l[| 0], "dmg", true);
+	}
+	
 	if (animation_end()){
 		xspd = 0;
 		return player_idle;

@@ -70,6 +70,7 @@
     {"name":"Projectiles","order":9,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Cendrier","order":3,"path":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"name":"Tile sets","order":1,"path":"folders/Tile sets.yy",},
+    {"name":"Lvl3","order":7,"path":"folders/Pièces/Lvl3.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tls_cave_normal","order":7,"path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},
