@@ -128,6 +128,7 @@
     {"name":"spr_hud_bossBar_mid","order":7,"path":"sprites/spr_hud_bossBar_mid/spr_hud_bossBar_mid.yy",},
     {"name":"obj_fireMage_glory","order":2,"path":"objects/obj_fireMage_glory/obj_fireMage_glory.yy",},
     {"name":"spr_cendrier_attack","order":4,"path":"sprites/spr_cendrier_attack/spr_cendrier_attack.yy",},
+    {"name":"Lvl3_3","order":2,"path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"obj_levelEntrance","order":4,"path":"objects/obj_levelEntrance/obj_levelEntrance.yy",},
     {"name":"spr_lvl_fire","order":6,"path":"sprites/spr_lvl_fire/spr_lvl_fire.yy",},
     {"name":"con_parallax","order":7,"path":"objects/con_parallax/con_parallax.yy",},
