@@ -257,6 +257,7 @@
     {"name":"con_bossEnd","order":13,"path":"objects/con_bossEnd/con_bossEnd.yy",},
     {"name":"cendrier_mana_use","order":7,"path":"scripts/cendrier_mana_use/cendrier_mana_use.yy",},
     {"name":"spr_chenille_body","order":2,"path":"sprites/spr_chenille_body/spr_chenille_body.yy",},
+    {"name":"Lvl3_4","order":3,"path":"rooms/Lvl3_4/Lvl3_4.yy",},
     {"name":"obj_joe","order":1,"path":"objects/obj_joe/obj_joe.yy",},
     {"name":"cendrier_dash","order":6,"path":"scripts/cendrier_dash/cendrier_dash.yy",},
     {"name":"obj_light_red","order":2,"path":"objects/obj_light_red/obj_light_red.yy",},
