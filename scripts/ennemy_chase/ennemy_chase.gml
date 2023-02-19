@@ -12,18 +12,18 @@ function ennemy_chase(enter){
 	}
 	
 	if (place_meeting(x+xspd*2, y, par_solid)) && (!place_meeting(x+xspd*2, y, obj_slope)) && (place_meeting(x, y+2, par_solid)){
-		yspd = -7;
-		xspd += sign(xspd);
+		yspd = -6;
+		xspd += sign(xspd)*3;
 	}
-	if (place_meeting(x, y+2, par_solid)) && (!place_meeting(x+xspd, y+4, par_solid)){
-		yspd = -8;
-		xspd += sign(xspd);
+	if (place_meeting(x, y+2, par_solid)) && (!place_meeting(x+xspd, y+4, par_solid)) {
+		yspd = -7;
+		xspd += sign(xspd)*3;
 	}
 	
 	yspd += grav;
 	
 	//Animation
-	if (!place_meeting(x, y+3, par_solid)){
+	if (!place_meeting(x, y+3, par_solid)) {
 		sprite_index = jumpSprite;
 		image_speed = 0;
 	}

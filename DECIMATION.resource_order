@@ -71,6 +71,7 @@
     {"name":"Projectiles","order":9,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Cendrier","order":3,"path":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"name":"Tile sets","order":1,"path":"folders/Tile sets.yy",},
+    {"name":"Lvl4","order":8,"path":"folders/Pièces/Lvl4.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tls_cave_normal","order":7,"path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},
@@ -83,6 +84,7 @@
     {"name":"spr_tls_forest_ground","order":6,"path":"sprites/spr_tls_forest_ground/spr_tls_forest_ground.yy",},
     {"name":"spr_cendrier_shuriken","order":1,"path":"sprites/spr_cendrier_shuriken/spr_cendrier_shuriken.yy",},
     {"name":"obj_ball","order":5,"path":"objects/obj_ball/obj_ball.yy",},
+    {"name":"Lvl4","order":9,"path":"rooms/Lvl4/Lvl4.yy",},
     {"name":"spr_joe_walk","order":1,"path":"sprites/spr_joe_walk/spr_joe_walk.yy",},
     {"name":"joe_surprised","order":2,"path":"scripts/joe_surprised/joe_surprised.yy",},
     {"name":"spr_menu_button_options","order":1,"path":"sprites/spr_menu_button_options/spr_menu_button_options.yy",},

@@ -86,6 +86,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Projectiles","folderPath":"folders/Sprites/Projectiles.yy","order":9,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cendrier","folderPath":"folders/Sprites/Projectiles/Cendrier.yy","order":3,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile sets","folderPath":"folders/Tile sets.yy","order":1,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lvl4","folderPath":"folders/Pièces/Lvl4.yy","order":8,},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -108,6 +109,7 @@
     {"id":{"name":"spr_cendrier_shuriken","path":"sprites/spr_cendrier_shuriken/spr_cendrier_shuriken.yy",},"order":1,},
     {"id":{"name":"ennemy_chase","path":"scripts/ennemy_chase/ennemy_chase.yy",},"order":0,},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},"order":5,},
+    {"id":{"name":"Lvl4","path":"rooms/Lvl4/Lvl4.yy",},"order":9,},
     {"id":{"name":"spr_joe_walk","path":"sprites/spr_joe_walk/spr_joe_walk.yy",},"order":1,},
     {"id":{"name":"joe_surprised","path":"scripts/joe_surprised/joe_surprised.yy",},"order":2,},
     {"id":{"name":"spr_menu_button_options","path":"sprites/spr_menu_button_options/spr_menu_button_options.yy",},"order":1,},
@@ -413,6 +415,7 @@
     {"roomId":{"name":"Lvl3_2","path":"rooms/Lvl3_2/Lvl3_2.yy",},},
     {"roomId":{"name":"Lvl3_3","path":"rooms/Lvl3_3/Lvl3_3.yy",},},
     {"roomId":{"name":"Lvl3_4","path":"rooms/Lvl3_4/Lvl3_4.yy",},},
+    {"roomId":{"name":"Lvl4","path":"rooms/Lvl4/Lvl4.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

@@ -98,7 +98,6 @@
     {"name":"inst_430772FF","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_2FA537F","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_71BCFA0A","path":"rooms/Lvl3_3/Lvl3_3.yy",},
-    {"name":"inst_5068F8D8","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_5EDFE5DD","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_88C9AC","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_62075379","path":"rooms/Lvl3_3/Lvl3_3.yy",},
@@ -109,6 +108,7 @@
     {"name":"inst_5CBDC9D0","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_6D55441","path":"rooms/Lvl3_3/Lvl3_3.yy",},
     {"name":"inst_81511FB","path":"rooms/Lvl3_3/Lvl3_3.yy",},
+    {"name":"inst_A517E90","path":"rooms/Lvl3_3/Lvl3_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -214,7 +214,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_430772FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lancer","path":"objects/obj_lancer/obj_lancer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":272.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2FA537F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_iceMage","path":"objects/obj_iceMage/obj_iceMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_71BCFA0A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":432.0,"y":128.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5068F8D8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_magsoldier","path":"objects/obj_magsoldier/obj_magsoldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":848.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5EDFE5DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fireMage","path":"objects/obj_fireMage/obj_fireMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":784.0,"y":80.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_88C9AC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":696.0,"y":168.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62075379","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":696.0,"y":152.0,},
@@ -225,6 +224,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5CBDC9D0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":584.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D55441","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lancer","path":"objects/obj_lancer/obj_lancer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":768.0,"y":64.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_81511FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_iceMage","path":"objects/obj_iceMage/obj_iceMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":144.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_A517E90","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":832.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Lights","depth":700,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_62D7339B_5_1_7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_lightSetup","path":"objects/con_lightSetup/con_lightSetup.yy",},"properties":[

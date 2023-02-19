@@ -9,10 +9,10 @@ function player_gloryKill(enter){
 	}
 	yspd = 0;
 	
-	if (image_index >= 4) && (image_index <= 5){
+	if (image_index >= 4) && (image_index <= 5) {
 		xspd = image_xscale;
 	}
-	else if (image_index >= 5) && (image_index <= 6){
+	else if (image_index >= 5) && (image_index <= 6) {
 		xspd = 4 * image_xscale;
 		screen_shake(4, 8);
 	}
