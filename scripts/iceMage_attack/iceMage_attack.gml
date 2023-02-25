@@ -9,7 +9,7 @@ function iceMage_attack(enter){
 		xspd = 0;
 		sprite_index = spr_iceMage_attack;
 		image_index = 0;
-		image_speed = 0.175;
+		image_speed = 0.25;
 		
 		if (obj_player.x < x){image_xscale = -1;}
 		else {image_xscale = 1;}

@@ -9,7 +9,7 @@ function fireMage_attack(enter){
 		xspd = 0;
 		sprite_index = spr_fireMage_attack;
 		image_index = 0;
-		image_speed = 0.1;
+		image_speed = 0.15;
 	}
 	
 	return fireMage_attack;
