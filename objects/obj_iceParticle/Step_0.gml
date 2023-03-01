@@ -6,7 +6,7 @@ else if (place_meeting(x, y, obj_player) && (dispersion == 0)){
 	
 	collision_rectangle_list(x-2, y-2, x+2, y+2, obj_player, false, true, _list, false);
 	
-	obj_player.coldness += 0.25;
+	obj_player.coldness += 0.5;
 	
 	dispersion = 200;
 	lifetime = -1;
