@@ -21,6 +21,13 @@ repeat(abs(yspd)){
 	else	{y+=sign(yspd);}
 }
 
-if (place_meeting(x, y, par_solid)){y-=1;}
+if (place_meeting (x, y, par_solid)){
+	var _p = 1;
+	while (place_meeting (x, y + _p, par_solid)) {
+		if (_p < 0) {_p = -_p + 1;}
+		else {_p = -_p;}
+	}
+	y += _p;
+}
 
 timers_decrement();
