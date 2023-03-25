@@ -18,3 +18,8 @@ if (fade > 0){
 draw_sprite_stretched(spr_hud_cadre, 0, 0, 0, display_get_width(), display_get_height());
 
 if (zoom > 0){zoom -= 0.05;}
+
+// Pause menu
+if (pause > 0) {
+	// Draw overlay
+}

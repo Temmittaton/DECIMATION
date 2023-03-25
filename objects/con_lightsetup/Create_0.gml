@@ -3,9 +3,14 @@ global.view_width = 1920/cameraSize;
 global.view_height = 1080/cameraSize;
 k = display_get_height() / 1080 * cameraSize;
 
+// Pause menu
+paused = false;
+pause = 0;
+
+// Light
 alarm[0] = 1;
 
-//Resize the application surface to be lower res (for pixel games + performance boost)
+//Resize the application surface to be lower res
 surface_resize(application_surface,global.view_width,global.view_height);
 display_set_gui_maximize();
 

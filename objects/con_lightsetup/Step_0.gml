@@ -1,3 +1,21 @@
+// Pause menu
+if (keyboard_check_pressed (vk_escape)) {
+	paused = !paused;
+	if (paused) {
+		instance_deactivate_all(true);
+		instance_activate_object(con_screenShake);
+	}
+	else {
+		instance_activate_all();
+	}
+}
+if (paused) && (pause < 1920) {
+	pause ++;
+}
+else if (!paused) && (pause > 0) {
+	pause --;
+}
+
 //Creates Quad with two triangles. Used to make the shadows. 
 //Z coordinate is used as a flag to determine if the vertex will be repositioned in the shader
 function Quad(_vb,_x1,_y1,_x2,_y2){
