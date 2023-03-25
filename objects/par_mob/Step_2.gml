@@ -1,5 +1,12 @@
 if (xspd != 0)	{image_xscale = sign(xspd);}
-if (place_meeting(x, y, par_solid))	{y--;}
+if (place_meeting (x, y, par_solid)){
+	var _p = 1;
+	while (place_meeting (x, y + _p, par_solid)) {
+		if (_p < 0) {_p = -_p + 1;}
+		else {_p = -_p;}
+	}
+	y += _p;
+}
 
 // Collisions horizontales
 repeat(floor(abs(xspd) + 1))	{
