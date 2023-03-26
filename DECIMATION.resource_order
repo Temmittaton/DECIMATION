@@ -319,6 +319,7 @@
     {"name":"spr_lancer_jump","order":3,"path":"sprites/spr_lancer_jump/spr_lancer_jump.yy",},
     {"name":"magsoldier_attack","order":4,"path":"scripts/magsoldier_attack/magsoldier_attack.yy",},
     {"name":"Lvl2_3","order":2,"path":"rooms/Lvl2_3/Lvl2_3.yy",},
+    {"name":"Lvl5_5","order":4,"path":"rooms/Lvl5_5/Lvl5_5.yy",},
     {"name":"tls_cave_normal","order":11,"path":"tilesets/tls_cave_normal/tls_cave_normal.yy",},
   ],
 }
