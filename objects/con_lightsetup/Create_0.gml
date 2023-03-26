@@ -3,7 +3,13 @@ global.view_width = 1920/cameraSize;
 global.view_height = 1080/cameraSize;
 k = display_get_height() / 1080 * cameraSize;
 
+window_set_cursor(cr_none);
+cursor_sprite = -1;
+
 // Pause menu
+SCREEN_WIDTH = display_get_width();
+SCREEN_HEIGHT = display_get_height();
+MAX_PAUSE = (SCREEN_WIDTH * 1080)/1920;
 paused = false;
 pause = 0;
 

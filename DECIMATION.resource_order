@@ -73,6 +73,7 @@
     {"name":"Projectiles","order":9,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Cendrier","order":3,"path":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"name":"Tile sets","order":1,"path":"folders/Tile sets.yy",},
+    {"name":"Pause menu","order":8,"path":"folders/Sprites/Menu/Pause menu.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tls_cave_normal","order":7,"path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},
@@ -202,6 +203,7 @@
     {"name":"spr_player_groundPound","order":6,"path":"sprites/spr_player_groundPound/spr_player_groundPound.yy",},
     {"name":"spr_lancer_chase","order":1,"path":"sprites/spr_lancer_chase/spr_lancer_chase.yy",},
     {"name":"obj_fireSoul","order":3,"path":"objects/obj_fireSoul/obj_fireSoul.yy",},
+    {"name":"spr_pauseMenu_curseur","order":1,"path":"sprites/spr_pauseMenu_curseur/spr_pauseMenu_curseur.yy",},
     {"name":"spr_menu_button_quit","order":2,"path":"sprites/spr_menu_button_quit/spr_menu_button_quit.yy",},
     {"name":"obj_magsoldier","order":4,"path":"objects/obj_magsoldier/obj_magsoldier.yy",},
     {"name":"tls_forest_ground","order":8,"path":"tilesets/tls_forest_ground/tls_forest_ground.yy",},

@@ -21,5 +21,5 @@ if (zoom > 0){zoom -= 0.05;}
 
 // Pause menu
 if (pause > 0) {
-	// Draw overlay
+	draw_sprite_ext(spr_pauseMenu_redwind, 0, SCREEN_WIDTH - pause, 0, SCREEN_WIDTH/1920, SCREEN_HEIGHT/1080, 0, c_white, 1);
 }

@@ -4,16 +4,18 @@ if (keyboard_check_pressed (vk_escape)) {
 	if (paused) {
 		instance_deactivate_all(true);
 		instance_activate_object(con_screenShake);
+		cursor_sprite = spr_pauseMenu_curseur;
 	}
 	else {
 		instance_activate_all();
+		cursor_sprite = -1;
 	}
 }
-if (paused) && (pause < 1920) {
-	pause ++;
+if (paused) && (pause < MAX_PAUSE) {
+	pause += 128;
 }
 else if (!paused) && (pause > 0) {
-	pause --;
+	pause -= 128;
 }
 
 //Creates Quad with two triangles. Used to make the shadows. 
