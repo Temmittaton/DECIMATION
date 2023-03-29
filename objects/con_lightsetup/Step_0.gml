@@ -1,14 +1,27 @@
+time += 0.01;
 // Pause menu
 if (keyboard_check_pressed (vk_escape)) {
 	paused = !paused;
 	if (paused) {
 		instance_deactivate_all(true);
-		instance_activate_object(con_screenShake);
 		cursor_sprite = spr_pauseMenu_curseur;
+		
+		button_create(obj_button_unpause, 0, SCREEN_HEIGHT - 256 * RATIO, RATIO);
+		button_create(obj_button_quitLevel, 0, SCREEN_HEIGHT - 512 * RATIO, RATIO);
+		button_create(obj_button_quitToMenu, 128 * RATIO, SCREEN_HEIGHT - 1024 * RATIO, RATIO);
+		
+		instance_activate_object(con_screenShake);
+		instance_activate_object(obj_button_quitToMenu);
+		instance_activate_object(obj_button_quitLevel);
+		instance_activate_object(obj_button_unpause);
 	}
 	else {
 		instance_activate_all();
 		cursor_sprite = -1;
+		
+		instance_destroy(obj_button_quitLevel);
+		instance_destroy(obj_button_quitToMenu);
+		instance_destroy(obj_button_unpause);
 	}
 }
 if (paused) && (pause < MAX_PAUSE) {

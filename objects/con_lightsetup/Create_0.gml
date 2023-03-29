@@ -9,9 +9,11 @@ cursor_sprite = -1;
 // Pause menu
 SCREEN_WIDTH = display_get_width();
 SCREEN_HEIGHT = display_get_height();
+RATIO = (SCREEN_HEIGHT / 1080);
 MAX_PAUSE = (SCREEN_WIDTH * 1080)/1920;
 paused = false;
 pause = 0;
+time = 0;
 
 // Light
 alarm[0] = 1;
