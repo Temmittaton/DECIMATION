@@ -6,6 +6,6 @@
   "isDnD": false,
   "parent": {
     "name": "Cendrier",
-    "path": "folders/Scripts/Mobs/Bosses/Cendrier.yy",
+    "path": "folders/Scripts/Bosses/Cendrier.yy",
   },
 }
