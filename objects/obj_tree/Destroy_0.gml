@@ -1,0 +1,1 @@
+con_bossEnd.bossBeaten = true;
