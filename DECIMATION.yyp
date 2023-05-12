@@ -92,6 +92,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cendrier","folderPath":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile sets","folderPath":"folders/Tile sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lvl7","folderPath":"folders/Pièces/Lvl7.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lvl6","folderPath":"folders/Pièces/Lvl6.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -371,6 +372,7 @@
     {"id":{"name":"con_screenShake","path":"objects/con_screenShake/con_screenShake.yy",},},
     {"id":{"name":"Lvl1_2","path":"rooms/Lvl1_2/Lvl1_2.yy",},},
     {"id":{"name":"obj_shuriken","path":"objects/obj_shuriken/obj_shuriken.yy",},},
+    {"id":{"name":"Lvl6","path":"rooms/Lvl6/Lvl6.yy",},},
     {"id":{"name":"spr_hud_mana","path":"sprites/spr_hud_mana/spr_hud_mana.yy",},},
     {"id":{"name":"Lvl4_2","path":"rooms/Lvl4_2/Lvl4_2.yy",},},
     {"id":{"name":"spr_cendrier_fireBall","path":"sprites/spr_cendrier_fireBall/spr_cendrier_fireBall.yy",},},
@@ -459,6 +461,7 @@
     {"roomId":{"name":"Lvl5_4","path":"rooms/Lvl5_4/Lvl5_4.yy",},},
     {"roomId":{"name":"Lvl5_5","path":"rooms/Lvl5_5/Lvl5_5.yy",},},
     {"roomId":{"name":"RoomTree","path":"rooms/RoomTree/RoomTree.yy",},},
+    {"roomId":{"name":"Lvl6","path":"rooms/Lvl6/Lvl6.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
