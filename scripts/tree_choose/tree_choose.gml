@@ -7,7 +7,7 @@ function tree_choose () {
 		obj_player.stateNext = player_idle;
 		return tree_walk;
 	}
-	else if (point_distance(x, y, obj_player.x, obj_player.y) < 36) {
+	else if (state == tree_walk && point_distance(x, y, obj_player.x, obj_player.y) < 36) {
 		return tree_attack;
 	}
 	else if (state == tree_attack && animation_end()) {
