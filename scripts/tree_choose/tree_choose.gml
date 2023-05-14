@@ -13,6 +13,12 @@ function tree_choose () {
 	else if (state == tree_attack && animation_end()) {
 		return tree_walk;
 	}
+	else if (state == tree_walk && animation_end() && (point_distance(x, y, obj_player.x, obj_player.y) > 64)) {
+		return tree_shoot;
+	}
+	else if (state == tree_shoot && animation_end()) {
+		return tree_walk;
+	}
 	else if (state == tree_walk && animation_end()) {
 		chase(obj_player);
 	}

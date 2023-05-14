@@ -12,6 +12,9 @@ function tree_attack(enter){
 			obj_player.dmg = id;
 		}
 	}
+	if (image_index == 4) {
+		screen_shake (2, 8);
+	}
 	
 	return tree_attack;
 }
