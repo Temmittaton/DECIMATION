@@ -20,9 +20,12 @@ else if (udmg) {
 	obj_player.yspd = -4;
 	obj_player.xspd -= image_xscale;
 	repeat(9){
-		instance_create_layer(obj_player.x, y-8, "Items", obj_sparkle);
+		instance_create_layer(obj_player.x, y-32, "Items", obj_sparkle);
 	}
 	screen_shake(10, 8);
+	if (state == tree_walk) {
+		stateNext = tree_attack;
+	}
 	
 	udmg = false;
 }
