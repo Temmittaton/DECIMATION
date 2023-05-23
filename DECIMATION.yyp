@@ -265,6 +265,7 @@
     {"id":{"name":"obj_chenille_armored_cadaver","path":"objects/obj_chenille_armored_cadaver/obj_chenille_armored_cadaver.yy",},},
     {"id":{"name":"obj_button_azerty","path":"objects/obj_button_azerty/obj_button_azerty.yy",},},
     {"id":{"name":"spr_menu_background","path":"sprites/spr_menu_background/spr_menu_background.yy",},},
+    {"id":{"name":"Lvl6_3","path":"rooms/Lvl6_3/Lvl6_3.yy",},},
     {"id":{"name":"Lvl5_4","path":"rooms/Lvl5_4/Lvl5_4.yy",},},
     {"id":{"name":"spr_player_gloryKill2","path":"sprites/spr_player_gloryKill2/spr_player_gloryKill2.yy",},},
     {"id":{"name":"player_groundPound","path":"scripts/player_groundPound/player_groundPound.yy",},},
@@ -469,6 +470,7 @@
     {"roomId":{"name":"Lvl6","path":"rooms/Lvl6/Lvl6.yy",},},
     {"roomId":{"name":"Lvl3_2","path":"rooms/Lvl3_2/Lvl3_2.yy",},},
     {"roomId":{"name":"Lvl6_2","path":"rooms/Lvl6_2/Lvl6_2.yy",},},
+    {"roomId":{"name":"Lvl6_3","path":"rooms/Lvl6_3/Lvl6_3.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
