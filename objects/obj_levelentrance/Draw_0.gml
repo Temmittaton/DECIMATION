@@ -1,7 +1,7 @@
 var _px = obj_player.x;
 var _py = obj_player.y;
 
-if (_px > x) && (_px < x+sprite_width){
+if (place_meeting(x, y, obj_player)){
 	image_blend = make_colour_rgb(255, 200, 200);
 	
 	draw_sprite_ext(spr_lvl_poppup, level-1, _px, _py-8, 1, 1, 0, c_white, alpha);
