@@ -6,30 +6,31 @@ if (keyboard_check_pressed (vk_escape)) {
 		instance_deactivate_all(true);
 		cursor_sprite = spr_pauseMenu_curseur;
 		
-		button_create(obj_button_unpause, 0, SCREEN_HEIGHT - 384 * RATIO, RATIO);
-		button_create(obj_button_quitLevel, 0, SCREEN_HEIGHT - 640 * RATIO, RATIO);
-		button_create(obj_button_quitToMenu, 64 * RATIO, SCREEN_HEIGHT - 1088 * RATIO, RATIO);
+		unpauseButton = button_create(obj_button_unpause, 0, SCREEN_HEIGHT - 384 * RATIO, RATIO);
+		levelButton = button_create(obj_button_quitLevel, 0, SCREEN_HEIGHT - 640 * RATIO, RATIO);
+		menuButton = button_create(obj_button_quitToMenu, 64 * RATIO, SCREEN_HEIGHT - 1088 * RATIO, RATIO);
 		
 		instance_activate_object(con_screenShake);
 		instance_activate_object(obj_button_quitToMenu);
 		instance_activate_object(obj_button_quitLevel);
 		instance_activate_object(obj_button_unpause);
 	}
-	else {
-		instance_activate_all();
-		cursor_sprite = -1;
-		
-		instance_destroy(obj_button_quitLevel);
-		instance_destroy(obj_button_quitToMenu);
-		instance_destroy(obj_button_unpause);
-		time = 0;
-	}
 }
 if (paused) && (pause < MAX_PAUSE) {
-	pause += 128;
+	pause += 130;
 }
 else if (!paused) && (pause > 0) {
-	pause -= 128;
+	pause -= 129;
+}
+else if (!paused) && (pause < 0) {
+	instance_activate_all();
+	cursor_sprite = -1;
+	
+	instance_destroy(obj_button_quitLevel);
+	instance_destroy(obj_button_quitToMenu);
+	instance_destroy(obj_button_unpause);
+	time = 0;
+	pause = 0;
 }
 
 //Creates Quad with two triangles. Used to make the shadows. 

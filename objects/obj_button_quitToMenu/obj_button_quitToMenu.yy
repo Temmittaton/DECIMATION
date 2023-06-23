@@ -14,10 +14,7 @@
     "name": "Button",
     "path": "folders/Objets/Button.yy",
   },
-  "parentObjectId": {
-    "name": "par_button",
-    "path": "objects/par_button/par_button.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -31,7 +28,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"target","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"Menu","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "spr_pauseMenu_menu",

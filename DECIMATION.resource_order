@@ -111,6 +111,7 @@
     {"name":"par_ennemy","order":1,"path":"objects/par_ennemy/par_ennemy.yy",},
     {"name":"obj_button_quitLevel","order":10,"path":"objects/obj_button_quitLevel/obj_button_quitLevel.yy",},
     {"name":"Lvl3_3","order":2,"path":"rooms/Lvl3_3/Lvl3_3.yy",},
+    {"name":"DrawButton","order":9,"path":"scripts/DrawButton/DrawButton.yy",},
     {"name":"mob_stun","order":2,"path":"scripts/mob_stun/mob_stun.yy",},
     {"name":"spr_cendrier_cinematic","order":8,"path":"sprites/spr_cendrier_cinematic/spr_cendrier_cinematic.yy",},
     {"name":"spr_chenille_body_armored_cadaver","order":1,"path":"sprites/spr_chenille_body_armored_cadaver/spr_chenille_body_armored_cadaver.yy",},

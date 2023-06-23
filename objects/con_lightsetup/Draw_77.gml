@@ -26,9 +26,7 @@ if (pause > 0) {
 	draw_sprite_ext(spr_pauseMenu_fire, 0, pause * RATIO + 32, SCREEN_HEIGHT, RATIO, RATIO + sin(time)/64, 0, c_white, 0.75);
 	draw_sprite_ext(spr_pauseMenu_redwind, 0, SCREEN_WIDTH - pause, 0, RATIO, RATIO, 0, c_white, 1);
 	
-	if (paused) {
-		draw_sprite_ext(spr_pauseMenu_quitLevel, 0, obj_button_quitLevel.x, obj_button_quitLevel.y, obj_button_quitLevel.image_xscale, obj_button_quitLevel.image_yscale, 0, c_white, obj_button_quitLevel.image_alpha);
-		draw_sprite_ext(spr_pauseMenu_menu, 0, obj_button_quitToMenu.x, obj_button_quitToMenu.y, obj_button_quitToMenu.image_xscale, obj_button_quitToMenu.image_yscale, 0, c_white, obj_button_quitToMenu.image_alpha);
-		draw_sprite_ext(spr_pauseMenu_play, 0, obj_button_unpause.x, obj_button_unpause.y, obj_button_unpause.image_xscale, obj_button_unpause.image_yscale, 0, c_white, obj_button_unpause.image_alpha);
-	}
+	with (menuButton) {DrawButton ();}
+	with (levelButton) {DrawButton ();}
+	with (unpauseButton) {DrawButton ();}
 }
