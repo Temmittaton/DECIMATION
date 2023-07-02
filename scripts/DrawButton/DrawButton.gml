@@ -10,7 +10,16 @@ function DrawButton () {
 				con_lightSetup.paused = false;
 				return noone;
 			}
-			room_goto (target);
+			else if (object_get_name(id.object_index) == "obj_button_quitToMenu") {
+				application_surface_draw_enable(true);
+				surface_resize(application_surface,SCREEN_WIDTH,SCREEN_HEIGHT);
+				display_set_gui_maximize();
+				room_goto (Menu);
+				return noone;
+			}
+			cursor_sprite = -1;
+			room_goto (LevelSelection);
+			return noone;
 		}
 	}
 	else {var alpha = 1;}

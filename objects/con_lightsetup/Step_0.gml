@@ -33,6 +33,13 @@ else if (!paused) && (pause < 0) {
 	pause = 0;
 }
 
+if (paused && (pause > MAX_PAUSE)) {
+	pause = MAX_PAUSE;
+}
+if (!paused && (pause < -1)) {
+	pause = -1;
+}
+
 //Creates Quad with two triangles. Used to make the shadows. 
 //Z coordinate is used as a flag to determine if the vertex will be repositioned in the shader
 function Quad(_vb,_x1,_y1,_x2,_y2){
