@@ -307,6 +307,7 @@
     {"name":"joe_mine","order":3,"path":"scripts/joe_mine/joe_mine.yy",},
     {"name":"player_gloryKill2","order":11,"path":"scripts/player_gloryKill2/player_gloryKill2.yy",},
     {"name":"con_screenShake","order":2,"path":"objects/con_screenShake/con_screenShake.yy",},
+    {"name":"Lvl7_2","order":1,"path":"rooms/Lvl7_2/Lvl7_2.yy",},
     {"name":"Lvl1_2","order":1,"path":"rooms/Lvl1_2/Lvl1_2.yy",},
     {"name":"obj_shuriken","order":4,"path":"objects/obj_shuriken/obj_shuriken.yy",},
     {"name":"spr_hud_mana","order":4,"path":"sprites/spr_hud_mana/spr_hud_mana.yy",},
