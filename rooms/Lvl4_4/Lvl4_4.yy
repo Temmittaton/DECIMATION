@@ -34,6 +34,10 @@
     {"name":"inst_526610CB","path":"rooms/Lvl4_4/Lvl4_4.yy",},
     {"name":"inst_79CFC51B","path":"rooms/Lvl4_4/Lvl4_4.yy",},
     {"name":"inst_3BF3B600","path":"rooms/Lvl4_4/Lvl4_4.yy",},
+    {"name":"inst_7F423788","path":"rooms/Lvl4_4/Lvl4_4.yy",},
+    {"name":"inst_51CE3AD9","path":"rooms/Lvl4_4/Lvl4_4.yy",},
+    {"name":"inst_526610CB","path":"rooms/Lvl4_4/Lvl4_4.yy",},
+    {"name":"inst_79CFC51B","path":"rooms/Lvl4_4/Lvl4_4.yy",},
   ],
   "isDnd": false,
   "layers": [
