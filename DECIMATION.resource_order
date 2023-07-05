@@ -81,6 +81,7 @@
     {"name":"Projectiles","order":9,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Cendrier","order":3,"path":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"name":"Tile sets","order":1,"path":"folders/Tile sets.yy",},
+    {"name":"Barrel","order":5,"path":"folders/Sprites/Items/Barrel.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tls_cave_normal","order":7,"path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},
@@ -122,6 +123,7 @@
     {"name":"spr_scarab_upsideDown","order":2,"path":"sprites/spr_scarab_upsideDown/spr_scarab_upsideDown.yy",},
     {"name":"obj_player","order":6,"path":"objects/obj_player/obj_player.yy",},
     {"name":"scarab_hurt","order":2,"path":"scripts/scarab_hurt/scarab_hurt.yy",},
+    {"name":"obj_barrel","order":4,"path":"objects/obj_barrel/obj_barrel.yy",},
     {"name":"spr_options_button_clickable","order":4,"path":"sprites/spr_options_button_clickable/spr_options_button_clickable.yy",},
     {"name":"obj_fireMage","order":1,"path":"objects/obj_fireMage/obj_fireMage.yy",},
     {"name":"spr_player_knockback","order":8,"path":"sprites/spr_player_knockback/spr_player_knockback.yy",},

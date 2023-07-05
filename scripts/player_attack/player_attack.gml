@@ -23,7 +23,7 @@ function player_attack(enter) {
 		}
 	}
 	else {
-		var _num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-4, obj_stone, false, true, _list, false);
+		var _num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-8, obj_stone, false, true, _list, false);
 		
 		if (_num != 0){
 			for (i=0; i<_num; i++){
@@ -31,7 +31,7 @@ function player_attack(enter) {
 			}
 		}
 		
-		var _num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-4, par_ennemy, false, true, _list, false);
+		_num = collision_rectangle_list(x+4*image_xscale, y+4, x+24*image_xscale, y-4, par_ennemy, false, true, _list, false);
 		
 		if (_num != 0){
 			for (i=0; i<_num; i++){
