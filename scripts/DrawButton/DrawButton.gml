@@ -12,7 +12,7 @@ function DrawButton () {
 			}
 			else if (object_get_name(id.object_index) == "obj_button_quitToMenu") {
 				application_surface_draw_enable(true);
-				surface_resize(application_surface,SCREEN_WIDTH,SCREEN_HEIGHT);
+				surface_resize(application_surface, con_lightSetup.SCREEN_WIDTH, con_lightSetup.SCREEN_HEIGHT);
 				display_set_gui_maximize();
 				room_goto (Menu);
 				return noone;
