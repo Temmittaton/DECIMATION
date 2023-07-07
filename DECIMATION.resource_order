@@ -326,7 +326,6 @@
     {"name":"spr_player_fireSpell","order":12,"path":"sprites/spr_player_fireSpell/spr_player_fireSpell.yy",},
     {"name":"player_spawn","order":6,"path":"scripts/player_spawn/player_spawn.yy",},
     {"name":"spr_lancer_attack","order":2,"path":"sprites/spr_lancer_attack/spr_lancer_attack.yy",},
-    {"name":"RoomTree","order":10,"path":"rooms/RoomTree/RoomTree.yy",},
     {"name":"tls_forest","order":3,"path":"tilesets/tls_forest/tls_forest.yy",},
     {"name":"spr_soldier_jump","order":4,"path":"sprites/spr_soldier_jump/spr_soldier_jump.yy",},
     {"name":"obj_slope","order":2,"path":"objects/obj_slope/obj_slope.yy",},

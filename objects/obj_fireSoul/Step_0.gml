@@ -8,3 +8,4 @@ if (place_meeting(x, y, obj_player)){
 
 u += 0.05;
 y = _y + sin(u) * 2;
+size += sin(u) * 64;

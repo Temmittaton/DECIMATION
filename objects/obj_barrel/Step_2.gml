@@ -1,3 +1,3 @@
-if (dmg != noone) {
+if (dmg) {
 	instance_destroy ();
 }
