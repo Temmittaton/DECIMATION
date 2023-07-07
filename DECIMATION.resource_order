@@ -239,6 +239,7 @@
     {"name":"spr_fireMage_glory","order":4,"path":"sprites/spr_fireMage_glory/spr_fireMage_glory.yy",},
     {"name":"con_checkpoint","order":3,"path":"objects/con_checkpoint/con_checkpoint.yy",},
     {"name":"spr_options_background","order":5,"path":"sprites/spr_options_background/spr_options_background.yy",},
+    {"name":"Lvl7_3","order":2,"path":"rooms/Lvl7_3/Lvl7_3.yy",},
     {"name":"spr_fireMage_idle","order":1,"path":"sprites/spr_fireMage_idle/spr_fireMage_idle.yy",},
     {"name":"par_solid","order":3,"path":"objects/par_solid/par_solid.yy",},
     {"name":"spr_cendrier_superAttack","order":5,"path":"sprites/spr_cendrier_superAttack/spr_cendrier_superAttack.yy",},
