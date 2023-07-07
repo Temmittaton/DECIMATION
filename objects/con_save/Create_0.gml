@@ -1,5 +1,5 @@
 ini_open("save.ini");
-if !file_exists("save.ini"){
+if (!file_exists("save.ini")) {
     ini_write_real("Controls", "keyboardType", 0);
     ini_write_string("Controls", "left", "Q");
     ini_write_string("Controls", "right", "D");
@@ -19,7 +19,7 @@ if !file_exists("save.ini"){
 global.clearedLevel = ini_read_real("Save", "clearedLevel", 0);
 global.currentLevel = 0;
 
-if instance_exists(obj_player){
+if instance_exists(obj_player) {
     obj_player.leftKey = ini_read_real("Controls", "left", "Error");
     obj_player.interactKey = ini_read_real("Controls", "interact", "Error");
     obj_player.dashKey = ini_read_real("Controls", "dash", "Error");
