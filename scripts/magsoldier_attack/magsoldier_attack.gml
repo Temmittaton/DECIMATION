@@ -10,6 +10,7 @@ function magsoldier_attack(enter){
 		sprite_index = spr_magsoldier_attack;
 		image_index = 0;
 		image_speed = 0.15;
+		audio_play_sound(sfx_magAttack, 1, false);
 	}
 	returnedState = magsoldier_attack;
 	
