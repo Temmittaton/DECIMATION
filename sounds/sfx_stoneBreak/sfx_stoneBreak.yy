@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_hit",
+  "name": "sfx_stoneBreak",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.567234,
+  "duration": 1.010499,
   "parent": {
-    "name": "MagSoldier",
-    "path": "folders/Sons/Sound Effects/MagSoldier.yy",
+    "name": "Sound Effects",
+    "path": "folders/Sons/Sound Effects.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_hit.wav",
-  "type": 0,
-  "volume": 0.4,
+  "soundFile": "sfx_stoneBreak.ogg",
+  "type": 2,
+  "volume": 0.6,
 }

@@ -4,3 +4,4 @@ for (var i=0;i<32;i++){
 	_o.image_xscale = .5;
 	_o.image_yscale = .5;
 }
+audio_play_sound (sfx_woodBreak, 1, false);

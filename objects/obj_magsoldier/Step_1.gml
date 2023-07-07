@@ -69,6 +69,7 @@ else if (udmg){
 		instance_create_layer(obj_player.x, y-8, "Items", obj_sparkle);
 	}
 	
+	audio_play_sound (sfx_hit, .9, false);
 	screen_shake(5, 8);
 	udmg = false;
 }

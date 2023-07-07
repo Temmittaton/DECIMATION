@@ -1,10 +1,10 @@
-function magsoldier_block(enter){
-	if (enter){
+function magsoldier_block (enter) {
+	if (enter) {
 		xspd = 0;
-		if (obj_player.x < x){
+		if (obj_player.x < x) {
 			image_xscale = -1;
 		}
-		else{
+		else {
 			image_xscale = 1;
 		}
 	}
