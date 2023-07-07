@@ -1,5 +1,5 @@
-var _px = obj_player.x;
-var _py = obj_player.y;
+_px = obj_player.x;
+_py = obj_player.y;
 
 if (place_meeting(x, y, obj_player)){
 	image_blend = make_colour_rgb(255, 200, 200);
@@ -8,7 +8,7 @@ if (place_meeting(x, y, obj_player)){
 	
 	if (global.clearedLevel+1<level){
 		draw_sprite_ext(spr_lvl_lock, 0, _px, _py-8, 1, 1, 0, c_white, alpha-0.2);
-		if (keyboard_check_pressed(vk_enter)){
+		if (keyboard_check_pressed(vk_enter)) {
 			screen_shake(10, 4);
 			audio_play_sound(sfx_error, 1, false);
 		}
