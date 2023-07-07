@@ -10,9 +10,7 @@ function magsoldier_attack(enter){
 		sprite_index = spr_magsoldier_attack;
 		image_index = 0;
 		image_speed = 0.15;
-		audio_play_sound(sfx_magAttack, 1, false);
 	}
-	returnedState = magsoldier_attack;
 	
 	// Action
 	if (image_index>3){
@@ -23,9 +21,13 @@ function magsoldier_attack(enter){
 				variable_instance_set(_list[| i], "dmg", id);
 			}
 		}
+		if (image_index > 3 && image_index < 3.16) {
+			audio_play_sound(sfx_magAttack, 1, false);
+		}
 	}
+	
 	
 	yspd+=grav;
 	
-	return returnedState;
+	return magsoldier_attack;
 }

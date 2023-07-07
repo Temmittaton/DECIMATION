@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "mus_foresttense.mp3",
   "type": 1,
-  "volume": 0.3,
+  "volume": 0.0,
 }

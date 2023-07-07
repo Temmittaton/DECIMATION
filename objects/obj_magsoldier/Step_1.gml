@@ -1,10 +1,13 @@
 // Damage
 if (dmg){
-	if (image_xscale == 1){
-		if (obj_player.x > x){
+	if (image_xscale == 1) {
+		if (obj_player.x > x) {
 			stateNext = magsoldier_block;
 			enter = true;
 			screen_shake(5, 4);
+			if (obj_player.image_index < 0.1) {
+				audio_play_sound(sfx_magBlock, 1, false);
+			}
 		}
 		else {
 			screen_shake(5, 8);
@@ -12,7 +15,7 @@ if (dmg){
 		}
 	}
 	else {
-		if (obj_player.x > x){
+		if (obj_player.x > x) {
 			screen_shake(5, 8);
 			instance_destroy();
 		}
@@ -20,18 +23,21 @@ if (dmg){
 			stateNext = magsoldier_block;
 			enter = true;
 			screen_shake(5, 4);
+			if (obj_player.image_index < 0.1) {
+				audio_play_sound(sfx_magBlock, 1, false);
+			}
 		}
 	}
 	dmg = false;
 }
-else if (pdmg){
-	if (image_xscale == 1){
+else if (pdmg) {
+	if (image_xscale == 1) {
 		if (obj_player.x > x){
 			stateNext = magsoldier_block;
 			screen_shake(5, 8);
 		}
 		else {
-			if (invincibility == 0){
+			if (invincibility == 0) {
 				hp--;
 				invincibility = 20;
 				repeat(9){
@@ -43,8 +49,8 @@ else if (pdmg){
 		}
 	}
 	else {
-		if (obj_player.x > x){
-			if (invincibility == 0){
+		if (obj_player.x > x) {
+			if (invincibility == 0) {
 				hp--;
 				invincibility = 20;
 				repeat(9){
@@ -61,7 +67,7 @@ else if (pdmg){
 	}
 	pdmg = false;
 }
-else if (udmg){
+else if (udmg) {
 	stateNext = magsoldier_block;
 	obj_player.yspd = -4;
 	obj_player.xspd -= image_xscale;
@@ -74,7 +80,7 @@ else if (udmg){
 	udmg = false;
 }
 
-if (hp < 1) or (y>=room_height){
+if (hp < 1) or (y>=room_height) {
 	instance_destroy();
 }
 if (invincibility > 0){invincibility--}

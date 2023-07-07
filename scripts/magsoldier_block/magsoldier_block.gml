@@ -7,8 +7,10 @@ function magsoldier_block (enter) {
 		else {
 			image_xscale = 1;
 		}
+		if (obj_player.state != player_groundPound) {
+			audio_play_sound(sfx_magBlock, 1, false);
+		}
 	}
-	returnedState = magsoldier_block;
 	
 	// Action
 	yspd+=grav;
@@ -17,5 +19,5 @@ function magsoldier_block (enter) {
 	sprite_index = spr_magsoldier_stun;
 	image_speed = 0.1;
 	
-	return returnedState;
+	return magsoldier_block;
 }

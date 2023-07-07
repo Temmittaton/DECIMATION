@@ -1,5 +1,5 @@
 // Next state choose
-if (magsoldier_choose()){
+if (magsoldier_choose()) {
 	stateNext = magsoldier_choose();
 }
 
@@ -7,6 +7,9 @@ if (magsoldier_choose()){
 if (state != stateNext)	{
 	state = stateNext;
 	enter = true;
+}
+else {
+	enter = false;
 }
 
 // Update state

@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.018776,
+  "duration": 0.446621,
   "parent": {
     "name": "MagSoldier",
     "path": "folders/Sons/Sound Effects/MagSoldier.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_magAttack.mp3",
+  "soundFile": "sfx_magAttack.ogg",
   "type": 0,
-  "volume": 0.5,
+  "volume": 0.6,
 }

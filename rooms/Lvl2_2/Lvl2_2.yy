@@ -67,7 +67,6 @@
     {"name":"inst_5D6588F0","path":"rooms/Lvl2_2/Lvl2_2.yy",},
     {"name":"inst_74EF73A1","path":"rooms/Lvl2_2/Lvl2_2.yy",},
     {"name":"inst_1E3EDDF5","path":"rooms/Lvl2_2/Lvl2_2.yy",},
-    {"name":"inst_5DED8C7B","path":"rooms/Lvl2_2/Lvl2_2.yy",},
     {"name":"inst_5ED2467D","path":"rooms/Lvl2_2/Lvl2_2.yy",},
     {"name":"inst_373FAFF8","path":"rooms/Lvl2_2/Lvl2_2.yy",},
     {"name":"inst_1DCF274F","path":"rooms/Lvl2_2/Lvl2_2.yy",},
@@ -107,7 +106,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26CDD326_3_1_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"propertyId":{"name":"target","path":"objects/con_roomEnd/con_roomEnd.yy",},"value":"Lvl2_3",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2096.0,"y":-16.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5DED8C7B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2432.0,"y":208.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5B3C8A74","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_checkpoint","path":"objects/con_checkpoint/con_checkpoint.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1712.0,"y":112.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"GroundTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":263,"TileCompressedData":[
