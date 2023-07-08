@@ -15,12 +15,12 @@ function lancer_attack(enter){
 	
 	// Action
 	if (image_index>3){
-		var _list = ds_list_create();
-		var _num = collision_rectangle_list(x+8*image_xscale, y+4, x+20*image_xscale, y+7, obj_player, false, true, _list, false);
-		if (_num != 0){
-			for (i=0; i<_num; i++){
-				variable_instance_set(_list[| i], "dmg", id);
-			}
+		if (image_index < 3.16 && image_index > 3) {
+			audio_play_sound (sfx_magAttack, .5, false, .3);
+		}
+		if (collision_rectangle(x+8*image_xscale, y+4, x+20*image_xscale, y+7, obj_player, false, true)) {
+			obj_player.dmg = id;
+			audio_play_sound (sfx_soldierAttack, .5, false);
 		}
 	}
 	

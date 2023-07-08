@@ -32,7 +32,7 @@ if (dmg){
 }
 else if (pdmg) {
 	if (image_xscale == 1) {
-		if (obj_player.x > x){
+		if (obj_player.x > x) {
 			stateNext = magsoldier_block;
 			screen_shake(5, 8);
 		}
