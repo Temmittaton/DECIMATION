@@ -4,11 +4,13 @@
 if (keyboard_check_pressed(vk_tab) && (gotPickaxe)){
 	selectedWeapon++;
 	if (selectedWeapon == 2){selectedWeapon = 0}
+	audio_play_sound(sfx_swapWeapons, .6, false);
 }
 // Selected Spell
 if (keyboard_check_pressed(vk_alt) && (gotFire)){
 	selectedSpell++;
 	if (selectedSpell == 2){selectedSpell = 0}
+	audio_play_sound(sfx_swapSpells, .6, false);
 }
 
 // Coldness

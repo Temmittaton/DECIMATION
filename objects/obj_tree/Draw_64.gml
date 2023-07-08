@@ -1,1 +1,1 @@
-bossBar(1, hp, 120, c_red, 4);
+bossBar(1, hp, 16, c_red, 4);

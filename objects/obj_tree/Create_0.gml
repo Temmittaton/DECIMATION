@@ -2,7 +2,7 @@ enter = false;
 state = noone;
 stateNext = tree_cinematic;
 
-hp = 120;
+hp = 16;
 walkspd = 1;
 xspd = -1;
 yspd = 0;

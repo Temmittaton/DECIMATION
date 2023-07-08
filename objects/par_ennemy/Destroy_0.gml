@@ -8,3 +8,4 @@ if (udmg){
 		instance_create_layer(x, y, "Items", obj_sparkle);
 	}
 }
+audio_play_sound (sfx_soldierDead, .4, false);
