@@ -32,7 +32,7 @@
   ],
   "parent": {
     "name": "Menu",
-    "path": "folders/Pièces/Lvl9/Menu.yy",
+    "path": "folders/Pièces/Menu.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
