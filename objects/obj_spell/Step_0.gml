@@ -10,5 +10,6 @@ else if (place_meeting(x, y, par_ennemy)){
 		}
 	}
 	
+	audio_play_sound (sfx_spell_explodes, .8, false);
 	instance_destroy();
 }
