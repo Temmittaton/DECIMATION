@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_soldierAttack",
+  "name": "sfx_spell_explodes",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.889478,
+  "duration": 0.835917,
   "parent": {
-    "name": "Soldier",
-    "path": "folders/Sons/Sound Effects/Soldier.yy",
+    "name": "Redwind",
+    "path": "folders/Sons/Sound Effects/Redwind.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_soldierAttack.ogg",
+  "soundFile": "sfx_spell_explodes.ogg",
   "type": 0,
-  "volume": 0.2,
+  "volume": 0.6,
 }
