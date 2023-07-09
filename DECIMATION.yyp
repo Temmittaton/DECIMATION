@@ -254,6 +254,7 @@
     {"id":{"name":"spr_tls_stalactites1","path":"sprites/spr_tls_stalactites1/spr_tls_stalactites1.yy",},},
     {"id":{"name":"tls_stalactites2","path":"tilesets/tls_stalactites2/tls_stalactites2.yy",},},
     {"id":{"name":"chenille_choose","path":"scripts/chenille_choose/chenille_choose.yy",},},
+    {"id":{"name":"Lvl8","path":"rooms/Lvl8/Lvl8.yy",},},
     {"id":{"name":"joe_flee","path":"scripts/joe_flee/joe_flee.yy",},},
     {"id":{"name":"ennemy_damage_sfx","path":"scripts/ennemy_damage_sfx/ennemy_damage_sfx.yy",},},
     {"id":{"name":"joe_choose","path":"scripts/joe_choose/joe_choose.yy",},},
@@ -510,6 +511,7 @@
     {"roomId":{"name":"Lvl9","path":"rooms/Lvl9/Lvl9.yy",},},
     {"roomId":{"name":"Lvl7_3","path":"rooms/Lvl7_3/Lvl7_3.yy",},},
     {"roomId":{"name":"Lvl9_2","path":"rooms/Lvl9_2/Lvl9_2.yy",},},
+    {"roomId":{"name":"Lvl8","path":"rooms/Lvl8/Lvl8.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
