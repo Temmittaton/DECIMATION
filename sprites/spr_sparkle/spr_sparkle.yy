@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sparkles",
-    "path": "folders/Sprites/Items/Sparkles.yy",
+    "name": "Particles",
+    "path": "folders/Sprites/Items/Particles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

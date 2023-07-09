@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Blood",
-    "path": "folders/Sprites/Items/Blood.yy",
+    "name": "Particles",
+    "path": "folders/Sprites/Items/Particles.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
