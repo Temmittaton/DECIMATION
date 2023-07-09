@@ -1,4 +1,5 @@
 if (place_meeting(x, y, par_solid)){
+	instance_create_layer (x, y, "Projectiles", obj_spell_hit);
 	instance_destroy();
 }
 else if (place_meeting(x, y, par_ennemy)){
@@ -11,5 +12,6 @@ else if (place_meeting(x, y, par_ennemy)){
 	}
 	
 	audio_play_sound (sfx_spell_explodes, .8, false);
+	instance_create_layer (x, y, "Projectiles", obj_spell_hit);
 	instance_destroy();
 }
