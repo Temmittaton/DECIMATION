@@ -56,8 +56,9 @@
     {"name":"HUD","order":4,"path":"folders/Sprites/HUD.yy",},
     {"name":"Items","order":5,"path":"folders/Sprites/Items.yy",},
     {"name":"Barrel","order":5,"path":"folders/Sprites/Items/Barrel.yy",},
-    {"name":"Pickaxe","order":3,"path":"folders/Sprites/Items/Pickaxe.yy",},
     {"name":"Particles","order":2,"path":"folders/Sprites/Items/Particles.yy",},
+    {"name":"Pickaxe","order":3,"path":"folders/Sprites/Items/Pickaxe.yy",},
+    {"name":"Racines","order":6,"path":"folders/Sprites/Items/Racines.yy",},
     {"name":"Menu","order":7,"path":"folders/Sprites/Menu.yy",},
     {"name":"Buttons","order":6,"path":"folders/Sprites/Menu/Buttons.yy",},
     {"name":"Pause menu","order":8,"path":"folders/Sprites/Menu/Pause menu.yy",},
@@ -81,7 +82,6 @@
     {"name":"Projectiles","order":9,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Cendrier","order":3,"path":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"name":"Tile sets","order":1,"path":"folders/Tile sets.yy",},
-    {"name":"Racines","order":6,"path":"folders/Sprites/Items/Racines.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tls_cave_normal","order":7,"path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},
