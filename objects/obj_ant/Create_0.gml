@@ -1,6 +1,6 @@
 enter = false;
 state = noone;
-stateNext = mob_flee;
+stateNext = ant_walk;
 walkspd = 1;
 xspd = 0;
 yspd = 0;
