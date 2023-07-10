@@ -213,6 +213,7 @@
     {"id":{"name":"spr_slope","path":"sprites/spr_slope/spr_slope.yy",},},
     {"id":{"name":"sfx_magBlock","path":"sounds/sfx_magBlock/sfx_magBlock.yy",},},
     {"id":{"name":"player_fireSpell","path":"scripts/player_fireSpell/player_fireSpell.yy",},},
+    {"id":{"name":"obj_racine","path":"objects/obj_racine/obj_racine.yy",},},
     {"id":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},},

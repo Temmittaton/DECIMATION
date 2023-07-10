@@ -2,7 +2,7 @@ function tree_attack(enter){
 	if (enter) {
 		sprite_index = spr_tree_attack;
 		image_index = 1;
-		image_speed = 0.25;
+		image_speed = 0.15;
 		chase(obj_player);
 		xspd *= 16;
 	}
