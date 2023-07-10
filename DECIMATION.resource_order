@@ -168,6 +168,7 @@
     {"name":"spr_slope","order":1,"path":"sprites/spr_slope/spr_slope.yy",},
     {"name":"sfx_magBlock","order":1,"path":"sounds/sfx_magBlock/sfx_magBlock.yy",},
     {"name":"player_fireSpell","order":9,"path":"scripts/player_fireSpell/player_fireSpell.yy",},
+    {"name":"obj_racine","order":5,"path":"objects/obj_racine/obj_racine.yy",},
     {"name":"obj_stone","order":6,"path":"objects/obj_stone/obj_stone.yy",},
     {"name":"Menu","order":2,"path":"rooms/Menu/Menu.yy",},
     {"name":"spr_cendrier_dash","order":3,"path":"sprites/spr_cendrier_dash/spr_cendrier_dash.yy",},

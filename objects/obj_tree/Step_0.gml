@@ -12,3 +12,6 @@ if (state != stateNext)	{
 // Update state
 stateNext = state(enter);
 enter = false;
+
+yspd += grav;
+hp = min (hp, 16);
