@@ -164,6 +164,9 @@
     {"name":"inst_653A5D9D","path":"rooms/Lvl8_3/Lvl8_3.yy",},
     {"name":"inst_46B34DD","path":"rooms/Lvl8_3/Lvl8_3.yy",},
     {"name":"inst_2289E561","path":"rooms/Lvl8_3/Lvl8_3.yy",},
+    {"name":"inst_653A5D9D","path":"rooms/Lvl8_3/Lvl8_3.yy",},
+    {"name":"inst_46B34DD","path":"rooms/Lvl8_3/Lvl8_3.yy",},
+    {"name":"inst_2289E561","path":"rooms/Lvl8_3/Lvl8_3.yy",},
   ],
   "isDnd": false,
   "layers": [

@@ -12,8 +12,21 @@ function tree_attack(enter){
 			obj_player.dmg = id;
 		}
 	}
-	if (image_index == 4) {
-		screen_shake (2, 8);
+	if (image_index >= 3.90 && image_index <= 4.10) {
+		screen_shake (4, 16);
+		var _n = irandom (128);
+		while (_n > 112) {
+			drop (obj_scarab);
+			_n -= 96;
+		}
+		while (_n > 88) {
+			drop (obj_chenille_head);
+			_n -= 64;
+		}
+		while (_n > 32) {
+			drop (obj_ant);
+			_n -= 48;
+		}
 	}
 	
 	return tree_attack;
