@@ -19,7 +19,7 @@ function tree_choose () {
 	else if (state == tree_walk && animation_end() && hp < 10) {
 		return tree_heal;
 	}
-	else if (state == tree_shoot && animation_end()) {
+	if (state == tree_shoot && animation_end()) {
 		return tree_walk;
 	}
 	else if (state == tree_walk && animation_end()) {
