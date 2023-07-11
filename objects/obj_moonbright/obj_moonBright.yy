@@ -8,7 +8,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"size","path":"objects/obj_light/obj_light.yy",},"value":"2048",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"size","path":"objects/obj_light/obj_light.yy",},"value":"4096",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"color","path":"objects/obj_light/obj_light.yy",},"value":"$FFFFF4C1",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},"propertyId":{"name":"str","path":"objects/obj_light/obj_light.yy",},"value":"0.9",},
   ],
@@ -40,5 +40,5 @@
     "path": "sprites/spr_moonBright/spr_moonBright.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
