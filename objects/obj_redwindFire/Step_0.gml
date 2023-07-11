@@ -6,7 +6,7 @@ if (place_meeting(x, y, par_solid)){
 }
 else if (place_meeting(x, y, par_ennemy)){
 	if (place_meeting (x, y, obj_tree)) {
-		obj_tree.hp -= .04;
+		obj_tree.hp -= .05;
 		repeat (12) {
 			instance_create_layer (x, y, "Controllers", obj_fireParticle);
 		}

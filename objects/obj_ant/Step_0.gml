@@ -18,3 +18,7 @@ if (collision_rectangle(x - 8, y - 6, x + 8, y - 2, obj_player, false, true)) &&
 else if ((place_meeting(x, y, obj_player)) && (state == ennemy_chase)){
 	obj_player.dmg = id;
 }
+
+if (state == ennemy_chase) {
+	image_blend = c_red;
+}

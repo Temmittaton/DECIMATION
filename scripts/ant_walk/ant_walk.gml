@@ -6,7 +6,7 @@ function ant_walk (enter) {
 		xspd = choose (-1, 1);
 	}
 	
-	if (place_meeting (x + xspd, y, par_solid)) {
+	if (place_meeting (x + xspd * 4, y, par_solid) or (x + xspd < 0) or (x + xspd > room_width)) {
 		if (choose (0, 1)) {
 			xspd = -xspd;
 		}

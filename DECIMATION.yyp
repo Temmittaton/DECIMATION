@@ -171,7 +171,6 @@
     {"id":{"name":"spr_player_knockback","path":"sprites/spr_player_knockback/spr_player_knockback.yy",},},
     {"id":{"name":"tls_forest_normal","path":"tilesets/tls_forest_normal/tls_forest_normal.yy",},},
     {"id":{"name":"player_pressedInput","path":"scripts/player_pressedInput/player_pressedInput.yy",},},
-    {"id":{"name":"fnt_gaharu","path":"fonts/fnt_gaharu/fnt_gaharu.yy",},},
     {"id":{"name":"spr_scarab_attack","path":"sprites/spr_scarab_attack/spr_scarab_attack.yy",},},
     {"id":{"name":"spr_tree_walk","path":"sprites/spr_tree_walk/spr_tree_walk.yy",},},
     {"id":{"name":"spr_hud_manaBar","path":"sprites/spr_hud_manaBar/spr_hud_manaBar.yy",},},
