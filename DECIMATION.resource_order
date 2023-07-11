@@ -133,7 +133,6 @@
     {"name":"spr_player_knockback","order":8,"path":"sprites/spr_player_knockback/spr_player_knockback.yy",},
     {"name":"tls_forest_normal","order":1,"path":"tilesets/tls_forest_normal/tls_forest_normal.yy",},
     {"name":"player_pressedInput","order":3,"path":"scripts/player_pressedInput/player_pressedInput.yy",},
-    {"name":"fnt_gaharu","order":8,"path":"fonts/fnt_gaharu/fnt_gaharu.yy",},
     {"name":"spr_scarab_attack","order":4,"path":"sprites/spr_scarab_attack/spr_scarab_attack.yy",},
     {"name":"spr_tree_walk","order":3,"path":"sprites/spr_tree_walk/spr_tree_walk.yy",},
     {"name":"spr_hud_manaBar","order":2,"path":"sprites/spr_hud_manaBar/spr_hud_manaBar.yy",},

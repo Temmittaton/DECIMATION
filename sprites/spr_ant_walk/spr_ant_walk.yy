@@ -4,7 +4,7 @@
   "name": "spr_ant_walk",
   "bbox_bottom": 9,
   "bbox_left": 7,
-  "bbox_right": 22,
+  "bbox_right": 21,
   "bbox_top": 5,
   "bboxMode": 2,
   "collisionKind": 1,

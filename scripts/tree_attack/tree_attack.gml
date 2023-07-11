@@ -21,7 +21,7 @@ function tree_attack(enter){
 		}
 		while (_n > 96) {
 			drop (obj_chenille_head);
-			_n -= 64;
+			_n -= 96;
 		}
 		while (_n > 32) {
 			drop (obj_ant);

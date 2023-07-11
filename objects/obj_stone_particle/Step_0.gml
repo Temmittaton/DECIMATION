@@ -1,16 +1,14 @@
-if (check) {
-	x += xs;
-	y += ys;
-}
-
-
 if (place_meeting (x, y, par_solid)) {
-	check = false;
+	xs = 0;
+	if (place_meeting (x, y + 1, par_solid)) {
+		ys = 0;
+	}
+	else {
+		ys += .1;
+	}
 }
 else {
 	ys += 0.1;
-}
-
-if (ys > 16){
-	instance_destroy();
+	y += ys;
+	x += xs;
 }
