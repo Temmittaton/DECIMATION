@@ -14,3 +14,5 @@ invincibility = 0;
 
 knockback = 0;
 grav = 0.5;
+
+racineTimer = 0;

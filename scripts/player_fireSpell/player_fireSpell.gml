@@ -18,23 +18,20 @@ function player_fireSpell(enter){
 	mana--;
 	
 	// Returned State Selection
-	if (mana == 0) or (!spellKey){
+	if (mana <= 0) or (!spellKey) {
 		returnedState = player_idle;
-		color = #FFFFFF;
-		size = 32;
 	}
-	else if (attackKeyPressed) && (attackTmr == 0){
+	else if (attackKeyPressed) && (attackTmr == 0) {
 		returnedState = player_attack;
-		color = #FFFFFF;
-		size = 32;
 	}
-	else if (dashKeyPressed) && (dashtmr == 0){
+	else if (dashKeyPressed) && (dashtmr == 0) {
 		returnedState = player_dash;
-		color = #FFFFFF;
-		size = 32;
 	}
-	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
+	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)) {
 		returnedState = player_groundPound;
+	}
+	
+	if (returnedState != player_fireSpell) {
 		color = #FFFFFF;
 		size = 32;
 	}

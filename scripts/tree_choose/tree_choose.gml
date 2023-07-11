@@ -7,19 +7,19 @@ function tree_choose () {
 		obj_player.stateNext = player_idle;
 		return tree_walk;
 	}
-	else if (state == tree_walk && point_distance(x, y, obj_player.x, obj_player.y) < 36) {
+	else if (state == tree_walk && point_distance(x, y, obj_player.x, obj_player.y) < 64) {
 		return tree_attack;
 	}
 	else if (state == tree_attack && animation_end()) {
 		return tree_walk;
 	}
-	else if (state == tree_walk && animation_end() && (point_distance(x, y, obj_player.x, obj_player.y) > 64)&& (point_distance(x, y, obj_player.x, obj_player.y) < 96)) {
+	else if (state == tree_walk && animation_end() && (point_distance(x, y, obj_player.x, obj_player.y) < 96)) {
 		return tree_shoot;
 	}
 	else if (state == tree_walk && animation_end() && hp < 10) {
 		return tree_heal;
 	}
-	else if (state == tree_shoot && animation_end()) {
+	if (state == tree_shoot && animation_end()) {
 		return tree_walk;
 	}
 	else if (state == tree_walk && animation_end()) {
