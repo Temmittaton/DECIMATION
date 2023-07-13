@@ -27,6 +27,10 @@ function tree_attack(enter){
 			drop (obj_ant);
 			_n -= 48;
 		}
+		
+		repeat (32) {
+			instance_create_layer (x + 16 * image_xscale, y - 8, "Items", obj_leaf);
+		}
 	}
 	
 	return tree_attack;
