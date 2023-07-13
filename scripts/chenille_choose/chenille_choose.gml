@@ -9,7 +9,7 @@ function chenille_choose() {
 	else if (state == chenille_stun) && (animation_end()) {
 		return mob_idle;
 	}
-	/*else if (state == ennemy_chase) && (stateNext != chenille_stun) && (animation_end()) {
+	else if (state == ennemy_chase) && (stateNext != chenille_stun) && (animation_end()) {
 		return mob_idle;
-	}*/
+	}
 }
