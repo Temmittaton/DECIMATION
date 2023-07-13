@@ -10,6 +10,9 @@ function scarab_upsideDown(enter){
 		obj_player.yspd = -4;
 		instance_destroy();
 	}
+	else if (place_meeting (x, y, obj_player)) {
+		instance_destroy ();
+	}
 	
 	return scarab_upsideDown;
 }

@@ -6,4 +6,5 @@ else {
 	obj_player.mana = 0;
 	check = true;
 	n = life;
+	m = -2;
 }
