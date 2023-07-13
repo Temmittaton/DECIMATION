@@ -6,5 +6,5 @@ if (global.clearedLevel>=level){
 }
 if (global.currentLevel == level) {
 	obj_player.x = x + 8;
-	obj_player.y = y - 16;
+	obj_player.y = y - 24;
 }

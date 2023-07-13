@@ -40,6 +40,7 @@ function player_groundPound(enter){
 	}
 	else if (place_meeting(x, y+yspd, par_solid)){
 		returnedState = player_idle;
+		audio_play_sound (sfx_boom, .75, false, yspd / 8);
 		screen_shake(10, yspd/2);
 	}
 	

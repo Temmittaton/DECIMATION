@@ -6,6 +6,7 @@ function player_gloryKill(enter){
 		xspd = 0;
 		yspd = 0;
 		con_lightSetup.zoom = 0.25;
+		audio_play_sound (sfx_gloryKillFire, 1, false);
 	}
 	yspd = 0;
 	

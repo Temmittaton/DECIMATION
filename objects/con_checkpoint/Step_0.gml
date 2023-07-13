@@ -1,11 +1,11 @@
-if (point_distance (obj_player.x, obj_player.y, x, y) < 256){
-	with (obj_player){
-		if (state == player_cinematic){
+if (obj_player.x > x) && (abs (y - obj_player.y) < 128) {
+	with (obj_player) {
+		if (state == player_cinematic) {
 			stateNext = player_idle;
 		}
 	}
 	
-	if ((room != LevelSelection) && (room != Options)){
+	if ((room != LevelSelection) && (room != Options)) {
 		global.respawnX = x;
 		global.respawnY = y;
 		global.respawnRoom = room;
