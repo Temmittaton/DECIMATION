@@ -1,5 +1,5 @@
 function scarab_choose(){
-	if (place_meeting(x, y, obj_player)){
+	if (place_meeting(x, y, obj_player) && state != scarab_upsideDown){
 		obj_player.dmg = id;
 		return mob_stun;
 	}

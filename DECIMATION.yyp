@@ -200,6 +200,7 @@
     {"id":{"name":"sfx_soldierDamage1","path":"sounds/sfx_soldierDamage1/sfx_soldierDamage1.yy",},},
     {"id":{"name":"spr_lvl_fire","path":"sprites/spr_lvl_fire/spr_lvl_fire.yy",},},
     {"id":{"name":"Lvl5_2","path":"rooms/Lvl5_2/Lvl5_2.yy",},},
+    {"id":{"name":"Lvl11_2","path":"rooms/Lvl11_2/Lvl11_2.yy",},},
     {"id":{"name":"con_parallax","path":"objects/con_parallax/con_parallax.yy",},},
     {"id":{"name":"spr_cendrier_walk","path":"sprites/spr_cendrier_walk/spr_cendrier_walk.yy",},},
     {"id":{"name":"sfx_hit","path":"sounds/sfx_hit/sfx_hit.yy",},},
@@ -540,6 +541,7 @@
     {"roomId":{"name":"Lvl10","path":"rooms/Lvl10/Lvl10.yy",},},
     {"roomId":{"name":"Lvl10_2","path":"rooms/Lvl10_2/Lvl10_2.yy",},},
     {"roomId":{"name":"Lvl11","path":"rooms/Lvl11/Lvl11.yy",},},
+    {"roomId":{"name":"Lvl11_2","path":"rooms/Lvl11_2/Lvl11_2.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

@@ -158,6 +158,7 @@
     {"name":"obj_levelEntrance","order":4,"path":"objects/obj_levelEntrance/obj_levelEntrance.yy",},
     {"name":"spr_lvl_fire","order":6,"path":"sprites/spr_lvl_fire/spr_lvl_fire.yy",},
     {"name":"Lvl5_2","order":1,"path":"rooms/Lvl5_2/Lvl5_2.yy",},
+    {"name":"Lvl11_2","order":1,"path":"rooms/Lvl11_2/Lvl11_2.yy",},
     {"name":"con_parallax","order":4,"path":"objects/con_parallax/con_parallax.yy",},
     {"name":"sfx_hit","order":2,"path":"sounds/sfx_hit/sfx_hit.yy",},
     {"name":"obj_scarab_cadaver","order":3,"path":"objects/obj_scarab_cadaver/obj_scarab_cadaver.yy",},
