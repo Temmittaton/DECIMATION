@@ -7,6 +7,7 @@ function player_fireSpell(enter){
 		image_speed = 0.25;
 		color = #ff8600;
 		size = 128;
+		audio_play_sound (sfx_fire, .9, false);
 	}
 	
 	returnedState = player_fireSpell;
@@ -27,13 +28,14 @@ function player_fireSpell(enter){
 	else if (dashKeyPressed) && (dashtmr == 0) {
 		returnedState = player_dash;
 	}
-	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)) {
+	else if (downKeyPressed) && (!place_meeting(x, y + 3, par_solid)) {
 		returnedState = player_groundPound;
 	}
 	
 	if (returnedState != player_fireSpell) {
 		color = #FFFFFF;
 		size = 32;
+		audio_stop_sound (sfx_fire);
 	}
 	
 	return returnedState;
