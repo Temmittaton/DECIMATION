@@ -15,7 +15,7 @@ else {
 	x = obj_tree.x;
 	y = max (y - .25, obj_tree.y - 12);
 	n += m;
-	obj_tree.hp += life / 50;
+	obj_tree.hp += life / 70;
 	if (m != -1 && n >= life) {
 		m = -1;
 	}

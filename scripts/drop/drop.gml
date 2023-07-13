@@ -5,4 +5,7 @@ function drop (_mob) {
 	
 	
 	instance_create_layer (_x, 0, "Mobs", _mob);
+	repeat (32) {
+		instance_create_layer (_x, 0, "Items", obj_leaf);
+	}
 }

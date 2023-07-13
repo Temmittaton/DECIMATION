@@ -8,7 +8,7 @@ if (state != stateNext)	{
 stateNext = state(enter);
 enter = false;
 
-if (collision_rectangle(x - 8, y - 6, x + 8, y - 2, obj_player, false, true)) && (obj_player.yspd > 1){
+if (collision_rectangle(x - 8, y - 6, x + 8, y, obj_player, false, true)) && (obj_player.yspd > 1){
 	instance_create_layer(x, y, "Items", obj_ant_cadaver);
 	obj_player.yspd = -2;
 	screen_shake(8, 4);

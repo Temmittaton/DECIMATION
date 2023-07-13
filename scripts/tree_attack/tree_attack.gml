@@ -29,7 +29,7 @@ function tree_attack(enter){
 		}
 		
 		repeat (32) {
-			instance_create_layer (x + 16 * image_xscale, y - 8, "Items", obj_leaf);
+			instance_create_layer (x + 16 * image_xscale, y - 12, "Items", obj_leaf);
 		}
 	}
 	
