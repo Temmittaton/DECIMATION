@@ -1,4 +1,4 @@
-function scarab_upsideDown(enter){
+function scarab_upsideDown(enter) {
 	if (enter){
 		xspd = 0;
 		sprite_index = spr_scarab_upsideDown;
