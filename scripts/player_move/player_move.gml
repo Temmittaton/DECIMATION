@@ -2,7 +2,7 @@ function player_move() {
 	xspd = (rightKeyPressed-leftKeyPressed)*walkspd;
 	
 	// Jump
-	if (place_meeting(x, y+2, par_solid)) && (keyboard_check_pressed(vk_space))	{
+	if (place_meeting(x, y+2, par_solid)) && (jumpKeyPressed)	{
 		yspd = -8;
 	}
 

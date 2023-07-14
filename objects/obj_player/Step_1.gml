@@ -6,6 +6,18 @@ spellKey = sign(keyboard_check(vk_shift) + keyboard_check_pressed(vk_lshift));
 interactKeyPressed = keyboard_check(ord(interactKey));
 dashKeyPressed = keyboard_check_pressed(ord(dashKey));
 attackKeyPressed = keyboard_check_pressed(vk_enter);
+jumpKeyPressed = keyboard_check_pressed (vk_space);
+
+if (gamepad_is_connected(0)) {
+	leftKeyPressed = bool(max(0, -gamepad_axis_value (0, gp_axislh)));
+	rightKeyPressed = bool(max(0, gamepad_axis_value (0, gp_axislh)));
+	downKeyPressed = bool(max(0, gamepad_axis_value (0, gp_axislv)));
+	spellKey = gamepad_button_check (0, gp_shoulderlb);
+	interactKeyPressed = bool(max(0, -gamepad_axis_value (0, gp_axislv)));
+	dashKeyPressed = gamepad_button_check_pressed (0, gp_face3);
+	attackKeyPressed = gamepad_button_check_pressed (0, gp_shoulderrb);
+	jumpKeyPressed = gamepad_button_check_pressed (0, gp_face1);
+}
 
 if (!instance_exists(dmg)) {dmg = 0;}
 
