@@ -13,7 +13,7 @@ function tree_attack(enter){
 		}
 	}
 	if (image_index >= 3.90 && image_index <= 4.10) {
-		screen_shake (4, 16);
+		screen_shake (16, 32);
 		var _n = irandom (128);
 		while (_n > 102) {
 			drop (obj_scarab);
