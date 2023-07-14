@@ -1,11 +1,4 @@
-if (flown_over()){
-	image_alpha = 0.8;
-}
-else {
-	image_alpha = 1;
-}
-
-if (clicked()) or (keyboard_check_pressed(key)){
+function Click () {
 	if (global.clearedLevel == 0){
 		room_goto(Tutorial);
 	}
@@ -14,13 +7,13 @@ if (clicked()) or (keyboard_check_pressed(key)){
 	}
 }
 
-if gamepad_is_connected (0) {
-	if (gamepad_button_check_pressed(0, gp_face2)) {
-		if (global.clearedLevel == 0){
-			room_goto(Tutorial);
-		}
-		else {
-			room_goto(LevelSelection);
-		}
-	}
+if (flown_over()){
+	image_alpha = 0.8;
+}
+else {
+	image_alpha = 1;
+}
+
+if (clicked()) or (keyboard_check_pressed(key)){
+	Click ();
 }

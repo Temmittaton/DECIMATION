@@ -4,6 +4,7 @@
   "name": "obj_button_quitLevel",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
@@ -14,7 +15,10 @@
     "name": "Button",
     "path": "folders/Objets/Button.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_button",
+    "path": "objects/par_button/par_button.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
