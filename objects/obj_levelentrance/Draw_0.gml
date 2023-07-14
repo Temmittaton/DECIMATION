@@ -35,4 +35,11 @@ else {
 	alpha = 0;
 }
 
+if gamepad_is_connected (0) {
+	if (gamepad_button_check_pressed(0, gp_face2)) {
+		room = target;
+		global.currentLevel = level;
+	}
+}
+
 draw_self();

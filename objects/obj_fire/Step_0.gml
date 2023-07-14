@@ -7,7 +7,7 @@ else if (hp < 60){
 }
 
 var _c = collision_rectangle(x-4, y-6, x+4, y, obj_player, false, true);
-if (_c){
+if (_c && hp > 60){
 	obj_player.dmg = id;
 }
 
