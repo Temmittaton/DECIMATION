@@ -8,9 +8,9 @@ if (state != stateNext)	{
 	state = stateNext;
 	enter = true;
 }
-else {
+/*else {
 	enter = false;
-}
+}*/
 
 // Update state
 stateNext = state(enter);

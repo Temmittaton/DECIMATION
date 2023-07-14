@@ -1,19 +1,29 @@
 time += 0.01;
 // Pause menu
-if (keyboard_check_pressed (vk_escape)) {
+function Pause () {
 	paused = !paused;
 	if (paused) {
 		instance_deactivate_all(true);
 		cursor_sprite = spr_pauseMenu_curseur;
 		
-		unpauseButton = button_create(obj_button_unpause, 0, SCREEN_HEIGHT - 384 * RATIO, RATIO);
-		levelButton = button_create(obj_button_quitLevel, 0, SCREEN_HEIGHT - 640 * RATIO, RATIO);
-		menuButton = button_create(obj_button_quitToMenu, 64 * RATIO, SCREEN_HEIGHT - 1088 * RATIO, RATIO);
+		unpauseButton = button_create(obj_button_unpause, 512 * RATIO, SCREEN_HEIGHT - 280 * RATIO, RATIO / 2);
+		levelButton = button_create(obj_button_quitLevel, 256 * RATIO, SCREEN_HEIGHT - 640 * RATIO, RATIO / 2);
+		menuButton = button_create(obj_button_quitToMenu, 64, SCREEN_HEIGHT - 1024 * RATIO, RATIO / 2);
 		
 		instance_activate_object(con_screenShake);
 		instance_activate_object(obj_button_quitToMenu);
 		instance_activate_object(obj_button_quitLevel);
 		instance_activate_object(obj_button_unpause);
+		instance_activate_object(con_controllerMenuSelection);
+	}
+}
+
+if (keyboard_check_pressed (vk_escape)) {
+	Pause ();
+}
+else if (gamepad_is_connected (0)) {
+	if (gamepad_button_check_pressed (0, gp_start)) {
+		Pause ();
 	}
 }
 if (paused) && (pause < MAX_PAUSE) {

@@ -1,3 +1,7 @@
+function Click () {
+	game_end ();
+}
+
 if (flown_over()){
 	image_alpha = 0.8;
 }
@@ -6,5 +10,5 @@ else {
 }
 
 if (clicked()){
-	game_end();
+	Click ();
 }

@@ -7,7 +7,7 @@ function magsoldier_block (enter) {
 		else {
 			image_xscale = 1;
 		}
-		if (obj_player.state != player_groundPound) {
+		if (obj_player.state != player_groundPound && !audio_is_playing (sfx_magBlock)) {
 			audio_play_sound(sfx_magBlock, 1, false);
 		}
 	}

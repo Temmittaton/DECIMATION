@@ -7,6 +7,8 @@ interactKeyPressed = keyboard_check(ord(interactKey));
 dashKeyPressed = keyboard_check_pressed(ord(dashKey));
 attackKeyPressed = keyboard_check_pressed(vk_enter);
 jumpKeyPressed = keyboard_check_pressed (vk_space);
+weaponChangeKeyPressed = keyboard_check_pressed (vk_tab);
+spellChangeKeyPressed = keyboard_check_pressed (vk_alt);
 
 if (gamepad_is_connected(0)) {
 	leftKeyPressed = bool(max(0, -gamepad_axis_value (0, gp_axislh)));
@@ -14,9 +16,11 @@ if (gamepad_is_connected(0)) {
 	downKeyPressed = bool(max(0, gamepad_axis_value (0, gp_axislv)));
 	spellKey = gamepad_button_check (0, gp_shoulderlb);
 	interactKeyPressed = bool(max(0, -gamepad_axis_value (0, gp_axislv)));
-	dashKeyPressed = gamepad_button_check_pressed (0, gp_face3);
-	attackKeyPressed = gamepad_button_check_pressed (0, gp_shoulderrb);
+	dashKeyPressed = gamepad_button_check_pressed (0, gp_shoulderrb);
+	attackKeyPressed = gamepad_button_check_pressed (0, gp_face3);
 	jumpKeyPressed = gamepad_button_check_pressed (0, gp_face1);
+	weaponChangeKeyPressed = gamepad_button_check_pressed (0, gp_padr);
+	spellChangeKeyPressed = gamepad_button_check_pressed (0, gp_padl);
 }
 
 if (!instance_exists(dmg)) {dmg = 0;}

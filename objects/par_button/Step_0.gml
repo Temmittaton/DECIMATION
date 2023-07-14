@@ -1,3 +1,7 @@
+function Click () {
+	room_goto(target);
+}
+
 if (flown_over()){
 	image_alpha = 0.8;
 }
@@ -6,5 +10,5 @@ else {
 }
 
 if (clicked()) or (keyboard_check_pressed(key)){
-	room_goto(target);
+	Click ();
 }
