@@ -10,14 +10,12 @@ function magsoldier_block (enter) {
 		if (obj_player.state != player_groundPound && !audio_is_playing (sfx_magBlock)) {
 			audio_play_sound(sfx_magBlock, 1, false);
 		}
+		sprite_index = spr_magsoldier_stun;
+		image_speed = 0.075;
 	}
 	
 	// Action
 	yspd+=grav;
-	
-	//Animation
-	sprite_index = spr_magsoldier_stun;
-	image_speed = 0.1;
 	
 	return magsoldier_block;
 }
