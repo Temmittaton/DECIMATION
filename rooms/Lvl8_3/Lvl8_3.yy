@@ -165,6 +165,8 @@
     {"name":"inst_2289E561","path":"rooms/Lvl8_3/Lvl8_3.yy",},
     {"name":"inst_62D7339B_5_1_30_1","path":"rooms/Lvl8_3/Lvl8_3.yy",},
     {"name":"inst_7666DC59","path":"rooms/Lvl8_3/Lvl8_3.yy",},
+    {"name":"inst_46B34DD","path":"rooms/Lvl8_3/Lvl8_3.yy",},
+    {"name":"inst_2289E561","path":"rooms/Lvl8_3/Lvl8_3.yy",},
   ],
   "isDnd": false,
   "layers": [
