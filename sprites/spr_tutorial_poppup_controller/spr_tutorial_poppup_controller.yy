@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Assets",
-    "path": "folders/Sprites/Assets.yy",
+    "name": "Tutorial Poppups",
+    "path": "folders/Sprites/Assets/Tutorial Poppups.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
