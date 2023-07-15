@@ -1,4 +1,4 @@
-if (gamepad_is_connected (0)) {
+if (gamepad_is_connected (con_controllerMenuSelection.device)) {
 	sprite = spr_poppup_pickaxe_controller;
 }
 else {

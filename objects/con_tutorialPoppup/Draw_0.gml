@@ -1,7 +1,7 @@
 _x = obj_player.x;
 _y = obj_player.y;
 
-if (gamepad_is_connected (0)) {
+if (gamepad_is_connected (con_controllerMenuSelection.device)) {
 	sprite = spr_tutorial_poppup_controller;
 }
 else {
