@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings": [
+    {"name":"Controller","order":9,"path":"folders/Controller.yy",},
     {"name":"Objets","order":5,"path":"folders/Objets.yy",},
     {"name":"Assets","order":8,"path":"folders/Objets/Assets.yy",},
     {"name":"Lights","order":2,"path":"folders/Objets/Assets/Lights.yy",},
     {"name":"Cadavers","order":5,"path":"folders/Objets/Cadavers.yy",},
-    {"name":"Controller","order":9,"path":"folders/Controller.yy",},
     {"name":"Items","order":2,"path":"folders/Objets/Items.yy",},
     {"name":"Mobs","order":7,"path":"folders/Objets/Mobs.yy",},
     {"name":"Bosses","order":1,"path":"folders/Objets/Mobs/Bosses.yy",},
@@ -51,6 +51,7 @@
     {"name":"Levels","order":5,"path":"folders/Sprites/Assets/Levels.yy",},
     {"name":"Lights","order":4,"path":"folders/Sprites/Assets/Lights.yy",},
     {"name":"Tilesets","order":2,"path":"folders/Sprites/Assets/Tilesets.yy",},
+    {"name":"Tutorial Poppups","order":11,"path":"folders/Sprites/Assets/Tutorial Poppups.yy",},
     {"name":"Cadavers","order":11,"path":"folders/Sprites/Cadavers.yy",},
     {"name":"Chenille","order":3,"path":"folders/Sprites/Cadavers/Chenille.yy",},
     {"name":"HUD","order":4,"path":"folders/Sprites/HUD.yy",},
@@ -82,7 +83,6 @@
     {"name":"Projectiles","order":9,"path":"folders/Sprites/Projectiles.yy",},
     {"name":"Cendrier","order":3,"path":"folders/Sprites/Projectiles/Cendrier.yy",},
     {"name":"Tile sets","order":1,"path":"folders/Tile sets.yy",},
-    {"name":"Tutorial Poppups","order":11,"path":"folders/Sprites/Assets/Tutorial Poppups.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_tls_cave_normal","order":7,"path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},
