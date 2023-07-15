@@ -26,22 +26,22 @@ if (place_meeting(x, y, obj_player)){
 		}
 	}
 	
-	if (gamepad_is_connected (0)) {
+	if (gamepad_is_connected (con_controllerMenuSelection.device)) {
 		if (global.clearedLevel+1<level){
 			draw_sprite_ext(spr_lvl_lock, 0, _px, _py-8, 1, 1, 0, c_white, alpha-0.2);
-			if (gamepad_button_check_pressed(0, gp_face2)) {
+			if (gamepad_button_check_pressed(con_controllerMenuSelection.device, gp_face2)) {
 				screen_shake(10, 4);
 				audio_play_sound(sfx_error, 1, false);
 			}
 		}
 		else if (global.clearedLevel>=level){
-			if (gamepad_button_check_pressed(0, gp_face2)) {
+			if (gamepad_button_check_pressed(con_controllerMenuSelection.device, gp_face2)) {
 				room_goto (target);
 				global.currentLevel = level;
 			}
 		}
 		else {
-			if (gamepad_button_check_pressed(0, gp_face2)) {
+			if (gamepad_button_check_pressed(con_controllerMenuSelection.device, gp_face2)) {
 				room_goto (target);
 				global.currentLevel = level;
 			}

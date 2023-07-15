@@ -11,7 +11,7 @@ if (check) {
 		
 		draw_sprite_ext (spr_sword, 0, _x, _y, .25, .25, 0, c_white, 1);
 	
-		if (gamepad_button_check_pressed (0, gp_face2)) {
+		if (gamepad_button_check_pressed (device, gp_face2)) {
 			buttons [button].Click ();
 		}
 	}
