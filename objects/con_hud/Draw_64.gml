@@ -1,10 +1,19 @@
 if instance_exists(obj_player){
+	if (con_controllerMenuSelection.device != noone) {
+		weaponSprite = spr_hud_weaponSelector_controller;
+		spellSprite = spr_hud_manabar_controller;
+	}
+	else {
+		weaponSprite = spr_hud_weaponSelector;
+		spellSprite = spr_hud_manaBar;
+	}
+	
 	// Health Bar
 	draw_sprite_stretched(spr_hud_healthbar, obj_player.hp, xOffset, yOffset, 32*hudScale, 32*hudScale);
 	
 	// Weapon Selector
 	if (obj_player.gotPickaxe){
-		draw_sprite_stretched(spr_hud_weaponSelector, obj_player.selectedWeapon, xOffset + (32*hudScale), yOffset+24, 24*hudScale, 16*hudScale);
+		draw_sprite_stretched(weaponSprite, obj_player.selectedWeapon, xOffset + (32*hudScale), yOffset+24, 24*hudScale, 16*hudScale);
 	}
 	
 	// Mana
@@ -13,7 +22,7 @@ if instance_exists(obj_player){
 	}
 	
 	// Mana Bar
-	draw_sprite_stretched(spr_hud_manaBar, 0, xOffset+24, yOffset+(32*hudScale), 22*hudScale, 20*hudScale);
+	draw_sprite_stretched(spellSprite, 0, xOffset+24, yOffset+(32*hudScale), 22*hudScale, 20*hudScale);
 	
 	if (!obj_player.gotFire){
 		draw_sprite_stretched(spr_hud_spell, 0, 108, 230, 48, 90);
