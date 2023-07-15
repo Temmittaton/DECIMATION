@@ -1,10 +1,10 @@
 {
   "FolderOrderSettings": [
+    {"name":"Controller","order":9,"path":"folders/Controller.yy",},
     {"name":"Objets","order":5,"path":"folders/Objets.yy",},
     {"name":"Assets","order":8,"path":"folders/Objets/Assets.yy",},
     {"name":"Lights","order":2,"path":"folders/Objets/Assets/Lights.yy",},
     {"name":"Cadavers","order":5,"path":"folders/Objets/Cadavers.yy",},
-    {"name":"Controller","order":9,"path":"folders/Controller.yy",},
     {"name":"Items","order":2,"path":"folders/Objets/Items.yy",},
     {"name":"Mobs","order":7,"path":"folders/Objets/Mobs.yy",},
     {"name":"Bosses","order":1,"path":"folders/Objets/Mobs/Bosses.yy",},

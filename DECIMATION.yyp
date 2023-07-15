@@ -11,12 +11,12 @@
   },
   "defaultScriptType": 1,
   "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controller","folderPath":"folders/Controller.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objets","folderPath":"folders/Objets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Assets","folderPath":"folders/Objets/Assets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Lights","folderPath":"folders/Objets/Assets/Lights.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Button","folderPath":"folders/Objets/Button.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Cadavers","folderPath":"folders/Objets/Cadavers.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Controller","folderPath":"folders/Controller.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Items","folderPath":"folders/Objets/Items.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Mobs","folderPath":"folders/Objets/Mobs.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bosses","folderPath":"folders/Objets/Mobs/Bosses.yy",},
