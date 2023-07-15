@@ -3,13 +3,13 @@ function chenille_choose() {
 		obj_player.dmg = id;
 		return chenille_stun;
 	}
-	if (state == mob_idle) && (point_distance(obj_player.x, obj_player.y, x, y) < 64) {
-		return ennemy_chase;
+	if (state == mob_idle) && (point_distance(obj_player.x, obj_player.y, x, y) < 128) {
+		return chenille_stun;
 	}
 	else if (state == chenille_stun) && (animation_end()) {
-		return mob_idle;
+		return ennemy_chase;
 	}
-	else if (state == ennemy_chase) && (stateNext != chenille_stun) && (animation_end()) {
+	/*else if (state == ennemy_chase) && (stateNext != chenille_stun) && (animation_end()) {
 		return mob_idle;
-	}
+	}*/
 }

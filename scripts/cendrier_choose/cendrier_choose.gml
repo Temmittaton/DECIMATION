@@ -2,8 +2,14 @@ function cendrier_choose() {
 	if (mana <= 0){
 		return cendrier_powerless;
 	}
+	else if (state = cendrier_powerless && mana > 128) {
+		return ennemy_chase;
+	}
 	else if ((state == cendrier_shield) && (usedMana > 128)){
 		return cendrier_dash;
+	}
+	else if (state == cendrier_powerless) {
+		return cendrier_powerless;
 	}
 	else if (mana > 128) && (state != cendrier_shield_charge) && (state != cendrier_shield) && (state != cendrier_dash) && (point_distance(x, y, obj_player.x, obj_player.y) <= 32){
 		return cendrier_shield_charge;

@@ -1,9 +1,9 @@
 // Damage
-if (dmg) && (state == cendrier_shield) or (state == cendrier_shield_charge) or (state == cendrier_dash){
+if (dmg){
+	if (state == cendrier_powerless) {
+		instance_destroy();
+	}
 	dmg = 0;
-}
-else if (dmg){
-	instance_destroy();
 }
 else if (pdmg){
 	stateNext = cendrier_shield_charge;

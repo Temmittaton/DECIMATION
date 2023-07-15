@@ -175,6 +175,7 @@
     {"name":"inst_279BC8EF","path":"rooms/Lvl6/Lvl6.yy",},
     {"name":"inst_76560AA2","path":"rooms/Lvl6/Lvl6.yy",},
     {"name":"inst_48B5AD13","path":"rooms/Lvl6/Lvl6.yy",},
+    {"name":"inst_6BA0254","path":"rooms/Lvl6/Lvl6.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -184,6 +185,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26CDD326_3_1_17","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"propertyId":{"name":"target","path":"objects/con_roomEnd/con_roomEnd.yy",},"value":"Lvl6_2",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1008.0,"y":-32.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6BA0254","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_music","path":"objects/con_music/con_music.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"con_music","path":"objects/con_music/con_music.yy",},"propertyId":{"name":"music","path":"objects/con_music/con_music.yy",},"value":"mus_cave",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Items","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_316C7D03","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_stone","path":"objects/obj_stone/obj_stone.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":792.0,"y":88.0,},
