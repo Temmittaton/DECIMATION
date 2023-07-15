@@ -21,8 +21,8 @@ function Pause () {
 if (keyboard_check_pressed (vk_escape)) {
 	Pause ();
 }
-else if (gamepad_is_connected (0)) {
-	if (gamepad_button_check_pressed (0, gp_start)) {
+else if (gamepad_is_connected (con_controllerMenuSelection.device)) {
+	if (gamepad_button_check_pressed (con_controllerMenuSelection.device, gp_start)) {
 		Pause ();
 	}
 }

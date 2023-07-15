@@ -14,6 +14,6 @@ else {
 	image_alpha = 1;
 }
 
-if (clicked()) or (keyboard_check_pressed(key)){
+if (clicked()) or (keyboard_check_pressed(key)) {
 	Click ();
 }

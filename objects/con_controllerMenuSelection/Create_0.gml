@@ -1,4 +1,5 @@
 check = false;
+device = noone;
 buttons = [];
 button = 1;
 cursor_sprite = spr_pauseMenu_curseur;

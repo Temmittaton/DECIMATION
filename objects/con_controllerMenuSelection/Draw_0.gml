@@ -13,7 +13,15 @@
 	}
 }*/
 
-check = gamepad_is_connected (0);
+for (var i = 0; i < 14; i++) {
+	if (gamepad_is_connected (i)) {
+		device = i;
+		break;
+	}
+	device = noone;
+}
+
+check = gamepad_is_connected (device);
 
 if (check) {
 	cursor_sprite = -1;
@@ -27,8 +35,8 @@ if (check) {
 		buttons [1] = instance_find (obj_button_quitLevel, 0);
 		buttons [2] = instance_find (obj_button_unpause, 0);
 	}
-	button += sign (gamepad_axis_value (0, gp_axislh) + gamepad_axis_value (0, gp_axisrv)) / 16;
-	if (gamepad_axis_value (0, gp_axislh) == 0) {button = floor (button + .5);}
+	button += sign (gamepad_axis_value (device, gp_axislh) + gamepad_axis_value (device, gp_axisrv)) / 16;
+	if (gamepad_axis_value (device, gp_axislh) == 0) {button = floor (button + .5);}
 	
 	if (button >= array_length (buttons)) {
 		button = 0;
@@ -41,7 +49,7 @@ if (check) {
 		var _x = buttons [button].x + buttons [button].sprite_width / 2;
 		draw_sprite_ext (spr_sword_vertical, 0, _x, buttons [button].y, .15, .15, 0, c_white, 1);
 	
-		if (gamepad_button_check_pressed (0, gp_face2)) {
+		if (gamepad_button_check_pressed (device, gp_face2)) {
 			buttons [button].Click ();
 		}
 	}
