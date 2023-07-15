@@ -43,6 +43,7 @@ else if (dmg != 0) {
 		screen_shake(15, 16);
 		invincibility = 45;
 		hp--;
+		audio_play_sound (sfx_damage, 1, false);
 	}
 }
 

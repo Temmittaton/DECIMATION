@@ -225,6 +225,7 @@
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"obj_light","path":"objects/obj_light/obj_light.yy",},},
     {"id":{"name":"spr_cendrier_dash","path":"sprites/spr_cendrier_dash/spr_cendrier_dash.yy",},},
+    {"id":{"name":"sfx_damage","path":"sounds/sfx_damage/sfx_damage.yy",},},
     {"id":{"name":"spr_spell_hit","path":"sprites/spr_spell_hit/spr_spell_hit.yy",},},
     {"id":{"name":"spr_hud_bossBar","path":"sprites/spr_hud_bossBar/spr_hud_bossBar.yy",},},
     {"id":{"name":"spr_player_spawn","path":"sprites/spr_player_spawn/spr_player_spawn.yy",},},

@@ -178,6 +178,7 @@
     {"name":"obj_stone","order":6,"path":"objects/obj_stone/obj_stone.yy",},
     {"name":"Menu","order":2,"path":"rooms/Menu/Menu.yy",},
     {"name":"spr_cendrier_dash","order":3,"path":"sprites/spr_cendrier_dash/spr_cendrier_dash.yy",},
+    {"name":"sfx_damage","order":12,"path":"sounds/sfx_damage/sfx_damage.yy",},
     {"name":"spr_spell_hit","order":4,"path":"sprites/spr_spell_hit/spr_spell_hit.yy",},
     {"name":"spr_hud_bossBar","order":9,"path":"sprites/spr_hud_bossBar/spr_hud_bossBar.yy",},
     {"name":"spr_player_spawn","order":2,"path":"sprites/spr_player_spawn/spr_player_spawn.yy",},

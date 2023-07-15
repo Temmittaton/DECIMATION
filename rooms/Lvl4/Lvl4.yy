@@ -92,6 +92,7 @@
     {"name":"inst_3A8727B6","path":"rooms/Lvl4/Lvl4.yy",},
     {"name":"inst_183E4CBC","path":"rooms/Lvl4/Lvl4.yy",},
     {"name":"inst_192AD235","path":"rooms/Lvl4/Lvl4.yy",},
+    {"name":"inst_705A5272","path":"rooms/Lvl4/Lvl4.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -101,6 +102,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26CDD326_3_1_8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"propertyId":{"name":"target","path":"objects/con_roomEnd/con_roomEnd.yy",},"value":"Lvl4_2",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2000.0,"y":-16.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_705A5272","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_music","path":"objects/con_music/con_music.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"GroundTiles","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":256,"TileCompressedData":[
 -45,0,-211,-2147483648,-45,0,-210,-2147483648,1,316,-45,0,-89,-2147483648,3,315,316,317,-118,-2147483648,1,337,-45,0,-89,-2147483648,3,336,337,338,-118,-2147483648,1,358,-134,0,3,357,358,359,-13,0,-105,-2147483648,1,400,-17,0,3,315,316,317,-115,0,2,400,401,-13,0,-105,-2147483648,1,268435836,-17,0,3,336,337,338,-19,0,3,315,316,317,-93,0,2,421,422,-13,0,-105,-2147483648,1,268435836,-17,0,4,357,358,359,360,-18,0,3,336,337,338,-93,0,2,400,401,-13,0,-105,-2147483648,1,268435836,-13,0,7,315,316,317,0,0,400,401,-19,0,4,357,358,359,360,-92,0,2,421,422,-13,0,-105,-2147483648,1,400,-13,0,7,336,337,338,0,0,421,422,-20,0,2,379,380,-93,0,2,400,401,-13,0,-105,-2147483648,1,421,-13,0,7,357,358,359,360,0,421,422,-20,0,2,379,380,-5,0,3,315,316,317,-85,0,2,421,422,-13,0,-105,-2147483648,1,400,-6,0,3,315,316,317,-5,0,6,400,401,0,0,400,401,-20,0,2,400,401,-5,0,6,336,337,338,0,0,315,-82,0,2,268435836,268435835,-13,0,-28,-2147483648,3,315,316,317,-28,-2147483648,3,315,316,317,-43,-2147483648,1,421,-6,0,3,336,337,338,-5,0,

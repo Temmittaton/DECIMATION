@@ -87,6 +87,7 @@
     {"name":"inst_56F4BC11","path":"rooms/Lvl9_3/Lvl9_3.yy",},
     {"name":"inst_199EE16A","path":"rooms/Lvl9_3/Lvl9_3.yy",},
     {"name":"inst_35F775E3","path":"rooms/Lvl9_3/Lvl9_3.yy",},
+    {"name":"inst_42EB5540","path":"rooms/Lvl9_3/Lvl9_3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -94,6 +95,9 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7296E01D_4_1_28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_hud","path":"objects/con_hud/con_hud.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_64359C98_5_1_28","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_parallax","path":"objects/con_parallax/con_parallax.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26CDD326_3_1_27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_roomEnd","path":"objects/con_roomEnd/con_roomEnd.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":720.0,"y":-16.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_42EB5540","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_music","path":"objects/con_music/con_music.yy",},"properties":[
+            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"con_music","path":"objects/con_music/con_music.yy",},"propertyId":{"name":"music","path":"objects/con_music/con_music.yy",},"value":"mus_cave",},
+          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"Tiles_1","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":32,"SerialiseWidth":96,"TileCompressedData":[
 -13,-2147483648,2,413,268435869,-3,-2147483648,5,1342177431,80,123,0,0,-8,-2147483648,2,1610612799,1073741951,-7,-2147483648,56,1342177445,1342177424,1342177403,236,237,236,237,236,237,236,237,236,237,215,216,101,194,195,195,194,195,194,195,194,195,80,80,1610612859,1610612880,268435519,-2147483648,-2147483648,1342177424,1342177403,194,195,194,195,194,195,194,195,80,215,80,194,195,194,215,194,195,194,195,215,1610612859,1610612880,-13,-2147483648,2,434,268435890,-3,-2147483648,5,1342177430,101,144,0,0,-9,-2147483648,2,536871055,536871056,-4,
