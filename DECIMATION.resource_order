@@ -99,6 +99,7 @@
     {"name":"con_spellPoppup","order":14,"path":"objects/con_spellPoppup/con_spellPoppup.yy",},
     {"name":"spr_cendrier_shuriken","order":1,"path":"sprites/spr_cendrier_shuriken/spr_cendrier_shuriken.yy",},
     {"name":"obj_ball","order":5,"path":"objects/obj_ball/obj_ball.yy",},
+    {"name":"spr_bloodScreen","order":14,"path":"sprites/spr_bloodScreen/spr_bloodScreen.yy",},
     {"name":"spr_joe_walk","order":1,"path":"sprites/spr_joe_walk/spr_joe_walk.yy",},
     {"name":"joe_surprised","order":2,"path":"scripts/joe_surprised/joe_surprised.yy",},
     {"name":"spr_menu_button_options","order":1,"path":"sprites/spr_menu_button_options/spr_menu_button_options.yy",},

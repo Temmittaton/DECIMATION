@@ -129,6 +129,7 @@
     {"id":{"name":"ennemy_chase","path":"scripts/ennemy_chase/ennemy_chase.yy",},},
     {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
     {"id":{"name":"Lvl4","path":"rooms/Lvl4/Lvl4.yy",},},
+    {"id":{"name":"spr_bloodScreen","path":"sprites/spr_bloodScreen/spr_bloodScreen.yy",},},
     {"id":{"name":"spr_joe_walk","path":"sprites/spr_joe_walk/spr_joe_walk.yy",},},
     {"id":{"name":"joe_surprised","path":"scripts/joe_surprised/joe_surprised.yy",},},
     {"id":{"name":"spr_menu_button_options","path":"sprites/spr_menu_button_options/spr_menu_button_options.yy",},},

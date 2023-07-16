@@ -45,6 +45,7 @@ else if (dmg != 0) {
 		invincibility = 45;
 		hp--;
 		audio_play_sound (sfx_damage, 1, false);
+		con_lightSetup.blood = 45;
 	}
 }
 

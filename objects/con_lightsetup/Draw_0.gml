@@ -1,3 +1,8 @@
+if (blood > 0) {
+	draw_sprite_ext (spr_bloodScreen, 0, vx, vy, RATIO, RATIO, 0, c_white, blood / 40);
+	blood--;
+}
+
 //Local variables setup
 var _u_pos = u_pos;
 var _u_zz = u_zz;
