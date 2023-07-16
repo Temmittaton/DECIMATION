@@ -7,6 +7,7 @@ function cendrier_Sattack(enter){
 		image_index = 0;
 		image_speed = 0.2;
 		superAttack = 0;
+		audio_play_sound (sfx_superAttack_charge, .8, false);
 	}
 	yspd += grav;
 	

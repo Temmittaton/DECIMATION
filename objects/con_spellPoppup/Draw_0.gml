@@ -1,4 +1,4 @@
-if (gamepad_is_connected (0)) {
+if (con_controllerMenuSelection.device != noone) {
 	sprite = spr_poppup_spell_controller;
 }
 else {

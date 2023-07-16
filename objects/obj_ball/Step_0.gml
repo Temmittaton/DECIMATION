@@ -8,6 +8,7 @@ repeat(abs(xspd)){
 		hp--;
 		if (hp <= 0){instance_destroy();}
 		xspd = -xspd;
+		audio_play_sound (sfx_balls, .5, false);
 	}
 	else {x += sign(xspd);}
 }
@@ -20,6 +21,7 @@ repeat(abs(yspd)){
 		if (sign(yspd) == -1){
 			instance_create_layer(x, y, "Projectiles", obj_fire);
 		}
+		audio_play_sound (sfx_balls, .5, false);
 	}
 	else {y += sign(yspd);}
 }

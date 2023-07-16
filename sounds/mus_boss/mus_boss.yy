@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_shield",
+  "name": "mus_boss",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.671542,
+  "duration": 57.80898,
   "parent": {
-    "name": "Cendrier",
-    "path": "folders/Sons/Sound Effects/Cendrier.yy",
+    "name": "Music",
+    "path": "folders/Sons/Music.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_shield.ogg",
+  "soundFile": "mus_boss.mp3",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.3,
 }
