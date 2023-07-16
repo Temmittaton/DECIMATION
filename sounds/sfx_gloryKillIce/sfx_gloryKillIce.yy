@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.484292,
   "parent": {
-    "name": "Redwind",
-    "path": "folders/Sons/Sound Effects/Redwind.yy",
+    "name": "Ice Mage",
+    "path": "folders/Sons/Sound Effects/Ice Mage.yy",
   },
   "preload": false,
   "sampleRate": 44100,

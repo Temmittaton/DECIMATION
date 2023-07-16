@@ -3,3 +3,4 @@ for (i=0;i<512;i++){
 	_o.image_blend = #ff1600;
 }
 audio_play_sound (sfx_soldierDead, .4, false);
+audio_stop_sound (sfx_fireMage_attack);

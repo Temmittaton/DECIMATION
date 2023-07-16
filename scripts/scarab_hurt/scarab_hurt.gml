@@ -5,6 +5,7 @@ function scarab_hurt(enter){
 		sprite_index = spr_scarab_hurt;
 		image_speed = 0.5;
 		image_index = 0;
+		audio_play_sound (sfx_turned, .7, false);
 	}
 	yspd += grav;
 	

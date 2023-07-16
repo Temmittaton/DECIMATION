@@ -1,3 +1,5 @@
-function player_pressedInput(){
-	return sign(leftKeyPressed + rightKeyPressed + downKeyPressed + interactKeyPressed + dashKeyPressed + attackKeyPressed + jumpKeyPressed)
+function player_pressedInput() {
+	
+	
+	return sign(leftKeyPressed + rightKeyPressed + downKeyPressed + interactKeyPressed + dashKeyPressed + attackKeyPressed + jumpKeyPressed);
 }

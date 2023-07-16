@@ -10,6 +10,7 @@ function iceMage_attack(enter){
 		sprite_index = spr_iceMage_attack;
 		image_index = 0;
 		image_speed = 0.25;
+		audio_play_sound (sfx_iceMage_attack, 1, false, 1, random_range (0, 3));
 		
 		if (obj_player.x < x){image_xscale = -1;}
 		else {image_xscale = 1;}

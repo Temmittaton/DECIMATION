@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_gloryKillFire",
+  "name": "sfx_fireMage_attack",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 1.81,
+  "duration": 1.230792,
   "parent": {
     "name": "Fire Mage",
     "path": "folders/Sons/Sound Effects/Fire Mage.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_gloryKillFire.ogg",
+  "soundFile": "sfx_fireMage_attack.ogg",
   "type": 0,
-  "volume": 0.8,
+  "volume": 0.5,
 }

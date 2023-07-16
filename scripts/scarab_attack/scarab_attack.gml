@@ -3,6 +3,7 @@ function scarab_attack(enter){
 		image_index = 0;
 		image_speed = 0.25;
 		sprite_index = spr_scarab_attack;
+		audio_play_sound (sfx_scarab_attack, .7, false);
 	}
 	
 	// Attack

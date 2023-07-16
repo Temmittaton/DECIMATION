@@ -100,7 +100,6 @@
     {"name":"inst_5EE64FAD","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_29BA4001","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_386F2E8F","path":"rooms/Lvl3/Lvl3.yy",},
-    {"name":"inst_1A86F325","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_26E393C3","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_1758CEB8","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_4CF7DC7B","path":"rooms/Lvl3/Lvl3.yy",},
@@ -121,6 +120,7 @@
     {"name":"inst_64359C98_5_1_5","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_26CDD326_3_1_5","path":"rooms/Lvl3/Lvl3.yy",},
     {"name":"inst_79B28CB8","path":"rooms/Lvl3/Lvl3.yy",},
+    {"name":"inst_23D9983E","path":"rooms/Lvl3/Lvl3.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -155,7 +155,6 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_D878D94_3_1_5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":144.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Mobs","depth":300,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1A86F325","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_iceMage","path":"objects/obj_iceMage/obj_iceMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1260.0,"y":176.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_26E393C3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":908.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1758CEB8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lancer","path":"objects/obj_lancer/obj_lancer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1264.0,"y":176.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4CF7DC7B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_iceMage","path":"objects/obj_iceMage/obj_iceMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1900.0,"y":128.0,},
@@ -169,6 +168,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_93FA205","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_fireMage","path":"objects/obj_fireMage/obj_fireMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":540.0,"y":160.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_53708634","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_lancer","path":"objects/obj_lancer/obj_lancer.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":396.0,"y":144.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A36FBA4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_soldier","path":"objects/obj_soldier/obj_soldier.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":268.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_23D9983E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_iceMage","path":"objects/obj_iceMage/obj_iceMage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1280.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Projectiles","depth":400,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Items","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
