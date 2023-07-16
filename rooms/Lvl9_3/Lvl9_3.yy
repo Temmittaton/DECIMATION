@@ -87,7 +87,6 @@
     {"name":"inst_56F4BC11","path":"rooms/Lvl9_3/Lvl9_3.yy",},
     {"name":"inst_199EE16A","path":"rooms/Lvl9_3/Lvl9_3.yy",},
     {"name":"inst_35F775E3","path":"rooms/Lvl9_3/Lvl9_3.yy",},
-    {"name":"inst_42EB5540","path":"rooms/Lvl9_3/Lvl9_3.yy",},
   ],
   "isDnd": false,
   "layers": [

@@ -3,7 +3,12 @@ function player_attack(enter) {
 		image_index = 0;
 		sprite_index = spr_player_attack;
 		image_speed = 0.2;
-		audio_play_sound(sfx_attack, 1, false);
+		if (selectedWeapon) {
+			audio_play_sound(sfx_attack_pickaxe, 1, false);
+		}
+		else {
+			audio_play_sound(sfx_attack, 1, false);
+		}
 	}
 	
 	returnedState = player_attack;
