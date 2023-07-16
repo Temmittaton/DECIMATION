@@ -48,6 +48,7 @@ function cendrier_choose() {
 		return cendrier_Sattack;
 	}
 	else if (state = cendrier_Sattack) && (animation_end()){
+		audio_play_sound (sfx_superAttack, .9, false);
 		repeat(3) {
 			instance_create_layer(x, y, "Projectiles", obj_ball);
 		}

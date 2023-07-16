@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSound",
   "resourceVersion": "1.0",
-  "name": "sfx_shield",
+  "name": "sfx_attack_charge",
   "audioGroupId": {
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 0.671542,
+  "duration": 1.172608,
   "parent": {
     "name": "Cendrier",
     "path": "folders/Sons/Sound Effects/Cendrier.yy",
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "sfx_shield.ogg",
+  "soundFile": "sfx_attack_charge.ogg",
   "type": 0,
-  "volume": 1.0,
+  "volume": 0.8,
 }
