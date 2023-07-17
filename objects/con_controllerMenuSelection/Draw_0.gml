@@ -46,8 +46,13 @@ if (check) {
 		}
 	}
 }
-else {
-	cursor_sprite = spr_pauseMenu_curseur;
+else if (light) {
+	if (con_lightSetup.paused) {
+		cursor_sprite = spr_pauseMenu_curseur;
+	}
+	else {
+		cursor_sprite = -1;
+	}
 }
 
 if (room == Options && check) {

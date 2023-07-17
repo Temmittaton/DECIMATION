@@ -5,7 +5,8 @@ function cendrier_choose() {
 	else if (state = cendrier_powerless && mana > 128) {
 		return ennemy_chase;
 	}
-	else if ((state == cendrier_shield) && (usedMana > 128)){
+	else if ((state == cendrier_shield) && (usedMana > 128)) {
+		audio_stop_sound (sfx_shield);
 		return cendrier_dash;
 	}
 	else if (state == cendrier_powerless) {
@@ -54,7 +55,8 @@ function cendrier_choose() {
 		}
 		return ennemy_chase;
 	}
-	else if (((state == cendrier_shield) or (state == cendrier_shield_charge)) && ((y - obj_player.y < 24) && (obj_player.state = player_groundPound))){
+	else if (((state == cendrier_shield) or (state == cendrier_shield_charge)) && ((y - obj_player.y < 24) && (obj_player.state = player_groundPound))) {
+		audio_stop_sound (sfx_shield);
 		return cendrier_dash;
 	}
 	else if (state == cendrier_dash) && ((x < 65) or (x > room_width - 65) or (xspd = 0)) {

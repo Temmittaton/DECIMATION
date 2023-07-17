@@ -35,10 +35,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_moonBright",
-    "path": "sprites/spr_moonBright/spr_moonBright.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": false,
 }
