@@ -24,6 +24,8 @@ function player_gloryKill (enter) {
 		variable_instance_set (_l[| 0], "dmg", true);
 	}
 	
+	returnedState = player_gloryKill;
+	
 	if (animation_end () or (!place_meeting (x + xspd + 2, y + 8, par_solid))){
 		xspd = 0;
 		return player_idle;
@@ -46,5 +48,5 @@ function player_gloryKill (enter) {
 		returnedState = player_groundPound;
 	}
 	
-	return player_gloryKill;
+	return returnedState;
 }
