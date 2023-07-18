@@ -13,3 +13,7 @@ if (state != stateNext)	{
 // Update state
 stateNext = state(enter);
 enter = false;
+
+if (state != cendrier_shield) {
+	audio_stop_sound (sfx_shield);
+}
