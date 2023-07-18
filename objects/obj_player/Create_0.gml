@@ -33,7 +33,11 @@ interactKey = ini_read_string("Controls", "interact", "Error");
 dashKey = ini_read_string("Controls", "dash", "Error");
 ini_close();
 
-selectedWeapon = 0;
-weaponSprite = [spr_player_attack, spr_player_pickaxe];
+if (!variable_global_exists ("selectedWeapon")) {
+	global.selectedWeapon = 0;
+}
+if (!variable_global_exists ("selectedSpell")) {
+	global.selectedSpell = 0;
+}
 
-selectedSpell = 0;
+weaponSprite = [spr_player_attack, spr_player_pickaxe];

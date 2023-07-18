@@ -27,7 +27,7 @@ if (check) {
 		buttons [0] = instance_find (obj_button_return, 0);
 		array_delete (buttons, 1, 2);
 	}
-	button += sign (gamepad_axis_value (device, gp_axislh) + gamepad_axis_value (device, gp_axisrv)) / 16;
+	button += sign (gamepad_axis_value (device, gp_axislh) + gamepad_axis_value (device, gp_axisrv)) / 12;
 	if (gamepad_axis_value (device, gp_axislh) == 0) {button = floor (button + .5);}
 	
 	if (button >= array_length (buttons)) {
