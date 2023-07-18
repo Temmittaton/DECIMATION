@@ -9,9 +9,11 @@ function fireMage_attack(enter){
 		xspd = 0;
 		sprite_index = spr_fireMage_attack;
 		image_index = 0;
-		image_speed = 0.15;
+		image_speed = 0.12;
 		audio_play_sound (sfx_fireMage_attack, .8, false);
 	}
+	
+	yspd += grav;
 	
 	return fireMage_attack;
 }

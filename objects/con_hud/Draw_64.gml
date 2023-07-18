@@ -13,7 +13,7 @@ if instance_exists(obj_player){
 	
 	// Weapon Selector
 	if (obj_player.gotPickaxe){
-		draw_sprite_stretched(weaponSprite, obj_player.selectedWeapon, xOffset + (32*hudScale), yOffset+24, 24*hudScale, 16*hudScale);
+		draw_sprite_stretched(weaponSprite, global.selectedWeapon, xOffset + (32*hudScale), yOffset+24, 24*hudScale, 16*hudScale);
 	}
 	
 	// Mana
@@ -27,10 +27,10 @@ if instance_exists(obj_player){
 	if (!obj_player.gotFire){
 		draw_sprite_stretched(spr_hud_spell, 0, 108, 230, 48, 90);
 	}
-	else if (obj_player.selectedSpell == 0){
+	else if (global.selectedSpell == 0){
 		draw_sprite_stretched(spr_hud_spell, 1, 108, 230, 48, 90);
 	}
-	else if (obj_player.selectedSpell == 1){
+	else if (global.selectedSpell == 1){
 		draw_sprite_stretched(spr_hud_spell, 2, 108, 230, 48, 90);
 	}
 }

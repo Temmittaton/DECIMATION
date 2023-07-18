@@ -29,7 +29,7 @@ function player_idle(enter){
 		returnedState = player_attack;
 	}
 	else if (spellKey){
-		if (selectedSpell == 0){
+		if (global.selectedSpell == 0){
 			returnedState = player_spell;
 		}
 		else {

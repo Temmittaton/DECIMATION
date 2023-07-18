@@ -1,6 +1,6 @@
 function player_fireSpell(enter){
 	if (enter){
-		if (mana <= 0){return player_idle;}
+		if (mana <= 0){player_move();return player_idle;}
 		xspd = 0;
 		image_index = 0;
 		sprite_index = spr_player_fireSpell;
@@ -14,12 +14,13 @@ function player_fireSpell(enter){
 	
 	// Event
 	player_move();
+	yspd += grav;
 	
 	instance_create_layer(x, y, "Projectiles", obj_redwindFire);
 	mana--;
 	
 	// Returned State Selection
-	if (mana <= 0) or (!spellKey) {
+	if (mana <= 0) or (!spellKey) or (xspd != 0) {
 		returnedState = player_idle;
 	}
 	else if (attackKeyPressed) && (attackTmr == 0) {

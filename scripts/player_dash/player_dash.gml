@@ -21,18 +21,18 @@ function player_dash(enter) {
 	if (attackKeyPressed) && (attackTmr == 0) {
 		returnedState = player_attack;
 	}
-	else if (spellKey){
-		if (selectedSpell == 0){
+	else if (spellKey) {
+		if (global.selectedSpell == 0) {
 			returnedState = player_spell;
 		}
 		else {
 			returnedState = player_fireSpell;
 		}
 	}
-	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
+	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)) {
 		returnedState = player_groundPound;
 	}
-	else if (place_meeting(x+sign(dash), y, par_solid)) or (animation_end()){
+	else if (animation_end ()) {
 		returnedState = player_idle;
 		dashtmr = 20;
 		dash = 0

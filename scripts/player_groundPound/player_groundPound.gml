@@ -21,24 +21,26 @@ function player_groundPound(enter){
 	}
 	
 	// Returned state selection
-	if (interactKeyPressed){
-		returnedState = player_idle;
-	}
-	else if (attackKeyPressed) && (attackTmr == 0){
-		returnedState = player_attack;
-	}
-	else if (spellKey){
-		if (selectedSpell == 0){
-			returnedState = player_spell;
+	if (!downKeyPressed) {
+		if (interactKeyPressed){
+			returnedState = player_idle;
 		}
-		else {
-			returnedState = player_fireSpell;
+		else if (attackKeyPressed) && (attackTmr == 0){
+			returnedState = player_attack;
+		}
+		else if (spellKey){
+			if (global.selectedSpell == 0){
+				returnedState = player_spell;
+			}
+			else {
+				returnedState = player_fireSpell;
+			}
+		}
+		else if (dashKeyPressed) && (dashtmr == 0){
+			returnedState = player_dash;
 		}
 	}
-	else if (dashKeyPressed) && (dashtmr == 0){
-		returnedState = player_dash;
-	}
-	else if (place_meeting(x, y+yspd, par_solid)){
+	if (place_meeting(x, y+yspd, par_solid)){
 		returnedState = player_idle;
 		audio_play_sound (sfx_boom, .75, false, yspd / 8);
 		screen_shake(10, yspd/2);

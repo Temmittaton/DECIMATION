@@ -22,5 +22,7 @@ function iceMage_attack(enter){
 		}
 	}
 	
+	yspd += grav;
+	
 	return iceMage_attack;
 }

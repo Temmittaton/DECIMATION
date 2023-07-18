@@ -7,7 +7,7 @@ function Pause () {
 		cursor_sprite = spr_pauseMenu_curseur;
 		
 		unpauseButton = button_create(obj_button_unpause, 512 * RATIO, SCREEN_HEIGHT - 280 * RATIO, RATIO / 2);
-		levelButton = button_create(obj_button_quitLevel, 256 * RATIO, SCREEN_HEIGHT - 640 * RATIO, RATIO / 2);
+		levelButton = button_create(obj_button_quitLevel, 256 * RATIO, SCREEN_HEIGHT - 700 * RATIO, RATIO / 2);
 		menuButton = button_create(obj_button_quitToMenu, 64, SCREEN_HEIGHT - 1024 * RATIO, RATIO / 2);
 		
 		instance_activate_object(con_screenShake);

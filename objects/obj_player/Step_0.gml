@@ -1,17 +1,17 @@
 
 // Selected Weapon
 if ((weaponChangeKeyPressed) && (gotPickaxe)) {
-	selectedWeapon++;
-	if (selectedWeapon == 2) {
-		selectedWeapon = 0
+	global.selectedWeapon++;
+	if (global.selectedWeapon == 2) {
+		global.selectedWeapon = 0
 		audio_play_sound (sfx_attack, .6, false);
 	}
 	else {audio_play_sound (sfx_swapWeapons, .6, false);}
 }
 // Selected Spell
 if ((spellChangeKeyPressed) && (gotFire)) {
-	selectedSpell++;
-	if (selectedSpell == 2){selectedSpell = 0}
+	global.selectedSpell++;
+	if (global.selectedSpell == 2){global.selectedSpell = 0}
 	audio_play_sound (sfx_swapSpells, .6, false);
 }
 

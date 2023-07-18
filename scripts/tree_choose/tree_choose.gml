@@ -1,13 +1,8 @@
 function tree_choose () {
-	if (keyboard_check(ord("H"))) {
-		return tree_heal;
-	}
-	
 	if (place_meeting (x, y, obj_player)) {
 		obj_player.dmg = id;
-		return tree_attack;
 	}
-	else if ((state == tree_cinematic) && (animation_end())) {
+	if ((state == tree_cinematic) && (animation_end())) {
 		obj_player.stateNext = player_idle;
 		return tree_walk;
 	}

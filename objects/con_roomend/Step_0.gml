@@ -1,3 +1,7 @@
+if (keyboard_check_pressed(ord("K"))) {
+	room_goto(target);
+}
+
 if (obj_player.x > x) {
 	with (obj_player) {
 		stateNext = player_cinematic;
@@ -11,8 +15,4 @@ if (obj_player.x > x) {
 		
 		room_goto(target);
 	}
-}
-
-if (keyboard_check_pressed(ord("K"))) {
-	room_goto(target);
 }
