@@ -15,7 +15,24 @@ function player_gloryKill2(enter){
 		screen_shake(16, 8);
 	}
 	
-	if (animation_end()){
+	if (attackKeyPressed) && (attackTmr == 0){
+		returnedState = player_attack;
+	}
+	else if (spellKey){
+		if (global.selectedSpell == 0){
+			returnedState = player_spell;
+		}
+		else {
+			returnedState = player_fireSpell;
+		}
+	}
+	else if (dashKeyPressed) && (dashtmr == 0)	{
+		returnedState = player_dash;
+	}
+	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
+		returnedState = player_groundPound;
+	}
+	else if (animation_end()){
 		x += 8 * image_xscale;
 		screen_shake(4, 12);
 		return player_idle;

@@ -30,23 +30,24 @@ if (hp <= 0) or (y>=room_height) {
 	stateNext = player_dead;
 }
 else if (dmg != 0) {
-	if ((dmg.x) > x) {
-		knockback = -4;
-	}
-	else {
-		knockback = 4;
-	}
-	dmg = 0;
-	stateNext = player_knockback;
-	audio_stop_sound (sfx_spell);
-	audio_stop_sound (sfx_fire);
 	if (invincibility == 0) {
+		if ((dmg.x) > x) {
+			knockback = -4;
+		}
+		else {
+			knockback = 4;
+		}
+		
+		stateNext = player_knockback;
+		audio_stop_sound (sfx_spell);
+		audio_stop_sound (sfx_fire);
 		screen_shake(15, 16);
 		invincibility = 45;
 		hp--;
 		audio_play_sound (sfx_damage, 1, false);
 		con_lightSetup.blood = 45;
 	}
+	dmg = 0;
 }
 
 // change state if needed, call enter / exit
