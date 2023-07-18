@@ -1,4 +1,4 @@
-function player_gloryKill2(enter){
+function player_gloryKill2 (enter) {
 	if (enter){
 		sprite_index = spr_player_gloryKill2;
 		image_index = 0;
@@ -11,32 +11,34 @@ function player_gloryKill2(enter){
 	}
 	yspd = 0;
 	
-	if (image_index == 5){
+	if (image_index == 5) {
 		screen_shake(16, 8);
 	}
 	
-	if (attackKeyPressed) && (attackTmr == 0){
+	returnedState = player_gloryKill2;
+	
+	if (attackKeyPressed) && (attackTmr == 0) {
 		returnedState = player_attack;
 	}
 	else if (spellKey){
-		if (global.selectedSpell == 0){
+		if (global.selectedSpell == 0) {
 			returnedState = player_spell;
 		}
 		else {
 			returnedState = player_fireSpell;
 		}
 	}
-	else if (dashKeyPressed) && (dashtmr == 0)	{
+	else if (dashKeyPressed) && (dashtmr == 0) {
 		returnedState = player_dash;
 	}
-	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
+	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)) {
 		returnedState = player_groundPound;
 	}
-	else if (animation_end()){
+	else if (animation_end()) {
 		x += 8 * image_xscale;
 		screen_shake(4, 12);
 		return player_idle;
 	}
 	
-	return player_gloryKill2;
+	return returnedState;
 }
