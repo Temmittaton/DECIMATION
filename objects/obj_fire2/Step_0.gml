@@ -2,15 +2,12 @@ hp--;
 if (hp == 0){
 	instance_destroy();
 }
-else if (hp < 60){
-	image_alpha = hp/60;
+else if (hp < 15){
+	image_alpha = hp/15;
 }
-
-var _c = collision_rectangle(x-4, y-6, x+4, y, obj_player, false, true);
-if (_c && hp > 60){
-	obj_player.dmg = id;
-}
-
-if (!place_meeting(x, y+1, par_solid)){
-	y++;
+else {
+	var _c = collision_rectangle(x-4, y-6, x+4, y, obj_player, false, true);
+	if (_c && hp > 60){
+		obj_player.dmg = id;
+	}
 }
