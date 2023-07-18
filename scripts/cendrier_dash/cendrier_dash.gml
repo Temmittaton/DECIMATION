@@ -14,6 +14,7 @@ function cendrier_dash (enter) {
 	if (image_index < 8) {
 		xspd -= sign(xspd) * .1;
 	}
+	instance_create_layer (x, y, "Items", obj_fire2);
 	
 	// Damage
 	if (collision_rectangle(x-8, y-8, x+8, y+8, obj_player, false, true)) {

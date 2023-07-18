@@ -425,6 +425,7 @@
     {"id":{"name":"spr_poppup_pickaxe","path":"sprites/spr_poppup_pickaxe/spr_poppup_pickaxe.yy",},},
     {"id":{"name":"Lvl4_4","path":"rooms/Lvl4_4/Lvl4_4.yy",},},
     {"id":{"name":"sfx_turned","path":"sounds/sfx_turned/sfx_turned.yy",},},
+    {"id":{"name":"obj_fire2","path":"objects/obj_fire2/obj_fire2.yy",},},
     {"id":{"name":"spr_pauseMenu_cadre","path":"sprites/spr_pauseMenu_cadre/spr_pauseMenu_cadre.yy",},},
     {"id":{"name":"Lvl10","path":"rooms/Lvl10/Lvl10.yy",},},
     {"id":{"name":"obj_blood","path":"objects/obj_blood/obj_blood.yy",},},
