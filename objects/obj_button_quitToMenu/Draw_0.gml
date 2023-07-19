@@ -1,8 +1,8 @@
-function DrawButton () {
+function DrawQuitToMenuButton () {
 	_x = window_mouse_get_x ();
 	_y = window_mouse_get_y ();
 	
-	if (_x > x && _x < x + sprite_width && _y > y && _y < y + sprite_height) {
+	if (_x > x && _x < x + sprite_width && _y > y && _y < y + sprite_height) && (con_controllerMenuSelection.device == noone) {
 		var alpha = 0.5;
 		if (mouse_check_button_pressed(mb_left)) {
 			audio_play_sound(sfx_click, 1, false);
