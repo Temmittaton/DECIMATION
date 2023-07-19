@@ -8,6 +8,7 @@ function player_spawn(enter) {
 		image_speed = 0.75;
 		xspd = 0;
 		audio_play_sound (sfx_respawn, 1, false);
+		audio_stop_sound (sfx_shield);
 	}
 	
 	// Event
