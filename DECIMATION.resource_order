@@ -370,6 +370,7 @@
     {"name":"Lvl12","order":1,"path":"rooms/Lvl12/Lvl12.yy",},
     {"name":"spr_player_jump","order":3,"path":"sprites/spr_player_jump/spr_player_jump.yy",},
     {"name":"con_save","order":9,"path":"objects/con_save/con_save.yy",},
+    {"name":"obj_light_yellow","order":7,"path":"objects/obj_light_yellow/obj_light_yellow.yy",},
     {"name":"con_tutorialPoppup","order":10,"path":"objects/con_tutorialPoppup/con_tutorialPoppup.yy",},
     {"name":"mus_marecage","order":7,"path":"sounds/mus_marecage/mus_marecage.yy",},
     {"name":"spr_tls_forestbackground","order":3,"path":"sprites/spr_tls_forestbackground/spr_tls_forestbackground.yy",},

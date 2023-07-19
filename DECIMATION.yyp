@@ -454,6 +454,7 @@
     {"id":{"name":"Lvl12","path":"rooms/Lvl12/Lvl12.yy",},},
     {"id":{"name":"spr_player_jump","path":"sprites/spr_player_jump/spr_player_jump.yy",},},
     {"id":{"name":"con_save","path":"objects/con_save/con_save.yy",},},
+    {"id":{"name":"obj_light_yellow","path":"objects/obj_light_yellow/obj_light_yellow.yy",},},
     {"id":{"name":"con_tutorialPoppup","path":"objects/con_tutorialPoppup/con_tutorialPoppup.yy",},},
     {"id":{"name":"mus_marecage","path":"sounds/mus_marecage/mus_marecage.yy",},},
     {"id":{"name":"spr_tls_forestbackground","path":"sprites/spr_tls_forestbackground/spr_tls_forestbackground.yy",},},
