@@ -2,7 +2,6 @@ hp = 3;
 maxmana = 150;
 mana = maxmana;
 coldness = 0;
-coyote = 0;
 
 enter = false;
 state = noone;

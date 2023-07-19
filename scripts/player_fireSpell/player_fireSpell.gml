@@ -13,14 +13,13 @@ function player_fireSpell(enter){
 	returnedState = player_fireSpell;
 	
 	// Event
-	player_move();
 	yspd += grav;
 	
 	instance_create_layer(x, y, "Projectiles", obj_redwindFire);
 	mana--;
 	
 	// Returned State Selection
-	if (mana <= 0) or (!spellKey) or (xspd != 0) {
+	if (mana <= 0) or (!spellKey) or (xspd != 0) or leftKeyPressed or rightKeyPressed or jumpKeyPressed {
 		returnedState = player_idle;
 	}
 	else if (attackKeyPressed) && (attackTmr == 0) {

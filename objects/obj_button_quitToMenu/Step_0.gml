@@ -1,4 +1,4 @@
-function Click () {
+if (click) {
 	audio_play_sound(sfx_click, 1, false);
 	
 	application_surface_draw_enable(true);
@@ -7,4 +7,5 @@ function Click () {
 	room_goto (Menu);
 	
 	cursor_sprite = -1;
+	click = false;
 }

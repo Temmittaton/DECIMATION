@@ -26,7 +26,7 @@ if (pause > 0) {
 	draw_sprite_ext(spr_pauseMenu_fire, 0, pause, SCREEN_HEIGHT, RATIO, RATIO + sin(time)/64, 0, c_white, 0.75);
 	draw_sprite_ext(spr_pauseMenu_redwind, 0, SCREEN_WIDTH - pause, 0, RATIO, RATIO, 0, c_white, 1);
 	
-	with (menuButton) {DrawButton ();}
-	with (levelButton) {DrawButton ();}
-	with (unpauseButton) {DrawButton ();}
+	with (menuButton) {DrawQuitToMenuButton ();}
+	with (levelButton) {DrawQuitLevelButton ();}
+	with (unpauseButton) {DrawUnpauseButton ();}
 }
