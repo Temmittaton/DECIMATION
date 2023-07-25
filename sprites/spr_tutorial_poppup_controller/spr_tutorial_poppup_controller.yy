@@ -14,7 +14,6 @@
   "For3D": false,
   "frames": [
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cadb219b-d6a9-438d-85fb-7ba22e3a1a23",},
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5f7abb8a-d99e-447f-8691-fdab646cec21",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"511c82ad-52f8-468d-b18d-07331d2286ab",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"1f53aa30-7a06-4254-8ba0-b8bc22056b16",},
     {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"919d7670-d053-4f35-aa10-40321d32806d",},
@@ -47,7 +46,7 @@
     "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "eventStubScript": null,
     "eventToFunction": {},
-    "length": 5.0,
+    "length": 4.0,
     "lockOrigin": false,
     "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
     "playback": 1,
@@ -59,10 +58,9 @@
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cadb219b-d6a9-438d-85fb-7ba22e3a1a23","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"a7030711-b5d6-423b-9d62-5ed3c18fbd2e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5f7abb8a-d99e-447f-8691-fdab646cec21","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"39b80dd7-812d-432d-9e75-8e6091300988","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"511c82ad-52f8-468d-b18d-07331d2286ab","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"9bb03df1-04c5-44af-a379-9fe944d872a1","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1f53aa30-7a06-4254-8ba0-b8bc22056b16","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"7a5fd799-5da7-455f-ba1a-efa539c0320f","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"919d7670-d053-4f35-aa10-40321d32806d","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"86ab5f7a-6227-4e92-8d21-d9f968d6a856","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"511c82ad-52f8-468d-b18d-07331d2286ab","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"9bb03df1-04c5-44af-a379-9fe944d872a1","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"1f53aa30-7a06-4254-8ba0-b8bc22056b16","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"7a5fd799-5da7-455f-ba1a-efa539c0320f","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"919d7670-d053-4f35-aa10-40321d32806d","path":"sprites/spr_tutorial_poppup_controller/spr_tutorial_poppup_controller.yy",},},},"Disabled":false,"id":"86ab5f7a-6227-4e92-8d21-d9f968d6a856","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -1,20 +1,20 @@
 ini_open("save.ini");
 if (!file_exists("save.ini")) {
-    ini_write_real("Controls", "keyboardType", 0);
-    ini_write_string("Controls", "left", "Q");
-    ini_write_string("Controls", "right", "D");
-    ini_write_string("Controls", "interact", "Z");
-    ini_write_string("Controls", "crouch", "S");
-    ini_write_real("Controls", "attack", vk_enter);
-    ini_write_real("Controls", "spell", vk_shift);
-    ini_write_real("Controls", "switch weapon", vk_tab);
-    ini_write_real("Controls", "switch spell", vk_lalt);
-    ini_write_string("Controls", "dash", "A");
-    ini_write_real("Controls", "jump", vk_space);
+    ini_write_real ("Controls", "keyboardType", 0);
+    ini_write_real ("Controls", "left", $51);
+    ini_write_real ("Controls", "right", $44);
+    ini_write_real ("Controls", "interact", $5A);
+    ini_write_real ("Controls", "crouch", $53);
+    ini_write_real ("Controls", "attack", vk_enter);
+    ini_write_real ("Controls", "spell", vk_shift);
+    ini_write_real ("Controls", "switchWeapon", vk_tab);
+    ini_write_real ("Controls", "switchSpell", vk_lalt);
+    ini_write_real ("Controls", "dash", $41);
+    ini_write_real ("Controls", "jump", vk_space);
 
-    ini_write_real("Save", "clearedLevel", 0);
-    ini_write_real("Save", "gotPickaxe", 0);
-    ini_write_real("Save", "gotFire", 0);
+    ini_write_real ("Save", "clearedLevel", 0);
+    ini_write_real ("Save", "gotPickaxe", 0);
+    ini_write_real ("Save", "gotFire", 0);
 }
 global.clearedLevel = ini_read_real("Save", "clearedLevel", 0);
 global.currentLevel = 0;
