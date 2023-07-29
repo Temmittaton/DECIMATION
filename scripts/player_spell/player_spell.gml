@@ -11,7 +11,7 @@ function player_spell (enter) {
 	returnedState = player_spell;
 	
 	// Events
-	player_move();
+	player_move ();
 	
 	// Returned State Selection
 	if (dashKeyPressed) && (dashtmr == 0) {

@@ -25,7 +25,8 @@ if (check) {
 	}
 	else {
 		buttons [0] = instance_find (obj_button_return, 0);
-		array_delete (buttons, 1, 2);
+		buttons [1] = instance_find (obj_button_tutorial, 0);
+		buttons [2] = instance_find (obj_button_clearSave, 0);
 	}
 	button += sign (gamepad_axis_value (device, gp_axislh) + gamepad_axis_value (device, gp_axisrv)) / 12;
 	if (gamepad_axis_value (device, gp_axislh) == 0) {button = floor (button + .5);}
@@ -40,6 +41,17 @@ if (check) {
 	if (room == Menu) {
 		var _x = buttons [button].x + buttons [button].sprite_width / 2;
 		draw_sprite_ext (spr_sword_vertical, 0, _x, buttons [button].y, .15, .15, 0, c_white, 1);
+	
+		if (gamepad_button_check_pressed (device, gp_face2)) {
+			buttons [button].Click ();
+		}
+	}
+	else if (room == OptionsController) {
+		
+		var _x = buttons [button].x + offsetsX [button];
+		var _y = buttons [button].y + offsetsY [button];
+		
+		draw_sprite_ext (spr_sword, 0, _x, _y, .1, .1, 0, c_white, 1);
 	
 		if (gamepad_button_check_pressed (device, gp_face2)) {
 			buttons [button].Click ();

@@ -19,15 +19,4 @@ if (check) {
 			}
 		}
 	}
-	else if (room != Menu) {
-		
-		var _x = buttons [button].x + buttons [button].sprite_width * buttons [button].image_xscale * 5;
-		var _y = buttons [button].y + buttons [button].sprite_height * buttons [button].image_yscale * 3;
-		
-		draw_sprite_ext (spr_sword, 0, _x, _y, .1, .1, 0, c_white, 1);
-	
-		if (gamepad_button_check_pressed (device, gp_face2)) {
-			buttons [button].Click ();
-		}
-	}
 }

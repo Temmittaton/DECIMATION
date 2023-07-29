@@ -8,11 +8,13 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_7A0F0A2E","path":"rooms/Logo/Logo.yy",},
+    {"name":"inst_478F9452","path":"rooms/Logo/Logo.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7A0F0A2E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_logo","path":"objects/obj_logo/obj_logo.yy",},"properties":[],"rotation":0.0,"scaleX":8.0,"scaleY":8.0,"x":960.0,"y":536.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_478F9452","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"con_score","path":"objects/con_score/con_score.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":-32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
   ],
   "parent": {

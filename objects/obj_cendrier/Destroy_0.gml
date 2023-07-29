@@ -4,3 +4,4 @@ for (i=0;i<512;i++){
 }
 con_bossEnd.bossBeaten = true;
 instance_create_layer(x, y, "Items", obj_fireSoul);
+ennemyKilled (750);

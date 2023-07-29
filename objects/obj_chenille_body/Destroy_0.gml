@@ -4,3 +4,4 @@ if (armored){
 else {
 	instance_create_layer(x, y, "Mobs", obj_chenille_cadaver);
 }
+ennemyKilled (200);

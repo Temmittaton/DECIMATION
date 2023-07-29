@@ -6,3 +6,4 @@ with (obj_ant){
 	stateNext = ennemy_chase;
 }
 instance_create_layer(x, y, "Items", obj_ant_cadaver);
+ennemyKilled (75);

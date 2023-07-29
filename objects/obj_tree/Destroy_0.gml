@@ -1,2 +1,3 @@
 con_bossEnd.bossBeaten = true;
-instance_create_layer (x, y, "Mobs", obj_tree_cadaver);
+instance_create_layer (x, y, "Mobs", obj_tree_cadaver)
+ennemyKilled (1250);

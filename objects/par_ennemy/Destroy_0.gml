@@ -9,3 +9,4 @@ if (udmg){
 	}
 }
 audio_play_sound (sfx_soldierDead, .4, false);
+ennemyKilled (100);

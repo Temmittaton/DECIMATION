@@ -26,25 +26,25 @@ function player_gloryKill (enter) {
 	
 	returnedState = player_gloryKill;
 	
-	if (animation_end () or (!place_meeting (x + xspd + 2, y + 8, par_solid))){
+	if (animation_end ()) {
 		xspd = 0;
 		return player_idle;
 	}
-	else if (attackKeyPressed) && (attackTmr == 0){
+	else if (attackKeyPressed) && (attackTmr == 0) {
 		returnedState = player_attack;
 	}
-	else if (spellKey){
-		if (global.selectedSpell == 0){
+	else if (spellKey) {
+		if (global.selectedSpell == 0) {
 			returnedState = player_spell;
 		}
 		else if (!player_pressedInput()) {
 			returnedState = player_fireSpell;
 		}
 	}
-	else if (dashKeyPressed) && (dashtmr == 0)	{
+	else if (dashKeyPressed) && (dashtmr == 0) {
 		returnedState = player_dash;
 	}
-	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
+	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)) {
 		returnedState = player_groundPound;
 	}
 	
