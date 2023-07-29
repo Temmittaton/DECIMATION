@@ -109,7 +109,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.6.0.89",
+    "IDEVersion": "2023.6.0.92",
   },
   "resources": [
     {"id":{"name":"spr_tls_cave_normal","path":"sprites/spr_tls_cave_normal/spr_tls_cave_normal.yy",},},
@@ -379,6 +379,7 @@
     {"id":{"name":"spr_tls_mountains","path":"sprites/spr_tls_mountains/spr_tls_mountains.yy",},},
     {"id":{"name":"par_button","path":"objects/par_button/par_button.yy",},},
     {"id":{"name":"player_spell","path":"scripts/player_spell/player_spell.yy",},},
+    {"id":{"name":"spr_tls_cratere","path":"sprites/spr_tls_cratere/spr_tls_cratere.yy",},},
     {"id":{"name":"Lvl9_3","path":"rooms/Lvl9_3/Lvl9_3.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_iceMage_jump","path":"sprites/spr_iceMage_jump/spr_iceMage_jump.yy",},},
@@ -462,6 +463,7 @@
     {"id":{"name":"sfx_boom","path":"sounds/sfx_boom/sfx_boom.yy",},},
     {"id":{"name":"tree_cinematic","path":"scripts/tree_cinematic/tree_cinematic.yy",},},
     {"id":{"name":"joe_mine","path":"scripts/joe_mine/joe_mine.yy",},},
+    {"id":{"name":"tls_cratere","path":"tilesets/tls_cratere/tls_cratere.yy",},},
     {"id":{"name":"player_gloryKill2","path":"scripts/player_gloryKill2/player_gloryKill2.yy",},},
     {"id":{"name":"spr_scarab_walk","path":"sprites/spr_scarab_walk/spr_scarab_walk.yy",},},
     {"id":{"name":"mus_trees","path":"sounds/mus_trees/mus_trees.yy",},},
