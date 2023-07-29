@@ -1,14 +1,14 @@
 // Inputs
-leftKeyPressed = keyboard_check(ord(leftKey));
-rightKeyPressed = keyboard_check(ord("D"));
-downKeyPressed = keyboard_check(ord("S"));
-spellKey = sign(keyboard_check(vk_shift) + keyboard_check_pressed(vk_lshift));
-interactKeyPressed = keyboard_check(ord(interactKey));
-dashKeyPressed = keyboard_check_pressed(ord(dashKey));
-attackKeyPressed = keyboard_check_pressed(vk_enter);
-jumpKeyPressed = keyboard_check_pressed (vk_space);
-weaponChangeKeyPressed = keyboard_check_pressed (vk_tab);
-spellChangeKeyPressed = keyboard_check_pressed (vk_alt);
+leftKeyPressed = keyboard_check(leftKey);
+rightKeyPressed = keyboard_check(rightKey);
+downKeyPressed = keyboard_check(downKey);
+spellKey = keyboard_check(spell_key);
+interactKeyPressed = keyboard_check(interactKey);
+dashKeyPressed = keyboard_check_pressed(dashKey);
+attackKeyPressed = keyboard_check_pressed(attackKey);
+jumpKeyPressed = keyboard_check_pressed (jumpKey);
+weaponChangeKeyPressed = keyboard_check_pressed (switchWeaponsKey);
+spellChangeKeyPressed = keyboard_check_pressed (switchSpellsKey);
 
 var _d = con_controllerMenuSelection.device;
 if (_d != noone) {

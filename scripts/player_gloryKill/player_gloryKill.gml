@@ -37,7 +37,7 @@ function player_gloryKill (enter) {
 		if (global.selectedSpell == 0){
 			returnedState = player_spell;
 		}
-		else {
+		else if (!player_pressedInput()) {
 			returnedState = player_fireSpell;
 		}
 	}

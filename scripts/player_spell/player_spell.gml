@@ -1,5 +1,5 @@
-function player_spell(enter){
-	if (enter){
+function player_spell (enter) {
+	if (enter) {
 		image_index = 0;
 		sprite_index = spr_player_spell;
 		image_speed = 0.25;
@@ -14,13 +14,13 @@ function player_spell(enter){
 	player_move();
 	
 	// Returned State Selection
-	if (dashKeyPressed) && (dashtmr == 0){
+	if (dashKeyPressed) && (dashtmr == 0) {
 		returnedState = player_dash;
 	}
-	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)){
+	else if (downKeyPressed) && (!place_meeting(x, y+3, par_solid)) {
 		returnedState = player_groundPound;
 	}
-	else if (animation_end()){
+	else if (animation_end()) {
 		returnedState = player_idle;
 		if (mana>32){
 			mana-=32;

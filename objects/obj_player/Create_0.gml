@@ -24,14 +24,7 @@ dash = 0;
 dashtmr = 0;
 attackTmr = 0;
 
-ini_open("save.ini");
-gotPickaxe = bool(ini_read_real("Save", "gotPickaxe", 0));
-gotFire = bool(ini_read_real("Save", "gotFire", 0));
-
-leftKey = ini_read_string("Controls", "left", "Error");
-interactKey = ini_read_string("Controls", "interact", "Error");
-dashKey = ini_read_string("Controls", "dash", "Error");
-ini_close();
+GetInputs ();
 
 if (!variable_global_exists ("selectedWeapon")) {
 	global.selectedWeapon = 0;

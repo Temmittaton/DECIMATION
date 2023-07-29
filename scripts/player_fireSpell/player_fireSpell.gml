@@ -1,7 +1,7 @@
-function player_fireSpell(enter){
-	if (enter){
-		if (mana <= 0){player_move();return player_idle;}
+function player_fireSpell (enter) {
+	if (enter) {
 		xspd = 0;
+		if (mana <= 0){player_move();return player_idle;}
 		image_index = 0;
 		sprite_index = spr_player_fireSpell;
 		image_speed = 0.25;
