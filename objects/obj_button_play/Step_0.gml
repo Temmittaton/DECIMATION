@@ -1,6 +1,6 @@
 function Click () {
 	if (global.clearedLevel == 0){
-		room_goto(Tutorial);
+		room_goto(Cinematic);
 	}
 	else {
 		room_goto(LevelSelection);

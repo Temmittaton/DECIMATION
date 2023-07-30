@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 9,
   "parent": {
-    "name": "Tutorial Poppups",
-    "path": "folders/Sprites/Assets/Tutorial Poppups.yy",
+    "name": "Tutorial",
+    "path": "folders/Sprites/Assets/Tutorial.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

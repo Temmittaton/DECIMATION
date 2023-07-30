@@ -6,7 +6,7 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"key","path":"objects/par_button/par_button.yy",},"value":"noone",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"target","path":"objects/par_button/par_button.yy",},"value":"Tutorial",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"target","path":"objects/par_button/par_button.yy",},"value":"Cinematic",},
   ],
   "parent": {
     "name": "Button",
