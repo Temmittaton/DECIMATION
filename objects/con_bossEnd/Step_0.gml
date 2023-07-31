@@ -5,7 +5,7 @@ if (obj_player.x > x) && (bossBeaten){
 	}
 	
 	if (obj_player.x + obj_player.xspd >= room_width){
-		if (target == LevelSelection) && (global.currentLevel == global.clearedLevel+1){
+		if (target == ScoreRoom) && (global.currentLevel == global.clearedLevel+1){
 			global.clearedLevel++;
 		}
 		
