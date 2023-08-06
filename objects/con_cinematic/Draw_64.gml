@@ -1,1 +1,1 @@
-draw_sprite_ext (sprites [i], image_index, 0, 0, r, r, 0, c_white, 1);
+draw_sprite_ext(sprites [i], image_index, 0, 0, r, r, 0, c_white, 1);
