@@ -1,1 +1,1 @@
-draw_sprite_ext (spr_blood1, 0, x, y, 2, 2, 90, color, 1);
+draw_sprite_ext (spr_blood1, 0, x, y, 2, 2, 90, c_red, 1);

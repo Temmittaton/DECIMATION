@@ -17,4 +17,7 @@ if (room == ScoreRoom) {
 	t1 = ennemiesKilled / 128;
 	t2 = score / 128;
 	x = 0;
+	
+	/*room_width = display_get_width ();
+	room_height = display_get_height ();*/
 }

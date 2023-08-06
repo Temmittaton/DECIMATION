@@ -10,7 +10,7 @@ if (obj_player.x > x) {
 	
 	if (obj_player.x + obj_player.xspd >= room_width){
 		if (target == ScoreRoom) && (global.currentLevel == global.clearedLevel+1) {
-			global.clearedLevel++;
+			global.clearedLevel ++;
 		}
 		
 		room_goto(target);
