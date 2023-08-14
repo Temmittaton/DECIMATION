@@ -9,7 +9,13 @@ with (par_ennemy) {
 	}
 }
 
-total += array_length (ennemies);
+if (pRoom != room) {
+	total += array_length (ennemies);
+	eK = ennemiesKilled;
+}
+else {
+	ennemiesKilled = eK;
+}
 
 if (room == ScoreRoom) {
 	a = 1 / - ennemiesKilled;

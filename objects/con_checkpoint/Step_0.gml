@@ -11,5 +11,9 @@ if (obj_player.x > x) && (abs (y - obj_player.y) < 128) {
 		global.respawnRoom = room;
 	}
 	
+	with (con_score) {
+		eK = ennemiesKilled;
+	}
+	
 	instance_destroy();
 }

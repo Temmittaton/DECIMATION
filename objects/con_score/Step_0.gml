@@ -10,3 +10,4 @@ if (room != ScoreRoom) {
 		}
 	}
 }
+pRoom = room;
