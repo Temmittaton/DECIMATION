@@ -41,7 +41,8 @@ else if (pdmg) {
 				hp--;
 				invincibility = 20;
 				repeat(9){
-					instance_create_layer(x, y, "Items", obj_blood);
+					var _o = instance_create_layer(x, y, "Items", obj_blood);
+					_o.image_blend = c_red;
 				}
 			}
 			stateNext = magsoldier_block;
@@ -54,7 +55,8 @@ else if (pdmg) {
 				hp--;
 				invincibility = 20;
 				repeat(9){
-					instance_create_layer(x, y, "Items", obj_blood);
+					var _o = instance_create_layer(x, y, "Items", obj_blood);
+					_o.image_blend = c_red;
 				}
 			}
 			stateNext = magsoldier_block;

@@ -14,6 +14,7 @@ function Pause () {
 		instance_activate_object(obj_button_quitToMenu);
 		instance_activate_object(obj_button_quitLevel);
 		instance_activate_object(obj_button_unpause);
+		instance_activate_object(con_score);
 		instance_activate_object(con_controllerMenuSelection);
 	}
 }
