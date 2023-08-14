@@ -4,6 +4,7 @@ function tree_shoot (enter) {
 		image_index = 0;
 		image_speed = 0.8;
 		xspd = 0;
+		audio_play_sound (sfx_tree_shoot, .9, false);
 	}
 	
 	if (image_index == 8) {

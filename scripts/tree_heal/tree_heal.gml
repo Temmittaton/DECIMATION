@@ -17,6 +17,9 @@ function tree_heal (enter) {
 		instance_create_layer (x + _rand - (image_index - 7) * _scale, 240, "Items", obj_racine);
 		n ++;
 	}
+	if (image_index > 3 && image_index < 3.3) {
+		audio_play_sound (sfx_tree_racine, .9, false);
+	}
 	
 	return tree_heal;
 }

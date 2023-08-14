@@ -5,6 +5,7 @@ function tree_attack(enter){
 		image_speed = 0.15;
 		chase(obj_player);
 		xspd *= 16;
+		audio_play_sound (sfx_tree_attack, .9, false);
 	}
 	
 	if (image_index > 2) {

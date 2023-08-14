@@ -7,7 +7,8 @@ function tree_cinematic (enter) {
 	}
 	
 	if (image_speed == 0 && (x - obj_player.x < 128)) {
-		image_speed = 1.1;
+		image_speed = 1;
+		audio_play_sound (sfx_tree_intro, 1, false);
 	}
 	
 	return tree_cinematic;

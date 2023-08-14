@@ -6,5 +6,9 @@ function tree_walk (enter) {
 		chase(obj_player);
 	}
 	
+	if (image_index == 0 or image_index == 2 or image_index == 4 or image_index == 7) {
+		audio_play_sound (sfx_tree_walk, .6, false);
+	}
+	
 	return tree_walk;
 }
