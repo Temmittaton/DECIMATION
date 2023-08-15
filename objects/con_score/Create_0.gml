@@ -13,3 +13,5 @@ t2 = 0;
 x = 0;
 pRoom = 0;
 eK = 0;
+
+ratio = 1080 / display_get_height ();

@@ -278,6 +278,7 @@
     {"name":"spr_tls_stalactites2","order":9,"path":"sprites/spr_tls_stalactites2/spr_tls_stalactites2.yy",},
     {"name":"shd_norm","order":2,"path":"shaders/shd_norm/shd_norm.yy",},
     {"name":"obj_button_tutorial","order":13,"path":"objects/obj_button_tutorial/obj_button_tutorial.yy",},
+    {"name":"sfx_synoid","order":15,"path":"sounds/sfx_synoid/sfx_synoid.yy",},
     {"name":"spr_tree_headAttack","order":2,"path":"sprites/spr_tree_headAttack/spr_tree_headAttack.yy",},
     {"name":"spr_pauseMenu_menu","order":2,"path":"sprites/spr_pauseMenu_menu/spr_pauseMenu_menu.yy",},
     {"name":"spr_player_groundPound","order":6,"path":"sprites/spr_player_groundPound/spr_player_groundPound.yy",},

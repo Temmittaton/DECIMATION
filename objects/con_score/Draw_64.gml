@@ -20,5 +20,5 @@ if (room == ScoreRoom) {
 	draw_set_halign (fa_center);
 	draw_set_valign (fa_middle);
 	draw_text_transformed_color (_w / 2, _h / 2, string (showedScore), 8, 8, 0, c_red, c_red, c_red, c_red, 1);
-	draw_text_transformed_color (_w / 2, _h / 2 + 128, string (showedEnnemiesKilled) + " / " + string (total), 4, 4, 0, c_red, c_red, c_red, c_red, 1);
+	draw_text_transformed_color (_w / 2, _h / 2 + 92 * ratio, string (showedEnnemiesKilled) + " / " + string (total), 4, 4, 0, c_red, c_red, c_red, c_red, 1);
 }
